@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b65161d-6678-4c53-aa36-1bf7ccb25b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hidden_variables/jobs_vs_salaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/god.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/human_book_0.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zodiac_profiles.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zodiac_profiles.numbers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/digital_community.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/digital_community.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/family.py" beforeDir="false" afterPath="$PROJECT_DIR$/family.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682980776950</updated>
       <workItem from="1682980780826" duration="1534000" />
-      <workItem from="1684609154649" duration="15935000" />
+      <workItem from="1684609154649" duration="16717000" />
     </task>
     <servers />
   </component>

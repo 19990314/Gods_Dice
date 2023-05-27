@@ -10,6 +10,8 @@ This project endeavors to simulate human society within a virtual world, serving
 
 
 Zodiac Signs:
+![alt text](https://www.astrotheme.com/chart/ZF4jZmblAwN1ZwNlZmVmZmpjZQNjZGRjZQNjZQNkBGR2AmZ.png)
+
 Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces
 
 ---
