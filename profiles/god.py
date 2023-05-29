@@ -13,6 +13,7 @@ path_human_book = "./humanbook"
 person_container = []
 start_date = datetime.date(1, 1, 1)
 end_date = datetime.date(500, 12, 30)
+death_id = 5
 
 def give_birth(person_id, fam_id):
     # innate qualities: intelligence boldness specificity generalization
@@ -36,6 +37,26 @@ def human_genesis():
     new_born.get_header()
     output_file.close()
 
+def mourner(date):
+    for individual in person_container:
+        if (death_id, date) in individual.events:
+            # remove the record
+            person_container.remove(individual)
+
+            # TODO output to the history_book
+
+
+def event_messenger(affecting_ratio):
+    # 30% chance to take actions
+    person_indices = random.sample(range(len(person_container)), int(affecting_ratio * len(person_container)))
+
+    # take actions
+    for i in person_indices:
+        decision_maker = person_container[i]
+        # TODO
+
+def a_normal_day():
+    # TODO
 
 def time_machine():
 
@@ -43,15 +64,14 @@ def time_machine():
 
     # execute the model day by day
     while current_date <= end_date:
+        # check lives
+        mourner(current_date)
 
-        # 20% chance to take actions
-        person_indices = random.sample(range(len(person_container)), int(0.2*len(person_container)))
+        # choose 30% people to take actions
+        event_messenger(0.3)
 
-        # take actions
-        for i in person_indices:
-            decision_maker = person_container[i]
-
-        #
+        # refresh everyone
+        a_normal_day()
 
         # next day
         current_date += datetime.timedelta(days=1)

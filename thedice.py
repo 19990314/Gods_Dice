@@ -42,4 +42,11 @@ def destiny_dice():
 def apply_time_rules(events):
     new_events = {}
 
+    # eliminate everything after death
+    for i in events.keys():
+        if events_df.iloc[i[0]]["event"] == "death":
+            break
+        else:
+            new_events[i] = events[i]
+
     return new_events

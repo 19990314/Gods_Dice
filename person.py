@@ -33,8 +33,12 @@ class Person:
         self.person_id = person_id
         self.gender = gender
         self.birth_year, self.birth_month, self.birth_day = self.generate_birthday(year)
+        self.alive = 1
+
+        # family
         self.family_id = family_id
         self.inherit(family_id)
+        self.gender = gender
 
         # innate qualities: intelligence boldness specificity generalization
         self.intelligence = qualities[0]
@@ -45,19 +49,24 @@ class Person:
         # zodiac sign
         self.constellation = self.find_constellation()
 
-        # event records: use event_id as key, mapping to two variables:
+        # event records: use (event_id, Date) as key, mapping to two variables:
         # 1: a flag (destiny or not)
         # 2: age (when would it happen)
+        self.init_destinies()
+
+    def get_zodiac_id(self, constellation):
+        return
+
+    def init_destinies(self):
         self.events = {}
 
         # god's dice: 30% destiny
         des_events = destiny_dice()
         for i in des_events:
-            self.insert_lifebook(i[0],i[1],i[2])
+            self.insert_lifebook(i[0], i[1], i[2])
 
-
-    def get_zodiac_id(self, constellation):
-        return
+        # sanity check the events
+        self.events = apply_time_rules(self.events)
 
     def insert_lifebook(self,event,destiny_flag, age):
         # add event to lifebook
