@@ -37,14 +37,19 @@ def human_genesis():
     output_file.close()
 
 
-def time_pusher():
+def time_machine():
 
     current_date = start_date
 
     # execute the model day by day
     while current_date <= end_date:
 
-        # pick 30% person to take actions
+        # 20% chance to take actions
+        person_indices = random.sample(range(len(person_container)), int(0.2*len(person_container)))
+
+        # take actions
+        for i in person_indices:
+            decision_maker = person_container[i]
 
         #
 
@@ -54,3 +59,4 @@ def time_pusher():
 
 
 human_genesis()
+time_machine()

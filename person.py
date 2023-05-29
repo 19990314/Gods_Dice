@@ -3,18 +3,18 @@ import ephem
 import random
 import pandas as pd
 import os
+from thedice import *
 
-# Get the current directory
-current_file_dir = os.path.dirname(os.path.abspath(__file__))
 
-# read jobs profile
+# table: jobs profile
 jobs_profile = pd.read_csv(current_file_dir + '/hidden_variables/jobs_vs_salaries.csv')
 
-# zodiac informations
+# dictionary: zodiac information
 zodiac_profile = pd.read_csv(current_file_dir + '/hidden_variables/zodiac_profiles.csv')
 zodiac_map = {}
 for index, row in zodiac_profile.iterrows():
     zodiac_map[row['Zodiac_Sign']] = row['Zodiac_ID']
+
 
 # setup standard values
 intelligence_standard = 50
@@ -27,9 +27,9 @@ zodiac_deviation = 0.1
 header_person_profile = []
 
 
-
 class Person:
     def __init__(self, person_id, gender, year, family_id, qualities):
+        # basic info
         self.person_id = person_id
         self.gender = gender
         self.birth_year, self.birth_month, self.birth_day = self.generate_birthday(year)
@@ -45,12 +45,28 @@ class Person:
         # zodiac sign
         self.constellation = self.find_constellation()
 
-        # event records
-        self.destiny = {}
+        # event records: use event_id as key, mapping to two variables:
+        # 1: a flag (destiny or not)
+        # 2: age (when would it happen)
         self.events = {}
+
+        # god's dice: 30% destiny
+        des_events = destiny_dice()
+        for i in des_events:
+            self.insert_lifebook(i[0],i[1],i[2])
+
 
     def get_zodiac_id(self, constellation):
         return
+
+    def insert_lifebook(self,event,destiny_flag, age):
+        # add event to lifebook
+        event_date = self.get_birthday_daytime() + datetime.timedelta(days=int(age * 365))
+        self.events[(event,event_date)] = [destiny_flag, age]
+
+        # sort the lifebook by age
+        self.events = dict(sorted(self.events.items(), key=lambda x: x[0][1]))
+
 
     def generate_birthday(self, year):
 
@@ -64,7 +80,6 @@ class Person:
         random_date = start_date + datetime.timedelta(days=random_number_of_days)
 
         return random_date.year, random_date.month, random_date.day
-
 
     def inherit(self, family_id):
         return
@@ -89,9 +104,6 @@ class Person:
         sun.compute(observer)
         constellation = ephem.constellation(sun)
 
-        # Print the result
-        print(f"The constellation on {date_str} is {constellation[1]}")
-
         return constellation[1]
 
     def constellationalize(self, family_id):
@@ -105,8 +117,6 @@ class Person:
                     header_person_profile.append("job.salary")
                 else:
                     header_person_profile.append(attr)
-
-
 
     def output_with_formats(self, deliminator):
         profile = []
@@ -129,9 +139,7 @@ class Job:
         self.title = random_job[1]
         self.salary = random_job[2] * (1 + salary_deviation * random.randint(-3, 3))
 
-
-
     def update_salary(self, work_age, intelligence, boldness):
-        self.salary *= (100 + boldness - intelligence_standard)/100
-        self.salary *= (100 + intelligence - boldness_standard)/100
-        self.salary *= 1 + (work_age*annual_income_increase_rate)
+        self.salary *= (100 + boldness - intelligence_standard) / 100
+        self.salary *= (100 + intelligence - boldness_standard) / 100
+        self.salary *= 1 + (work_age * annual_income_increase_rate)
