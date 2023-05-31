@@ -22,6 +22,8 @@ end_date = datetime.date(5, 12, 30)
 acient_container = []
 max_buffer_acients = 200
 
+# record holder
+records = {"credit":None, "longevity": None}
 
 def midwife(person_id, fam_id):
     # innate qualities: intelligence boldness specificity generalization
@@ -45,6 +47,22 @@ def human_genesis():
     #new_born.get_header()
     output_file.close()
 
+def examiner(candidates):
+    for i in candidates:
+        # check credits
+        if records["credit"]:
+            if i.credits >= records["credit"].credits:
+                records["credit"] = i
+        else:
+            records["credit"] = i
+
+        # check longevity
+        if records["longevity"]:
+            if i.get_longevity() >= records["longevity"].get_longevity():
+                records["longevity"] = i
+        else:
+            records["longevity"] = i
+
 
 def history_writer(individual):
     # add the past to history book
@@ -52,6 +70,9 @@ def history_writer(individual):
 
     # release buffer
     if len(acient_container) == max_buffer_acients:
+        # update record
+        examiner(acient_container)
+
         # output
         history_book = open(path_history_book, "w")
         for thepast in acient_container:
@@ -108,6 +129,11 @@ def event_messenger(current_date):
         # rolling dice for an event
         id_ev_happening = random.randint(0, len(events_df) - 1)
 
+        # life-saver
+        if id_ev_happening == death_id:
+            if decision_maker.should_be_saved():
+                continue
+
         # check age
         age_by_today = decision_maker.get_age(current_date)
 
@@ -144,8 +170,11 @@ def time_machine():
         # next day
         current_date += datetime.timedelta(days=1)
 
-        a = person_container
+def story_teller():
+    print(records["credit"].output_with_formats(","))
+    print(records["longevity"].output_with_formats(","))
 
 
 human_genesis()
 time_machine()
+story_teller()

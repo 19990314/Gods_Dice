@@ -82,6 +82,8 @@ class Person:
         # sanity check the events
         self.events = apply_time_rules(self.events)
 
+
+
     def insert_lifebook(self, event_id, destiny_flag, age, assigner_imprint):
         # prenatal timeline
         if age < 0:
@@ -184,6 +186,24 @@ class Person:
         self.partner = partner
         partner.partner = self
 
+    def should_be_saved(self):
+        eval = self.fortune
+
+        # TODO: more algo
+        if eval > 50:
+            return True
+        else:
+            return False
+
+    def get_longevity(self):
+        # get the age of death
+        for key in self.events.keys():
+            if key[0] == death_id:
+                age_die = self.events[key][1]
+                return age_die
+
+        return -1
+
     def get_output_header(self):
         for attr in self.__dict__:
             if not callable(getattr(self, attr)):
@@ -192,6 +212,8 @@ class Person:
                     header_person_profile.append("job.salary")
                 else:
                     header_person_profile.append(attr)
+
+        return header_person_profile
 
     def output_with_formats(self, deliminator):
         profile = []
