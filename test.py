@@ -1,6 +1,13 @@
-from person import *
+import matplotlib.pyplot as plt
 
+# Sample data
+ages = [25, 30, 35, 40, 45]
+events = ['Graduation', 'Marriage', 'Career Change', 'Parenthood', 'Retirement']
 
-new_born = Person(1,1,1999,3,14,0)
-
-print(new_born.constellation)
+# Create the plot
+plt.plot(ages, events, marker='o')
+plt.xlabel('Age')
+plt.ylabel('Life Event')
+plt.title('Life Events by Age')
+plt.grid(True)
+plt.show()
