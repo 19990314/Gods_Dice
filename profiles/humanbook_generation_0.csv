@@ -1,1000 +1,200 @@
-0,0,1,12,8,True,150.0,None,None,43,5,34,26,68,0,None,[],Sagittarius,{(0, datetime.date(39, 9, 20)): [1, 37.809548355419764, 'prenatal'], (6, datetime.date(52, 12, 14)): [1, 51.05427034514754, 'prenatal'], (7, datetime.date(61, 11, 23)): [1, 60, 'prenatal']}
-1,0,1,7,12,True,2880.0,None,None,81,96,65,69,69,1,None,[],Cancer,{}
-2,0,1,7,30,True,270.0,None,None,45,9,61,91,34,2,None,[],Leo,{(7, datetime.date(15, 7, 27)): [1, 14, 'prenatal']}
-3,1,1,7,5,True,90.0,None,None,29,3,78,95,31,3,None,[],Cancer,{(9, datetime.date(31, 5, 27)): [1, 29.913829154335694, 'prenatal']}
-4,1,1,2,5,True,2370.0,None,None,57,79,52,49,82,4,None,[],Aquarius,{(0, datetime.date(37, 7, 1)): [1, 36.42715323592675, 'prenatal']}
-5,1,1,10,6,True,510.0,None,None,73,17,87,93,30,5,None,[],Libra,{}
-6,1,1,10,3,True,2100.0,None,None,21,70,30,61,48,6,None,[],Virgo,{}
-7,0,1,5,15,True,750.0,None,None,95,25,32,55,70,7,None,[],Taurus,{(1, datetime.date(32, 10, 13)): [1, 31.43747225986126, 'prenatal']}
-8,0,1,1,1,True,2820.0,None,None,84,94,53,20,65,8,None,[],Capricornus,{}
-9,0,1,12,31,True,1260.0,None,None,32,42,32,18,61,9,None,[],Capricornus,{(9, datetime.date(37, 2, 10)): [1, 35.13901982846007, 'prenatal'], (6, datetime.date(40, 4, 15)): [1, 38.315247397172335, 'prenatal']}
-10,1,1,3,28,True,2280.0,None,None,76,76,80,23,26,10,None,[],Aries,{}
-11,1,1,2,6,True,300.0,None,None,12,10,79,63,41,11,None,[],Aquarius,{(8, datetime.date(109, 1, 11)): [1, 108, 'prenatal']}
-12,0,1,7,23,True,210.0,None,None,63,7,67,97,30,12,None,[],Leo,{(0, datetime.date(25, 5, 7)): [1, 23.807019918334817, 'prenatal'], (7, datetime.date(36, 7, 14)): [1, 35, 'prenatal']}
-13,0,1,9,28,True,3000.0,None,None,22,100,18,9,7,13,None,[],Virgo,{(8, datetime.date(13, 9, 25)): [1, 12, 'prenatal'], (7, datetime.date(42, 9, 18)): [1, 41, 'prenatal']}
-14,1,1,12,26,True,300.0,None,None,7,10,31,38,55,14,None,[],Capricornus,{(7, datetime.date(28, 12, 19)): [1, 27, 'prenatal']}
-15,1,1,8,6,True,60.0,None,None,76,2,48,21,30,15,None,[],Leo,{}
-16,0,1,10,15,True,600.0,None,None,97,20,9,87,97,16,None,[],Libra,{(2, datetime.date(14, 11, 18)): [1, 13.103156714525934, 'prenatal'], (0, datetime.date(20, 12, 15)): [1, 19.183337858425215, 'prenatal']}
-17,0,1,5,26,True,2460.0,None,None,25,82,61,6,33,17,None,[],Taurus,{(0, datetime.date(33, 4, 1)): [1, 31.87375228205529, 'prenatal'], (1, datetime.date(47, 8, 25)): [1, 46.281879524147776, 'prenatal']}
-18,0,1,4,24,True,2310.0,None,None,80,77,52,3,17,18,None,[],Taurus,{(7, datetime.date(3, 4, 24)): [1, 2, 'prenatal']}
-19,1,1,10,14,True,1230.0,None,None,16,41,82,91,56,19,None,[],Libra,{(1, datetime.date(18, 8, 22)): [1, 16.866109054851538, 'prenatal']}
-20,0,1,7,5,True,2400.0,None,None,73,80,59,70,87,20,None,[],Cancer,{(0, datetime.date(23, 5, 5)): [1, 21.848300834734573, 'prenatal'], (6, datetime.date(67, 9, 21)): [1, 66.2585496054372, 'prenatal']}
-21,0,1,6,14,True,480.0,None,None,96,16,55,78,18,21,None,[],Gemini,{(9, datetime.date(29, 4, 21)): [1, 27.871316656817395, 'prenatal'], (6, datetime.date(35, 8, 11)): [1, 34.182415331054244, 'prenatal']}
-22,1,1,12,30,True,450.0,None,None,79,15,90,13,95,22,None,[],Capricornus,{(1, datetime.date(30, 7, 16)): [1, 28.563070379091176, 'prenatal'], (7, datetime.date(66, 12, 14)): [1, 65, 'prenatal']}
-23,1,1,8,14,True,1260.0,None,None,100,42,45,76,36,23,None,[],Leo,{}
-24,1,1,9,15,True,1500.0,None,None,66,50,27,45,67,24,None,[],Virgo,{}
-25,0,1,6,7,True,630.0,None,None,88,21,24,11,64,25,None,[],Gemini,{(2, datetime.date(21, 11, 23)): [1, 20.479308022148068, 'prenatal']}
-26,1,1,9,25,True,1260.0,None,None,1,42,14,83,99,26,None,[],Virgo,{(0, datetime.date(21, 12, 3)): [1, 20.203911492467682, 'prenatal']}
-27,1,1,6,11,True,1680.0,None,None,41,56,58,43,17,27,None,[],Gemini,{(9, datetime.date(23, 2, 22)): [1, 21.716477059575684, 'prenatal']}
-28,1,1,4,23,True,1470.0,None,None,94,49,9,4,100,28,None,[],Taurus,{}
-29,1,1,5,25,True,1290.0,None,None,50,43,60,19,35,29,None,[],Taurus,{(0, datetime.date(36, 10, 1)): [1, 35.38038990226378, 'prenatal'], (1, datetime.date(37, 1, 1)): [1, 35.63125013866002, 'prenatal']}
-30,1,1,7,1,True,1500.0,None,None,99,50,75,45,52,30,None,[],Cancer,{(0, datetime.date(27, 5, 13)): [1, 25.884107695831773, 'prenatal']}
-31,0,1,9,29,True,1020.0,None,None,45,34,43,35,54,31,None,[],Virgo,{(2, datetime.date(14, 5, 22)): [1, 12.652114798146126, 'prenatal'], (6, datetime.date(18, 5, 17)): [1, 16.64157325786213, 'prenatal']}
-32,0,1,12,30,True,270.0,None,None,38,9,78,82,52,32,None,[],Capricornus,{(8, datetime.date(19, 12, 26)): [1, 18, 'prenatal'], (2, datetime.date(21, 9, 17)): [1, 19.729017028562097, 'prenatal']}
-33,0,1,7,12,True,3000.0,None,None,91,100,36,42,86,33,None,[],Cancer,{(8, datetime.date(35, 7, 4)): [1, 34, 'prenatal']}
-34,0,1,8,28,True,2790.0,None,None,15,93,65,68,28,34,None,[],Virgo,{(0, datetime.date(24, 6, 6)): [1, 22.791748503276025, 'prenatal']}
-35,0,1,10,19,True,300.0,None,None,62,10,49,66,20,35,None,[],Libra,{(6, datetime.date(18, 3, 25)): [1, 16.44283171770236, 'prenatal'], (2, datetime.date(20, 7, 11)): [1, 18.740801913966248, 'prenatal']}
-36,1,1,11,26,True,1530.0,None,None,92,51,21,19,94,36,None,[],Sagittarius,{(9, datetime.date(49, 1, 14)): [1, 47.16872644847647, 'prenatal']}
-37,0,1,12,20,True,2070.0,None,None,49,69,16,27,28,37,None,[],Sagittarius,{(9, datetime.date(13, 7, 6)): [1, 11.552154535375337, 'prenatal']}
-38,1,1,7,9,True,540.0,None,None,48,18,72,57,57,38,None,[],Cancer,{}
-39,0,1,9,9,True,1830.0,None,None,13,61,84,39,33,39,None,[],Virgo,{(9, datetime.date(69, 5, 23)): [1, 67.7489954275328, 'prenatal']}
-40,0,1,2,10,True,1080.0,None,None,79,36,79,64,38,40,None,[],Aquarius,{(6, datetime.date(43, 1, 12)): [1, 41.949580939948184, 'prenatal']}
-41,0,1,11,10,True,2430.0,None,None,69,81,97,8,27,41,None,[],Ophiuchus,{(7, datetime.date(9, 11, 8)): [1, 8, 'prenatal'], (1, datetime.date(21, 5, 4)): [1, 19.49583777131047, 'prenatal'], (6, datetime.date(37, 5, 23)): [1, 35.55791712327734, 'prenatal']}
-42,1,1,1,18,True,2580.0,None,None,65,86,86,85,59,42,None,[],Capricornus,{(1, datetime.date(23, 5, 11)): [1, 22.323387202734153, 'prenatal'], (9, datetime.date(41, 5, 23)): [1, 40.37002313724023, 'prenatal'], (7, datetime.date(51, 1, 6)): [1, 50, 'prenatal']}
-43,0,1,11,9,True,90.0,None,None,99,3,17,69,19,43,None,[],Ophiuchus,{(2, datetime.date(13, 11, 17)): [1, 12.032104787260343, 'prenatal'], (0, datetime.date(29, 4, 5)): [1, 27.422822796346004, 'prenatal'], (8, datetime.date(60, 10, 25)): [1, 59, 'prenatal']}
-44,0,1,12,1,True,1740.0,None,None,77,58,64,12,66,44,None,[],Sagittarius,{(0, datetime.date(27, 6, 19)): [1, 25.566406003162452, 'prenatal']}
-45,1,1,1,23,True,2310.0,None,None,7,77,96,43,55,45,None,[],Aquarius,{(0, datetime.date(26, 11, 5)): [1, 25.80158472323435, 'prenatal'], (6, datetime.date(48, 1, 5)): [1, 46.98181352055994, 'prenatal']}
-46,1,1,10,15,True,2490.0,None,None,91,83,100,99,92,46,None,[],Libra,{(9, datetime.date(59, 9, 8)): [1, 57.93730523702804, 'prenatal'], (8, datetime.date(114, 9, 18)): [1, 113, 'prenatal']}
-47,1,1,4,9,True,2070.0,None,None,16,69,19,92,99,47,None,[],Aries,{(9, datetime.date(14, 7, 6)): [1, 13.250302620245247, 'prenatal'], (7, datetime.date(63, 3, 25)): [1, 62, 'prenatal'], (6, datetime.date(69, 1, 12)): [1, 67.80934598493778, 'prenatal']}
-48,0,1,12,30,True,1620.0,None,None,91,54,42,13,99,48,None,[],Capricornus,{(2, datetime.date(16, 10, 12)): [1, 14.79487187544606, 'prenatal']}
-49,0,1,12,26,True,2370.0,None,None,84,79,82,61,37,49,None,[],Capricornus,{(3, datetime.date(26, 12, 20)): [1, 25, 'prenatal']}
-50,0,1,1,26,True,1050.0,None,None,71,35,8,75,19,50,None,[],Aquarius,{(0, datetime.date(34, 9, 18)): [1, 33.66735407103137, 'prenatal'], (9, datetime.date(45, 9, 29)): [1, 44.70500489854477, 'prenatal']}
-51,1,1,1,30,True,1260.0,None,None,69,42,2,12,87,51,None,[],Aquarius,{(7, datetime.date(58, 1, 16)): [1, 57, 'prenatal']}
-52,1,1,3,29,True,1920.0,None,None,87,64,53,98,93,52,None,[],Aries,{(8, datetime.date(31, 3, 22)): [1, 30, 'prenatal'], (6, datetime.date(34, 6, 10)): [1, 33.224605397239735, 'prenatal']}
-53,0,1,8,8,True,660.0,None,None,70,22,14,91,29,53,None,[],Leo,{(0, datetime.date(21, 2, 25)): [1, 19.56508666688633, 'prenatal']}
-54,1,1,4,14,True,1080.0,None,None,35,36,10,36,89,54,None,[],Aries,{(6, datetime.date(18, 12, 4)): [1, 17.65290924704939, 'prenatal'], (7, datetime.date(53, 4, 1)): [1, 52, 'prenatal']}
-55,0,1,5,6,True,870.0,None,None,88,29,21,89,2,55,None,[],Taurus,{(2, datetime.date(26, 2, 4)): [1, 24.76715042227667, 'prenatal']}
-56,1,1,6,7,True,2250.0,None,None,78,75,68,100,39,56,None,[],Gemini,{(2, datetime.date(25, 6, 6)): [1, 24.016158157144282, 'prenatal'], (9, datetime.date(57, 9, 13)): [1, 56.30892049234538, 'prenatal']}
-57,1,1,7,7,True,1860.0,None,None,90,62,75,44,24,57,None,[],Cancer,{(6, datetime.date(32, 11, 13)): [1, 31.378009147354213, 'prenatal'], (9, datetime.date(63, 7, 11)): [1, 62.05225354423578, 'prenatal'], (8, datetime.date(113, 6, 10)): [1, 112, 'prenatal']}
-58,1,1,7,29,True,2880.0,None,None,32,96,86,16,70,58,None,[],Leo,{(0, datetime.date(29, 1, 20)): [1, 27.50008101914789, 'prenatal']}
-59,0,1,2,15,True,2580.0,None,None,63,86,14,100,65,59,None,[],Pisces,{(0, datetime.date(30, 12, 2)): [1, 29.814109066239176, 'prenatal']}
-60,0,1,6,24,True,1530.0,None,None,61,51,41,51,40,60,None,[],Gemini,{(1, datetime.date(26, 12, 3)): [1, 25.46114723044144, 'prenatal']}
-61,1,1,1,15,True,1260.0,None,None,49,42,16,72,73,61,None,[],Capricornus,{(3, datetime.date(13, 1, 12)): [1, 12, 'prenatal'], (8, datetime.date(105, 12, 21)): [1, 105, 'prenatal']}
-62,1,1,10,5,True,1080.0,None,None,54,36,46,20,39,62,None,[],Virgo,{(1, datetime.date(25, 12, 19)): [1, 24.222446332831225, 'prenatal']}
-63,1,1,9,10,True,540.0,None,None,95,18,66,55,8,63,None,[],Virgo,{(7, datetime.date(37, 9, 1)): [1, 36, 'prenatal']}
-64,0,1,12,31,True,720.0,None,None,80,24,68,4,63,64,None,[],Capricornus,{(6, datetime.date(24, 11, 10)): [1, 22.87931186774052, 'prenatal'], (8, datetime.date(58, 12, 17)): [1, 57, 'prenatal']}
-65,1,1,7,31,True,1110.0,None,None,22,37,77,78,2,65,None,[],Leo,{(2, datetime.date(27, 11, 27)): [1, 26.342725779756343, 'prenatal'], (8, datetime.date(29, 7, 24)): [1, 28, 'prenatal']}
-66,1,1,4,10,True,1920.0,None,None,80,64,31,63,3,66,None,[],Aries,{(0, datetime.date(27, 3, 8)): [1, 25.927864971903087, 'prenatal']}
-67,0,1,4,22,True,600.0,None,None,70,20,42,15,44,67,None,[],Taurus,{(8, datetime.date(6, 4, 21)): [1, 5, 'prenatal'], (2, datetime.date(16, 12, 13)): [1, 15.654841443275291, 'prenatal'], (9, datetime.date(24, 11, 7)): [1, 23.56375617669488, 'prenatal']}
-68,1,1,1,24,True,1020.0,None,None,11,34,24,65,13,68,None,[],Aquarius,{(0, datetime.date(30, 9, 7)): [1, 29.6388461730717, 'prenatal']}
-69,1,1,1,5,True,60.0,None,None,45,2,53,78,2,69,None,[],Capricornus,{(2, datetime.date(15, 1, 16)): [1, 14.040824111118997, 'prenatal'], (0, datetime.date(31, 10, 17)): [1, 30.800721819235342, 'prenatal']}
-70,0,1,6,8,True,750.0,None,None,73,25,49,32,78,70,None,[],Gemini,{(7, datetime.date(17, 6, 4)): [1, 16, 'prenatal'], (2, datetime.date(20, 11, 22)): [1, 19.472906169127, 'prenatal'], (8, datetime.date(50, 5, 27)): [1, 49, 'prenatal']}
-71,0,1,8,31,True,240.0,None,None,46,8,6,36,17,71,None,[],Virgo,{}
-72,0,1,12,25,True,810.0,None,None,78,27,14,40,63,72,None,[],Capricornus,{(2, datetime.date(19, 6, 21)): [1, 17.501202984838123, 'prenatal'], (8, datetime.date(86, 12, 4)): [1, 85, 'prenatal']}
-73,1,1,10,21,True,2400.0,None,None,70,80,89,58,20,73,None,[],Libra,{(0, datetime.date(33, 6, 11)): [1, 31.66159672001213, 'prenatal']}
-74,0,1,5,26,True,2100.0,None,None,60,70,61,26,95,74,None,[],Taurus,{(7, datetime.date(10, 5, 24)): [1, 9, 'prenatal'], (0, datetime.date(20, 8, 20)): [1, 19.2512012210738, 'prenatal']}
-75,0,1,3,27,True,120.0,None,None,87,4,100,98,99,75,None,[],Aries,{(1, datetime.date(43, 6, 8)): [1, 42.22935893320721, 'prenatal'], (8, datetime.date(126, 2, 25)): [1, 125, 'prenatal']}
-76,1,1,7,1,True,1530.0,None,None,100,51,56,9,69,76,None,[],Cancer,{(3, datetime.date(14, 6, 28)): [1, 13, 'prenatal'], (1, datetime.date(29, 7, 29)): [1, 28.09636659130801, 'prenatal']}
-77,0,1,1,8,True,2790.0,None,None,67,93,32,96,84,77,None,[],Capricornus,{(3, datetime.date(23, 1, 3)): [1, 22, 'prenatal']}
-78,0,1,2,21,True,630.0,None,None,3,21,80,16,30,78,None,[],Pisces,{}
-79,0,1,11,8,True,2160.0,None,None,85,72,66,70,55,79,None,[],Ophiuchus,{(1, datetime.date(32, 7, 3)): [1, 30.67226637075635, 'prenatal'], (8, datetime.date(122, 10, 10)): [1, 121, 'prenatal']}
-80,0,1,1,12,True,2100.0,None,None,89,70,73,41,34,80,None,[],Capricornus,{}
-81,0,1,9,14,True,1260.0,None,None,78,42,8,15,99,81,None,[],Virgo,{(9, datetime.date(66, 9, 7)): [1, 65.02539827460953, 'prenatal'], (8, datetime.date(76, 8, 26)): [1, 75, 'prenatal']}
-82,0,1,5,23,True,1920.0,None,None,94,64,37,22,93,82,None,[],Taurus,{}
-83,0,1,3,21,True,1080.0,None,None,5,36,17,69,63,83,None,[],Pisces,{(1, datetime.date(25, 12, 11)): [1, 24.742551314753705, 'prenatal'], (8, datetime.date(133, 2, 17)): [1, 132, 'prenatal']}
-84,1,1,7,8,True,2010.0,None,None,18,67,3,84,38,84,None,[],Cancer,{(2, datetime.date(18, 7, 4)): [1, 17.00031561278788, 'prenatal'], (6, datetime.date(60, 12, 29)): [1, 59.51943371370669, 'prenatal']}
-85,1,1,9,30,True,1050.0,None,None,63,35,38,93,13,85,None,[],Virgo,{}
-86,0,1,7,21,True,2700.0,None,None,44,90,100,33,51,86,None,[],Leo,{}
-87,0,1,11,16,True,2130.0,None,None,64,71,45,55,15,87,None,[],Ophiuchus,{(2, datetime.date(22, 2, 12)): [1, 20.255108754253328, 'prenatal'], (0, datetime.date(39, 9, 24)): [1, 37.88197017057886, 'prenatal']}
-88,0,1,9,7,True,870.0,None,None,61,29,75,16,51,88,None,[],Virgo,{(2, datetime.date(21, 11, 2)): [1, 20.169278158975448, 'prenatal'], (0, datetime.date(34, 12, 22)): [1, 33.31345167173681, 'prenatal']}
-89,0,1,7,15,True,2940.0,None,None,75,98,65,28,90,89,None,[],Cancer,{(3, datetime.date(15, 7, 12)): [1, 14, 'prenatal']}
-90,1,1,4,25,True,2190.0,None,None,88,73,49,62,10,90,None,[],Taurus,{(1, datetime.date(22, 6, 21)): [1, 21.170202662852763, 'prenatal'], (2, datetime.date(26, 2, 27)): [1, 24.8606959549695, 'prenatal']}
-91,1,1,1,27,True,2100.0,None,None,37,70,93,12,74,91,None,[],Aquarius,{(9, datetime.date(45, 7, 19)): [1, 44.50483402713705, 'prenatal']}
-92,1,1,9,7,True,1860.0,None,None,52,62,34,13,52,92,None,[],Virgo,{}
-93,1,1,5,10,True,240.0,None,None,5,8,43,75,33,93,None,[],Taurus,{(0, datetime.date(17, 11, 29)): [1, 16.56828749557126, 'prenatal'], (6, datetime.date(38, 1, 12)): [1, 36.70351141246754, 'prenatal']}
-94,0,1,1,18,True,2520.0,None,None,98,84,63,99,43,94,None,[],Capricornus,{(3, datetime.date(12, 1, 16)): [1, 11, 'prenatal'], (0, datetime.date(30, 9, 5)): [1, 29.651495692913354, 'prenatal'], (8, datetime.date(139, 12, 16)): [1, 139, 'prenatal']}
-95,0,1,9,1,True,2430.0,None,None,93,81,54,55,10,95,None,[],Virgo,{}
-96,1,1,9,26,True,2070.0,None,None,70,69,80,52,64,96,None,[],Virgo,{(9, datetime.date(32, 11, 30)): [1, 31.20065486402295, 'prenatal'], (8, datetime.date(76, 9, 7)): [1, 75, 'prenatal']}
-97,0,1,11,29,True,2670.0,None,None,58,89,39,100,91,97,None,[],Sagittarius,{(9, datetime.date(27, 2, 15)): [1, 25.23249729724512, 'prenatal']}
-98,1,1,8,19,True,60.0,None,None,34,2,4,71,68,98,None,[],Leo,{(2, datetime.date(10, 4, 5)): [1, 8.632880401300136, 'prenatal'], (9, datetime.date(33, 4, 23)): [1, 31.701319638165785, 'prenatal']}
-99,0,1,6,24,True,1740.0,None,None,92,58,71,58,49,99,None,[],Gemini,{(6, datetime.date(47, 11, 15)): [1, 46.42735335721942, 'prenatal']}
-100,1,1,1,27,True,1140.0,None,None,76,38,58,77,33,100,None,[],Aquarius,{(2, datetime.date(23, 9, 19)): [1, 22.6593880457396, 'prenatal'], (8, datetime.date(35, 1, 19)): [1, 34, 'prenatal']}
-101,0,1,5,16,True,2070.0,None,None,15,69,40,26,11,101,None,[],Taurus,{}
-102,0,1,9,11,True,1950.0,None,None,62,65,3,63,28,102,None,[],Virgo,{(3, datetime.date(11, 9, 9)): [1, 10, 'prenatal'], (0, datetime.date(22, 7, 24)): [1, 20.87970080901303, 'prenatal']}
-103,0,1,2,18,True,2070.0,None,None,36,69,60,38,64,103,None,[],Pisces,{(2, datetime.date(17, 8, 2)): [1, 16.46566949964871, 'prenatal'], (6, datetime.date(23, 11, 29)): [1, 22.794504141159855, 'prenatal']}
-104,1,1,10,2,True,2340.0,None,None,27,78,49,96,9,104,None,[],Virgo,{(7, datetime.date(25, 9, 26)): [1, 24, 'prenatal']}
-105,1,1,4,4,True,1470.0,None,None,43,49,15,23,92,105,None,[],Aries,{(0, datetime.date(36, 5, 8)): [1, 35.11804995041976, 'prenatal']}
-106,1,1,9,4,True,3000.0,None,None,72,100,97,40,16,106,None,[],Virgo,{(2, datetime.date(14, 11, 11)): [1, 13.194685470370965, 'prenatal'], (0, datetime.date(32, 4, 6)): [1, 30.608357747075974, 'prenatal']}
-107,0,1,3,27,True,2370.0,None,None,100,79,40,27,14,107,None,[],Aries,{(6, datetime.date(35, 12, 7)): [1, 34.722433115404975, 'prenatal']}
-108,1,1,8,22,True,1320.0,None,None,94,44,21,58,39,108,None,[],Virgo,{(2, datetime.date(23, 7, 9)): [1, 21.8942740046831, 'prenatal']}
-109,1,1,9,1,True,2580.0,None,None,85,86,95,22,55,109,None,[],Virgo,{}
-110,1,1,12,1,True,870.0,None,None,36,29,90,25,16,110,None,[],Sagittarius,{(1, datetime.date(28, 8, 28)): [1, 26.760157777407166, 'prenatal']}
-111,0,1,11,8,True,2880.0,None,None,80,96,69,61,12,111,None,[],Ophiuchus,{(9, datetime.date(16, 4, 12)): [1, 14.436543288713462, 'prenatal']}
-112,0,1,8,5,True,2850.0,None,None,65,95,21,97,67,112,None,[],Leo,{(0, datetime.date(25, 3, 5)): [1, 23.59818816716026, 'prenatal']}
-113,0,1,4,16,True,2760.0,None,None,54,92,50,29,48,113,None,[],Aries,{(2, datetime.date(23, 12, 2)): [1, 22.64642041852574, 'prenatal'], (9, datetime.date(56, 5, 8)): [1, 55.09994044881938, 'prenatal']}
-114,0,1,11,13,True,1290.0,None,None,87,43,86,74,44,114,None,[],Ophiuchus,{(2, datetime.date(24, 5, 7)): [1, 22.495998142368215, 'prenatal'], (0, datetime.date(27, 6, 30)): [1, 25.644165779457087, 'prenatal'], (1, datetime.date(37, 6, 27)): [1, 35.64620967096833, 'prenatal']}
-115,1,1,12,27,True,2010.0,None,None,95,67,58,11,47,115,None,[],Capricornus,{(8, datetime.date(49, 12, 15)): [1, 48, 'prenatal']}
-116,0,1,1,22,True,2340.0,None,None,15,78,13,57,79,116,None,[],Aquarius,{(6, datetime.date(21, 5, 24)): [1, 20.349962717511808, 'prenatal'], (9, datetime.date(36, 4, 7)): [1, 35.2302392987933, 'prenatal']}
-117,1,1,8,4,True,930.0,None,None,31,31,34,16,69,117,None,[],Leo,{(9, datetime.date(51, 10, 24)): [1, 50.25537065422903, 'prenatal']}
-118,0,1,3,4,True,2430.0,None,None,23,81,50,11,46,118,None,[],Pisces,{(6, datetime.date(13, 2, 15)): [1, 11.964059670739363, 'prenatal']}
-119,1,1,8,23,True,480.0,None,None,60,16,74,23,78,119,None,[],Virgo,{(7, datetime.date(11, 8, 21)): [1, 10, 'prenatal']}
-120,1,1,1,14,True,1800.0,None,None,65,60,58,42,30,120,None,[],Capricornus,{(2, datetime.date(15, 10, 30)): [1, 14.800075694561773, 'prenatal']}
-121,0,1,9,19,True,330.0,None,None,41,11,10,32,56,121,None,[],Virgo,{(8, datetime.date(110, 8, 24)): [1, 109, 'prenatal']}
-122,1,1,5,28,True,3000.0,None,None,45,100,100,68,17,122,None,[],Gemini,{}
-123,1,1,3,18,True,180.0,None,None,66,6,12,10,46,123,None,[],Pisces,{(8, datetime.date(56, 3, 4)): [1, 55, 'prenatal']}
-124,1,1,8,7,True,900.0,None,None,29,30,96,93,1,124,None,[],Leo,{(0, datetime.date(28, 8, 25)): [1, 27.06886726434844, 'prenatal']}
-125,1,1,10,4,True,2130.0,None,None,30,71,17,50,42,125,None,[],Virgo,{(1, datetime.date(26, 6, 23)): [1, 24.735548280841346, 'prenatal'], (9, datetime.date(32, 1, 20)): [1, 30.316841304921237, 'prenatal']}
-126,0,1,12,16,True,1590.0,None,None,68,53,62,31,64,126,None,[],Sagittarius,{(2, datetime.date(20, 5, 13)): [1, 18.41985762629401, 'prenatal'], (6, datetime.date(22, 9, 19)): [1, 20.772904214754927, 'prenatal']}
-127,0,1,10,12,True,870.0,None,None,73,29,66,13,15,127,None,[],Libra,{(8, datetime.date(39, 10, 3)): [1, 38, 'prenatal'], (6, datetime.date(44, 3, 3)): [1, 42.42003278126049, 'prenatal'], (9, datetime.date(61, 7, 3)): [1, 59.76656274059488, 'prenatal']}
-128,1,1,9,13,True,750.0,None,None,20,25,94,16,58,128,None,[],Virgo,{(2, datetime.date(19, 9, 29)): [1, 18.056503424277363, 'prenatal'], (1, datetime.date(41, 10, 3)): [1, 40.08429982284794, 'prenatal']}
-129,0,1,10,3,True,930.0,None,None,49,31,87,42,36,129,None,[],Virgo,{(1, datetime.date(31, 3, 10)): [1, 29.45356245883952, 'prenatal'], (0, datetime.date(34, 8, 21)): [1, 32.905420846940864, 'prenatal']}
-130,0,1,3,13,True,30.0,None,None,7,1,83,46,84,130,None,[],Pisces,{(6, datetime.date(79, 6, 26)): [1, 78.34144543738574, 'prenatal']}
-131,1,1,8,5,True,360.0,None,None,15,12,48,92,90,131,None,[],Leo,{(2, datetime.date(30, 4, 30)): [1, 28.754267115728197, 'prenatal']}
-132,0,1,6,11,True,2310.0,None,None,18,77,1,79,22,132,None,[],Gemini,{(1, datetime.date(17, 11, 26)): [1, 16.472496218755673, 'prenatal'], (6, datetime.date(56, 1, 31)): [1, 54.67686609514139, 'prenatal'], (9, datetime.date(70, 5, 23)): [1, 68.99452956376516, 'prenatal']}
-133,1,1,5,19,True,570.0,None,None,66,19,92,9,61,133,None,[],Taurus,{(0, datetime.date(23, 3, 7)): [1, 21.814917110158817, 'prenatal']}
-134,0,1,10,14,True,1980.0,None,None,24,66,74,96,95,134,None,[],Libra,{(3, datetime.date(25, 10, 8)): [1, 24, 'prenatal'], (8, datetime.date(64, 9, 28)): [1, 63, 'prenatal']}
-135,1,1,4,7,True,2700.0,None,None,88,90,50,3,85,135,None,[],Aries,{(7, datetime.date(26, 4, 1)): [1, 25, 'prenatal'], (2, datetime.date(29, 5, 23)): [1, 28.146706354905636, 'prenatal']}
-136,1,1,3,3,True,2940.0,None,None,27,98,62,76,67,136,None,[],Pisces,{(2, datetime.date(24, 10, 29)): [1, 23.67620362875176, 'prenatal']}
-137,1,1,8,10,True,2100.0,None,None,6,70,45,49,64,137,None,[],Leo,{(2, datetime.date(13, 6, 8)): [1, 11.835851847211064, 'prenatal']}
-138,0,1,7,17,True,1410.0,None,None,9,47,77,53,18,138,None,[],Leo,{(2, datetime.date(17, 5, 9)): [1, 15.82315673117414, 'prenatal'], (3, datetime.date(28, 7, 10)): [1, 27, 'prenatal'], (6, datetime.date(72, 11, 30)): [1, 71.4237116790253, 'prenatal']}
-139,0,1,7,11,True,2550.0,None,None,36,85,29,93,20,139,None,[],Cancer,{}
-140,0,1,3,27,True,960.0,None,None,25,32,26,40,64,140,None,[],Aries,{}
-141,1,1,12,14,True,30.0,None,None,28,1,97,2,77,141,None,[],Sagittarius,{(7, datetime.date(34, 12, 6)): [1, 33, 'prenatal'], (9, datetime.date(71, 4, 29)): [1, 69.4208866983114, 'prenatal']}
-142,1,1,1,30,True,1050.0,None,None,80,35,22,28,72,142,None,[],Aquarius,{(2, datetime.date(26, 1, 21)): [1, 24.993627240257936, 'prenatal'], (9, datetime.date(52, 5, 20)): [1, 51.33763734870752, 'prenatal']}
-143,1,1,4,30,True,1800.0,None,None,76,60,89,54,98,143,None,[],Taurus,{(2, datetime.date(19, 1, 11)): [1, 17.713660006185297, 'prenatal'], (1, datetime.date(25, 5, 27)): [1, 24.09090608473956, 'prenatal']}
-144,0,1,8,1,True,2850.0,None,None,11,95,15,56,55,144,None,[],Leo,{(8, datetime.date(6, 7, 31)): [1, 5, 'prenatal'], (7, datetime.date(31, 7, 25)): [1, 30, 'prenatal']}
-145,1,1,4,30,True,1620.0,None,None,80,54,76,11,43,145,None,[],Taurus,{(1, datetime.date(23, 10, 20)): [1, 22.488250227405, 'prenatal']}
-146,0,1,6,25,True,2250.0,None,None,72,75,35,53,95,146,None,[],Gemini,{(0, datetime.date(35, 3, 4)): [1, 33.71430971251833, 'prenatal'], (8, datetime.date(134, 5, 24)): [1, 133, 'prenatal']}
-147,0,1,9,4,True,1530.0,None,None,97,51,50,47,72,147,None,[],Virgo,{(9, datetime.date(18, 6, 8)): [1, 16.77032402130528, 'prenatal']}
-148,1,1,6,20,True,690.0,None,None,1,23,42,31,3,148,None,[],Gemini,{(8, datetime.date(68, 6, 3)): [1, 67, 'prenatal']}
-149,1,1,5,21,True,2610.0,None,None,35,87,21,18,38,149,None,[],Taurus,{(7, datetime.date(14, 5, 18)): [1, 13, 'prenatal'], (9, datetime.date(25, 6, 6)): [1, 24.061120921348863, 'prenatal']}
-150,1,1,7,16,True,810.0,None,None,92,27,16,68,37,150,None,[],Leo,{(2, datetime.date(27, 1, 12)): [1, 25.510076398212476, 'prenatal']}
-151,0,1,1,15,True,2130.0,None,None,24,71,73,81,47,151,None,[],Capricornus,{(6, datetime.date(2, 4, 1)): [1, 1.2085743861732396, 'prenatal'], (8, datetime.date(93, 12, 23)): [1, 93, 'prenatal']}
-152,0,1,3,7,True,1200.0,None,None,50,40,33,61,10,152,None,[],Pisces,{(0, datetime.date(34, 7, 30)): [1, 33.419653897294346, 'prenatal'], (9, datetime.date(46, 11, 20)): [1, 45.73779314724676, 'prenatal'], (8, datetime.date(56, 2, 22)): [1, 55, 'prenatal']}
-153,0,1,5,1,True,810.0,None,None,26,27,36,11,19,153,None,[],Taurus,{}
-154,1,1,11,29,True,1260.0,None,None,81,42,12,79,77,154,None,[],Sagittarius,{(9, datetime.date(45, 8, 27)): [1, 43.77371942623777, 'prenatal'], (7, datetime.date(63, 11, 14)): [1, 62, 'prenatal']}
-155,1,1,8,14,True,1200.0,None,None,7,40,72,16,33,155,None,[],Leo,{}
-156,1,1,4,21,True,2490.0,None,None,97,83,76,1,21,156,None,[],Taurus,{}
-157,1,1,2,10,True,2430.0,None,None,33,81,23,12,34,157,None,[],Aquarius,{}
-158,0,1,6,27,True,30.0,None,None,44,1,25,99,56,158,None,[],Cancer,{(0, datetime.date(27, 12, 15)): [1, 26.485869302992867, 'prenatal']}
-159,1,1,3,26,True,600.0,None,None,37,20,18,85,97,159,None,[],Aries,{(1, datetime.date(38, 5, 19)): [1, 37.17319638056886, 'prenatal'], (7, datetime.date(75, 3, 8)): [1, 74, 'prenatal']}
-160,0,1,7,31,True,3000.0,None,None,52,100,41,54,64,160,None,[],Leo,{(0, datetime.date(23, 12, 22)): [1, 22.408832569985037, 'prenatal'], (6, datetime.date(33, 5, 16)): [1, 31.8159773284235, 'prenatal']}
-161,0,1,6,29,True,1620.0,None,None,17,54,45,59,10,161,None,[],Cancer,{(1, datetime.date(33, 1, 5)): [1, 31.54399756800788, 'prenatal']}
-162,0,1,10,18,True,810.0,None,None,95,27,4,79,56,162,None,[],Libra,{(2, datetime.date(31, 3, 8)): [1, 29.407283837975925, 'prenatal'], (9, datetime.date(64, 12, 26)): [1, 63.233817154288275, 'prenatal']}
-163,0,1,7,16,True,180.0,None,None,75,6,69,91,46,163,None,[],Leo,{(1, datetime.date(21, 9, 5)): [1, 20.15466220518271, 'prenatal'], (0, datetime.date(33, 8, 23)): [1, 32.126750592665246, 'prenatal']}
-164,1,1,5,2,True,2910.0,None,None,23,97,61,83,68,164,None,[],Taurus,{(9, datetime.date(56, 3, 7)): [1, 54.88695816452443, 'prenatal']}
-165,0,1,5,29,True,2220.0,None,None,40,74,3,11,24,165,None,[],Gemini,{(0, datetime.date(40, 7, 13)): [1, 39.15294824079781, 'prenatal']}
-166,1,1,11,13,True,2820.0,None,None,47,94,31,83,7,166,None,[],Ophiuchus,{(9, datetime.date(61, 10, 5)): [1, 59.93492177722199, 'prenatal']}
-167,0,1,3,25,True,630.0,None,None,54,21,69,97,18,167,None,[],Aries,{(0, datetime.date(19, 12, 6)): [1, 18.71434304690968, 'prenatal'], (9, datetime.date(31, 10, 30)): [1, 30.619640898330953, 'prenatal']}
-168,0,1,1,2,True,330.0,None,None,48,11,67,5,56,168,None,[],Capricornus,{(2, datetime.date(19, 6, 2)): [1, 18.426355178135697, 'prenatal']}
-169,0,1,12,2,True,870.0,None,None,45,29,30,86,41,169,None,[],Sagittarius,{(1, datetime.date(48, 7, 9)): [1, 46.63520999498423, 'prenatal']}
-170,0,1,8,13,True,2370.0,None,None,49,79,29,25,75,170,None,[],Leo,{(7, datetime.date(25, 8, 7)): [1, 24, 'prenatal'], (1, datetime.date(26, 5, 22)): [1, 24.791201545578343, 'prenatal']}
-171,1,1,11,9,True,2460.0,None,None,46,82,91,12,87,171,None,[],Ophiuchus,{(8, datetime.date(2, 11, 9)): [1, 1, 'prenatal'], (6, datetime.date(33, 1, 3)): [1, 31.17330882811608, 'prenatal']}
-172,0,1,6,13,True,2940.0,None,None,2,98,63,63,16,172,None,[],Gemini,{(2, datetime.date(20, 3, 27)): [1, 18.802120554013392, 'prenatal'], (1, datetime.date(29, 2, 26)): [1, 27.728236519759673, 'prenatal']}
-173,0,1,2,1,True,1740.0,None,None,34,58,28,24,36,173,None,[],Aquarius,{(2, datetime.date(23, 7, 29)): [1, 22.50350961306126, 'prenatal'], (9, datetime.date(81, 9, 19)): [1, 80.68686062778126, 'prenatal']}
-174,0,1,3,17,True,3000.0,None,None,65,100,84,100,17,174,None,[],Pisces,{}
-175,1,1,7,13,True,210.0,None,None,56,7,36,98,41,175,None,[],Cancer,{(2, datetime.date(20, 7, 28)): [1, 19.05594002419841, 'prenatal'], (1, datetime.date(49, 6, 14)): [1, 47.955257593135286, 'prenatal']}
-176,0,1,10,3,True,1620.0,None,None,66,54,60,65,17,176,None,[],Virgo,{(9, datetime.date(11, 9, 7)): [1, 9.935424584839907, 'prenatal'], (2, datetime.date(18, 5, 6)): [1, 16.601153751706942, 'prenatal'], (7, datetime.date(55, 9, 20)): [1, 54, 'prenatal']}
-177,1,1,9,13,True,1650.0,None,None,12,55,23,29,94,177,None,[],Virgo,{(0, datetime.date(23, 9, 17)): [1, 22.02613080750077, 'prenatal'], (2, datetime.date(29, 10, 11)): [1, 28.09622275901474, 'prenatal']}
-178,0,1,1,4,True,150.0,None,None,15,5,84,57,35,178,None,[],Capricornus,{(1, datetime.date(20, 10, 4)): [1, 19.763733110608317, 'prenatal'], (0, datetime.date(21, 1, 12)): [1, 20.03635345110477, 'prenatal']}
-179,0,1,7,30,True,480.0,None,None,1,16,63,54,86,179,None,[],Leo,{(2, datetime.date(12, 8, 18)): [1, 11.061712239911918, 'prenatal']}
-180,1,1,10,10,True,2250.0,None,None,39,75,98,72,19,180,None,[],Libra,{}
-181,1,1,6,5,True,990.0,None,None,98,33,39,6,9,181,None,[],Gemini,{(1, datetime.date(43, 10, 12)): [1, 42.38082433960213, 'prenatal']}
-182,0,1,9,17,True,1770.0,None,None,52,59,14,37,62,182,None,[],Virgo,{}
-183,0,1,5,9,True,810.0,None,None,33,27,82,5,49,183,None,[],Taurus,{(2, datetime.date(16, 3, 25)): [1, 14.889007437086963, 'prenatal']}
-184,1,1,5,26,True,2730.0,None,None,20,91,18,11,61,184,None,[],Taurus,{}
-185,0,1,4,26,True,2430.0,None,None,13,81,53,30,27,185,None,[],Taurus,{(1, datetime.date(27, 7, 27)): [1, 26.270658714481428, 'prenatal'], (6, datetime.date(69, 7, 11)): [1, 68.25481127942214, 'prenatal']}
-186,0,1,7,4,True,2700.0,None,None,9,90,75,57,83,186,None,[],Cancer,{(2, datetime.date(12, 9, 17)): [1, 11.21415671734933, 'prenatal'], (9, datetime.date(37, 6, 26)): [1, 36.00421859768933, 'prenatal'], (8, datetime.date(129, 6, 3)): [1, 128, 'prenatal']}
-187,0,1,7,11,True,330.0,None,None,41,11,5,61,62,187,None,[],Cancer,{(0, datetime.date(38, 3, 21)): [1, 36.71998699654916, 'prenatal']}
-188,0,1,6,15,True,1890.0,None,None,38,63,49,87,37,188,None,[],Gemini,{(6, datetime.date(59, 1, 27)): [1, 57.66016044237172, 'prenatal']}
-189,0,1,10,19,True,1470.0,None,None,96,49,99,86,59,189,None,[],Libra,{(8, datetime.date(16, 10, 15)): [1, 15, 'prenatal'], (1, datetime.date(21, 11, 21)): [1, 20.105185940689164, 'prenatal']}
-190,1,1,3,13,True,1980.0,None,None,64,66,3,47,20,190,None,[],Pisces,{(6, datetime.date(46, 2, 20)): [1, 44.973340829066316, 'prenatal']}
-191,1,1,12,15,True,450.0,None,None,84,15,76,92,50,191,None,[],Sagittarius,{(1, datetime.date(35, 11, 18)): [1, 33.94970045891618, 'prenatal']}
-192,1,1,10,24,True,2250.0,None,None,28,75,62,29,57,192,None,[],Libra,{(1, datetime.date(29, 9, 22)): [1, 27.932305591243814, 'prenatal']}
-193,1,1,6,12,True,1410.0,None,None,32,47,99,39,1,193,None,[],Gemini,{(9, datetime.date(42, 12, 28)): [1, 41.574913863224666, 'prenatal']}
-194,1,1,3,31,True,60.0,None,None,90,2,74,32,14,194,None,[],Aries,{(0, datetime.date(27, 12, 27)): [1, 26.760850298010975, 'prenatal']}
-195,1,1,7,21,True,2250.0,None,None,59,75,7,94,99,195,None,[],Leo,{(2, datetime.date(24, 10, 21)): [1, 23.270225435786333, 'prenatal'], (9, datetime.date(57, 3, 7)): [1, 55.66653573691191, 'prenatal']}
-196,1,1,9,3,True,540.0,None,None,64,18,69,78,27,196,None,[],Virgo,{(6, datetime.date(27, 7, 12)): [1, 25.872703705645677, 'prenatal'], (9, datetime.date(112, 2, 11)): [1, 110.51456757918288, 'prenatal']}
-197,1,1,11,6,True,2400.0,None,None,95,80,76,93,55,197,None,[],Ophiuchus,{}
-198,0,1,5,23,True,2310.0,None,None,100,77,37,76,15,198,None,[],Taurus,{(8, datetime.date(19, 5, 19)): [1, 18, 'prenatal'], (6, datetime.date(49, 8, 27)): [1, 48.29710939102522, 'prenatal']}
-199,1,1,9,24,True,390.0,None,None,6,13,54,14,8,199,None,[],Virgo,{(2, datetime.date(22, 4, 26)): [1, 20.60226577694434, 'prenatal']}
-200,0,1,10,29,True,3000.0,None,None,77,100,39,4,25,200,None,[],Scorpius,{(6, datetime.date(37, 6, 9)): [1, 35.63636492798412, 'prenatal'], (9, datetime.date(44, 4, 9)): [1, 42.4748720190761, 'prenatal']}
-201,1,1,9,21,True,2670.0,None,None,62,89,12,77,67,201,None,[],Virgo,{(2, datetime.date(28, 2, 18)): [1, 26.42786211507231, 'prenatal'], (9, datetime.date(58, 1, 22)): [1, 56.37594876500296, 'prenatal']}
-202,1,1,5,13,True,690.0,None,None,52,23,5,100,91,202,None,[],Taurus,{(2, datetime.date(18, 2, 18)): [1, 16.78114755063322, 'prenatal'], (1, datetime.date(19, 7, 26)): [1, 18.214934390748063, 'prenatal']}
-203,0,1,2,17,True,870.0,None,None,22,29,51,21,100,203,None,[],Pisces,{(9, datetime.date(25, 10, 23)): [1, 24.696268764150204, 'prenatal']}
-204,1,1,1,16,True,750.0,None,None,34,25,38,6,8,204,None,[],Capricornus,{(0, datetime.date(34, 11, 12)): [1, 33.843937191722695, 'prenatal']}
-205,0,1,6,26,True,2160.0,None,None,41,72,85,96,31,205,None,[],Cancer,{(2, datetime.date(24, 11, 23)): [1, 23.429770508361038, 'prenatal'], (9, datetime.date(53, 10, 28)): [1, 52.37600109103221, 'prenatal']}
-206,1,1,2,8,True,960.0,None,None,82,32,71,98,27,206,None,[],Aquarius,{(9, datetime.date(44, 3, 28)): [1, 43.16302743015764, 'prenatal']}
-207,0,1,10,1,True,3000.0,None,None,19,100,98,6,24,207,None,[],Virgo,{(9, datetime.date(35, 2, 14)): [1, 33.39686540286975, 'prenatal'], (7, datetime.date(35, 9, 23)): [1, 34, 'prenatal'], (8, datetime.date(136, 8, 29)): [1, 135, 'prenatal']}
-208,1,1,2,20,True,2820.0,None,None,8,94,35,36,77,208,None,[],Pisces,{(1, datetime.date(25, 10, 22)): [1, 24.687607631355363, 'prenatal'], (2, datetime.date(30, 5, 9)): [1, 29.235546283153518, 'prenatal'], (9, datetime.date(53, 4, 26)): [1, 52.21405587389659, 'prenatal']}
-209,0,1,1,22,True,2760.0,None,None,7,92,24,53,61,209,None,[],Aquarius,{(8, datetime.date(34, 1, 14)): [1, 33, 'prenatal']}
-210,0,1,9,3,True,60.0,None,None,80,2,23,6,2,210,None,[],Virgo,{(1, datetime.date(19, 2, 9)): [1, 17.44867949728561, 'prenatal']}
-211,1,1,9,30,True,1140.0,None,None,76,38,46,54,39,211,None,[],Virgo,{(1, datetime.date(35, 1, 9)): [1, 33.30081748036047, 'prenatal'], (7, datetime.date(58, 9, 16)): [1, 57, 'prenatal']}
-212,1,1,1,16,True,630.0,None,None,99,21,84,53,85,212,None,[],Capricornus,{(7, datetime.date(8, 1, 15)): [1, 7, 'prenatal']}
-213,0,1,10,15,True,2850.0,None,None,5,95,49,67,30,213,None,[],Libra,{}
-214,0,1,12,29,True,2190.0,None,None,62,73,15,90,29,214,None,[],Capricornus,{(7, datetime.date(24, 12, 23)): [1, 23, 'prenatal']}
-215,0,1,8,8,True,2340.0,None,None,27,78,54,43,21,215,None,[],Leo,{(7, datetime.date(43, 7, 29)): [1, 42, 'prenatal']}
-216,0,1,9,27,True,1080.0,None,None,43,36,23,65,69,216,None,[],Virgo,{(0, datetime.date(32, 9, 28)): [1, 31.027325396623723, 'prenatal']}
-217,1,1,3,6,True,2550.0,None,None,54,85,82,61,69,217,None,[],Pisces,{(2, datetime.date(20, 7, 8)): [1, 19.35606104759004, 'prenatal'], (8, datetime.date(105, 2, 9)): [1, 104, 'prenatal']}
-218,0,1,6,3,True,2700.0,None,None,87,90,100,94,79,218,None,[],Gemini,{(6, datetime.date(16, 9, 21)): [1, 15.314553621600734, 'prenatal']}
-219,0,1,7,28,True,150.0,None,None,34,5,78,81,7,219,None,[],Leo,{(2, datetime.date(21, 5, 24)): [1, 19.836130546980534, 'prenatal']}
-220,1,1,8,23,True,720.0,None,None,65,24,7,36,77,220,None,[],Virgo,{(6, datetime.date(24, 5, 20)): [1, 22.758739511151397, 'prenatal'], (9, datetime.date(36, 1, 17)): [1, 34.42726411328309, 'prenatal']}
-221,1,1,4,5,True,600.0,None,None,87,20,26,98,11,221,None,[],Aries,{(1, datetime.date(18, 11, 4)): [1, 17.595708273134285, 'prenatal'], (0, datetime.date(22, 7, 9)): [1, 21.275633828529905, 'prenatal'], (6, datetime.date(31, 12, 13)): [1, 30.71032099997839, 'prenatal']}
-222,0,1,3,8,True,630.0,None,None,9,21,85,20,39,222,None,[],Pisces,{}
-223,0,1,11,3,True,960.0,None,None,85,32,93,97,33,223,None,[],Scorpius,{(6, datetime.date(22, 3, 7)): [1, 20.35580616014516, 'prenatal']}
-224,0,1,6,19,True,2100.0,None,None,79,70,59,2,42,224,None,[],Gemini,{(1, datetime.date(30, 7, 2)): [1, 29.0567978233538, 'prenatal']}
-225,1,1,3,14,True,960.0,None,None,28,32,89,67,33,225,None,[],Pisces,{(1, datetime.date(27, 3, 9)): [1, 26.005251847442352, 'prenatal']}
-226,1,1,5,2,True,120.0,None,None,97,4,40,8,70,226,None,[],Taurus,{(1, datetime.date(23, 12, 14)): [1, 22.635391705326953, 'prenatal'], (0, datetime.date(38, 8, 31)): [1, 37.35837867987175, 'prenatal']}
-227,0,1,9,25,True,300.0,None,None,39,10,35,70,45,227,None,[],Virgo,{(9, datetime.date(18, 7, 18)): [1, 16.823253115396337, 'prenatal'], (1, datetime.date(31, 2, 10)): [1, 29.399898812830752, 'prenatal']}
-228,0,1,1,17,True,1920.0,None,None,81,64,17,52,61,228,None,[],Capricornus,{(6, datetime.date(31, 10, 25)): [1, 30.791533802852815, 'prenatal']}
-229,0,1,7,30,True,390.0,None,None,24,13,47,12,32,229,None,[],Leo,{(7, datetime.date(54, 7, 17)): [1, 53, 'prenatal']}
-230,0,1,5,12,True,2520.0,None,None,83,84,12,5,3,230,None,[],Taurus,{(1, datetime.date(38, 5, 31)): [1, 37.07796040996021, 'prenatal'], (8, datetime.date(105, 4, 17)): [1, 104, 'prenatal']}
-231,1,1,10,12,True,1020.0,None,None,27,34,53,80,100,231,None,[],Libra,{(8, datetime.date(105, 9, 17)): [1, 104, 'prenatal']}
-232,0,1,9,1,True,2820.0,None,None,33,94,58,67,77,232,None,[],Virgo,{(6, datetime.date(24, 8, 13)): [1, 22.966214621767413, 'prenatal']}
-233,0,1,8,8,True,1110.0,None,None,91,37,76,75,67,233,None,[],Leo,{(2, datetime.date(19, 3, 30)): [1, 17.6539918143353, 'prenatal']}
-234,0,1,1,19,True,2310.0,None,None,74,77,94,15,83,234,None,[],Capricornus,{(7, datetime.date(58, 1, 5)): [1, 57, 'prenatal']}
-235,0,1,4,18,True,900.0,None,None,92,30,46,66,49,235,None,[],Aries,{(7, datetime.date(4, 4, 17)): [1, 3, 'prenatal']}
-236,1,1,6,25,True,1680.0,None,None,61,56,11,26,76,236,None,[],Gemini,{(2, datetime.date(22, 7, 9)): [1, 21.05448224417838, 'prenatal'], (7, datetime.date(73, 6, 7)): [1, 72, 'prenatal']}
-237,0,1,8,9,True,2640.0,None,None,78,88,84,30,38,237,None,[],Leo,{(7, datetime.date(21, 8, 4)): [1, 20, 'prenatal']}
-238,1,1,5,12,True,2640.0,None,None,57,88,86,31,43,238,None,[],Taurus,{}
-239,0,1,6,25,True,690.0,None,None,30,23,27,76,90,239,None,[],Gemini,{(1, datetime.date(26, 8, 31)): [1, 25.202251692611895, 'prenatal'], (9, datetime.date(63, 2, 16)): [1, 61.68893429642982, 'prenatal']}
-240,1,1,11,10,True,540.0,None,None,22,18,77,70,86,240,None,[],Ophiuchus,{(0, datetime.date(18, 2, 16)): [1, 16.281282267379325, 'prenatal'], (9, datetime.date(38, 1, 21)): [1, 36.223505933842446, 'prenatal']}
-241,0,1,7,28,True,600.0,None,None,34,20,40,93,57,241,None,[],Leo,{(1, datetime.date(38, 12, 23)): [1, 37.43035149647652, 'prenatal'], (8, datetime.date(48, 7, 16)): [1, 47, 'prenatal']}
-242,0,1,6,19,True,1230.0,None,None,68,41,63,63,61,242,None,[],Gemini,{}
-243,0,1,10,2,True,2400.0,None,None,61,80,13,78,53,243,None,[],Virgo,{(0, datetime.date(28, 1, 21)): [1, 26.32251480780269, 'prenatal']}
-244,0,1,7,19,True,2580.0,None,None,51,86,61,94,40,244,None,[],Leo,{}
-245,0,1,6,12,True,2160.0,None,None,16,72,84,50,97,245,None,[],Gemini,{(1, datetime.date(36, 4, 13)): [1, 34.862978053062484, 'prenatal'], (8, datetime.date(98, 5, 19)): [1, 97, 'prenatal']}
-246,1,1,2,3,True,1950.0,None,None,72,65,33,81,100,246,None,[],Aquarius,{}
-247,0,1,7,9,True,2640.0,None,None,1,88,4,11,75,247,None,[],Cancer,{}
-248,1,1,9,29,True,960.0,None,None,75,32,3,57,55,248,None,[],Virgo,{(0, datetime.date(20, 2, 25)): [1, 18.421378726691024, 'prenatal']}
-249,0,1,12,30,True,2070.0,None,None,29,69,9,34,71,249,None,[],Capricornus,{(7, datetime.date(25, 12, 24)): [1, 24, 'prenatal'], (8, datetime.date(120, 12, 1)): [1, 119, 'prenatal']}
-250,1,1,10,10,True,1920.0,None,None,89,64,88,17,77,250,None,[],Libra,{(9, datetime.date(51, 4, 26)): [1, 49.577658157687935, 'prenatal'], (6, datetime.date(60, 9, 20)): [1, 58.9863034409179, 'prenatal']}
-251,1,1,5,15,True,1110.0,None,None,64,37,31,79,34,251,None,[],Taurus,{(0, datetime.date(21, 9, 1)): [1, 20.313332694279026, 'prenatal']}
-252,1,1,7,20,True,150.0,None,None,17,5,61,73,7,252,None,[],Leo,{(0, datetime.date(29, 2, 26)): [1, 27.626457526766913, 'prenatal']}
-253,0,1,11,15,True,300.0,None,None,91,10,45,24,86,253,None,[],Ophiuchus,{}
-254,1,1,6,21,True,780.0,None,None,42,26,69,93,96,254,None,[],Gemini,{(9, datetime.date(28, 3, 3)): [1, 26.718767954435332, 'prenatal']}
-255,1,1,6,9,True,480.0,None,None,42,16,45,45,24,255,None,[],Gemini,{(6, datetime.date(32, 4, 17)): [1, 30.87881511705241, 'prenatal'], (0, datetime.date(41, 4, 11)): [1, 39.86625091701315, 'prenatal']}
-256,0,1,5,23,True,750.0,None,None,58,25,31,44,22,256,None,[],Taurus,{(6, datetime.date(52, 2, 6)): [1, 50.7444957674365, 'prenatal'], (7, datetime.date(63, 5, 8)): [1, 62, 'prenatal']}
-257,0,1,11,16,True,2760.0,None,None,21,92,33,93,32,257,None,[],Ophiuchus,{(0, datetime.date(32, 5, 22)): [1, 30.534775157532497, 'prenatal'], (6, datetime.date(43, 4, 10)): [1, 41.42478008803237, 'prenatal']}
-258,1,1,8,17,True,2760.0,None,None,54,92,49,59,24,258,None,[],Leo,{(2, datetime.date(19, 12, 19)): [1, 18.351579452074855, 'prenatal']}
-259,0,1,12,6,True,1500.0,None,None,42,50,18,64,68,259,None,[],Sagittarius,{(6, datetime.date(20, 1, 6)): [1, 18.09760057400894, 'prenatal'], (9, datetime.date(35, 7, 19)): [1, 33.63849840966393, 'prenatal']}
-260,0,1,7,4,True,2970.0,None,None,22,99,75,20,87,260,None,[],Cancer,{(1, datetime.date(20, 8, 11)): [1, 19.11954202831714, 'prenatal'], (0, datetime.date(38, 6, 23)): [1, 36.995830211086194, 'prenatal']}
-261,1,1,10,28,True,840.0,None,None,96,28,32,44,30,261,None,[],Scorpius,{(2, datetime.date(22, 10, 29)): [1, 21.018935733528597, 'prenatal'], (0, datetime.date(30, 10, 13)): [1, 28.979351324767627, 'prenatal']}
-262,0,1,12,22,True,630.0,None,None,16,21,6,90,63,262,None,[],Sagittarius,{(2, datetime.date(27, 7, 28)): [1, 25.61452070308324, 'prenatal'], (9, datetime.date(79, 6, 7)): [1, 77.50963976306666, 'prenatal'], (8, datetime.date(119, 11, 24)): [1, 118, 'prenatal']}
-263,1,1,11,20,True,660.0,None,None,64,22,8,31,44,263,None,[],Ophiuchus,{(8, datetime.date(24, 11, 14)): [1, 23, 'prenatal'], (0, datetime.date(26, 7, 5)): [1, 24.63880490562874, 'prenatal']}
-264,1,1,11,25,True,2460.0,None,None,17,82,4,50,82,264,None,[],Sagittarius,{(0, datetime.date(31, 12, 30)): [1, 30.115149661169266, 'prenatal']}
-265,0,1,9,13,True,2190.0,None,None,17,73,10,5,33,265,None,[],Virgo,{}
-266,0,1,4,14,True,2070.0,None,None,14,69,59,91,64,266,None,[],Aries,{(6, datetime.date(27, 10, 2)): [1, 26.48710558216183, 'prenatal']}
-267,0,1,9,6,True,1350.0,None,None,66,45,58,50,67,267,None,[],Virgo,{(8, datetime.date(11, 9, 4)): [1, 10, 'prenatal']}
-268,1,1,4,3,True,2820.0,None,None,32,94,9,29,33,268,None,[],Aries,{(2, datetime.date(12, 5, 22)): [1, 11.143632024877949, 'prenatal'], (0, datetime.date(38, 11, 19)): [1, 37.656720998013924, 'prenatal']}
-269,0,1,11,23,True,2070.0,None,None,30,69,92,53,44,269,None,[],Sagittarius,{(2, datetime.date(17, 9, 17)): [1, 15.829168109657981, 'prenatal'], (9, datetime.date(63, 2, 23)): [1, 61.293386615400976, 'prenatal'], (8, datetime.date(102, 10, 30)): [1, 101, 'prenatal']}
-270,1,1,11,12,True,2550.0,None,None,34,85,33,61,56,270,None,[],Ophiuchus,{(9, datetime.date(55, 8, 23)): [1, 53.81370298119621, 'prenatal']}
-271,1,1,5,6,True,330.0,None,None,40,11,8,45,51,271,None,[],Taurus,{}
-272,0,1,1,31,True,2100.0,None,None,95,70,38,87,9,272,None,[],Aquarius,{(2, datetime.date(11, 10, 21)): [1, 10.727115681925262, 'prenatal']}
-273,0,1,6,19,True,1590.0,None,None,70,53,78,51,6,273,None,[],Gemini,{}
-274,1,1,3,14,True,1980.0,None,None,14,66,38,77,19,274,None,[],Pisces,{(1, datetime.date(29, 4, 21)): [1, 28.123931235356764, 'prenatal'], (8, datetime.date(135, 2, 10)): [1, 134, 'prenatal']}
-275,0,1,6,7,True,570.0,None,None,32,19,28,100,4,275,None,[],Gemini,{(1, datetime.date(29, 10, 24)): [1, 28.402180475402986, 'prenatal'], (6, datetime.date(70, 9, 6)): [1, 69.29759164923928, 'prenatal']}
-276,0,1,10,4,True,1920.0,None,None,12,64,91,14,23,276,None,[],Virgo,{}
-277,0,1,11,8,True,1470.0,None,None,58,49,45,35,14,277,None,[],Ophiuchus,{}
-278,1,1,2,23,True,1650.0,None,None,59,55,24,41,15,278,None,[],Pisces,{(1, datetime.date(37, 1, 30)): [1, 35.959676678931956, 'prenatal'], (9, datetime.date(56, 8, 11)): [1, 55.50318196225538, 'prenatal']}
-279,1,1,11,2,True,2910.0,None,None,53,97,13,34,38,279,None,[],Scorpius,{(1, datetime.date(25, 10, 8)): [1, 23.948026388113927, 'prenatal']}
-280,1,1,2,9,True,1890.0,None,None,68,63,27,52,29,280,None,[],Aquarius,{}
-281,1,1,9,9,True,2160.0,None,None,68,72,36,16,18,281,None,[],Virgo,{(1, datetime.date(21, 7, 4)): [1, 19.83159551832884, 'prenatal'], (6, datetime.date(33, 3, 28)): [1, 31.57231817937741, 'prenatal']}
-282,0,1,10,24,True,2250.0,None,None,49,75,28,91,91,282,None,[],Libra,{(2, datetime.date(24, 3, 1)): [1, 22.368278686586287, 'prenatal'], (0, datetime.date(26, 2, 21)): [1, 24.34611709764983, 'prenatal'], (9, datetime.date(27, 6, 3)): [1, 25.625070580804426, 'prenatal']}
-283,1,1,12,25,True,1680.0,None,None,84,56,40,98,16,283,None,[],Capricornus,{(6, datetime.date(29, 1, 4)): [1, 27.04809320366945, 'prenatal']}
-284,1,1,10,6,True,1080.0,None,None,28,36,70,61,48,284,None,[],Libra,{(6, datetime.date(33, 8, 29)): [1, 31.919800338584366, 'prenatal'], (0, datetime.date(40, 3, 10)): [1, 38.45292887530408, 'prenatal'], (8, datetime.date(97, 9, 12)): [1, 96, 'prenatal']}
-285,0,1,10,24,True,1440.0,None,None,76,48,28,50,15,285,None,[],Libra,{(2, datetime.date(23, 4, 29)): [1, 21.52784537319831, 'prenatal'], (8, datetime.date(94, 10, 1)): [1, 93, 'prenatal']}
-286,1,1,12,27,True,540.0,None,None,62,18,95,55,90,286,None,[],Capricornus,{(1, datetime.date(18, 8, 23)): [1, 16.667415649604845, 'prenatal']}
-287,0,1,3,10,True,1590.0,None,None,38,53,2,49,49,287,None,[],Pisces,{(1, datetime.date(44, 3, 13)): [1, 43.0390473753812, 'prenatal']}
-288,0,1,9,2,True,120.0,None,None,85,4,40,98,47,288,None,[],Virgo,{}
-289,1,1,12,16,True,810.0,None,None,68,27,7,11,12,289,None,[],Sagittarius,{(6, datetime.date(22, 10, 17)): [1, 20.850548281430406, 'prenatal'], (7, datetime.date(64, 11, 30)): [1, 63, 'prenatal']}
-290,0,1,3,20,True,1320.0,None,None,4,44,48,26,86,290,None,[],Pisces,{(2, datetime.date(21, 10, 16)): [1, 20.590718390021127, 'prenatal'], (0, datetime.date(37, 1, 7)): [1, 35.827931715974934, 'prenatal']}
-291,0,1,1,25,True,1200.0,None,None,35,40,28,38,54,291,None,[],Aquarius,{(7, datetime.date(72, 1, 8)): [1, 71, 'prenatal']}
-292,0,1,4,3,True,2070.0,None,None,88,69,24,37,35,292,None,[],Aries,{(0, datetime.date(31, 4, 27)): [1, 30.086652039114796, 'prenatal']}
-293,1,1,10,29,True,420.0,None,None,52,14,2,67,21,293,None,[],Scorpius,{(2, datetime.date(21, 5, 24)): [1, 19.583301974520033, 'prenatal']}
-294,0,1,4,2,True,1470.0,None,None,10,49,76,56,29,294,None,[],Aries,{(0, datetime.date(32, 7, 7)): [1, 31.287659639837052, 'prenatal']}
-295,1,1,10,5,True,1530.0,None,None,73,51,85,24,77,295,None,[],Virgo,{(6, datetime.date(45, 8, 20)): [1, 43.904358142222065, 'prenatal'], (8, datetime.date(61, 9, 20)): [1, 60, 'prenatal'], (7, datetime.date(68, 9, 18)): [1, 67, 'prenatal']}
-296,1,1,5,1,True,480.0,None,None,18,16,14,97,72,296,None,[],Taurus,{(6, datetime.date(52, 3, 8)): [1, 50.889823679103685, 'prenatal']}
-297,1,1,8,10,True,1020.0,None,None,66,34,51,73,91,297,None,[],Leo,{(1, datetime.date(22, 7, 8)): [1, 20.925412152557257, 'prenatal'], (0, datetime.date(35, 1, 17)): [1, 33.46149769525932, 'prenatal']}
-298,0,1,4,8,True,2790.0,None,None,55,93,69,82,31,298,None,[],Aries,{(2, datetime.date(17, 4, 7)): [1, 16.01050644918171, 'prenatal']}
-299,1,1,10,13,True,1890.0,None,None,60,63,31,77,58,299,None,[],Libra,{}
-300,0,1,7,10,True,1620.0,None,None,71,54,67,19,68,300,None,[],Cancer,{(3, datetime.date(13, 7, 7)): [1, 12, 'prenatal']}
-301,1,1,3,19,True,1470.0,None,None,32,49,93,64,32,301,None,[],Pisces,{(9, datetime.date(26, 12, 30)): [1, 25.801845689615966, 'prenatal'], (0, datetime.date(32, 5, 2)): [1, 31.14246788539064, 'prenatal']}
-302,0,1,6,17,True,120.0,None,None,22,4,44,2,38,302,None,[],Gemini,{(1, datetime.date(32, 10, 26)): [1, 31.382797679526135, 'prenatal']}
-303,1,1,12,11,True,1170.0,None,None,85,39,55,91,97,303,None,[],Sagittarius,{(3, datetime.date(15, 12, 8)): [1, 14, 'prenatal'], (2, datetime.date(26, 2, 6)): [1, 24.172803569845946, 'prenatal']}
-304,0,1,5,1,True,1890.0,None,None,76,63,81,58,24,304,None,[],Taurus,{}
-305,1,1,12,27,True,570.0,None,None,1,19,5,69,75,305,None,[],Capricornus,{(0, datetime.date(25, 3, 20)): [1, 23.245360990839533, 'prenatal']}
-306,1,1,9,24,True,660.0,None,None,36,22,79,80,56,306,None,[],Virgo,{(1, datetime.date(31, 7, 21)): [1, 29.84111727930585, 'prenatal'], (6, datetime.date(39, 9, 23)): [1, 38.023325416968, 'prenatal']}
-307,1,1,1,1,True,1290.0,None,None,91,43,3,14,70,307,None,[],Capricornus,{(2, datetime.date(14, 6, 27)): [1, 13.49383018109944, 'prenatal'], (0, datetime.date(30, 7, 29)): [1, 29.59418687078285, 'prenatal'], (8, datetime.date(76, 12, 13)): [1, 76, 'prenatal']}
-308,1,1,5,5,True,2910.0,None,None,3,97,66,11,78,308,None,[],Taurus,{(6, datetime.date(29, 10, 7)): [1, 28.445838035698976, 'prenatal']}
-309,1,1,9,16,True,1770.0,None,None,33,59,12,15,59,309,None,[],Virgo,{(7, datetime.date(46, 9, 5)): [1, 45, 'prenatal']}
-310,1,1,4,18,True,900.0,None,None,37,30,70,98,17,310,None,[],Aries,{(6, datetime.date(50, 8, 23)): [1, 49.38154214466387, 'prenatal']}
-311,0,1,11,16,True,180.0,None,None,93,6,53,2,50,311,None,[],Ophiuchus,{(1, datetime.date(28, 4, 5)): [1, 26.403352547669652, 'prenatal']}
-312,1,1,3,9,True,720.0,None,None,43,24,86,15,5,312,None,[],Pisces,{(9, datetime.date(18, 4, 4)): [1, 17.08259922392334, 'prenatal'], (6, datetime.date(35, 3, 23)): [1, 34.06079883815598, 'prenatal']}
-313,0,1,10,9,True,570.0,None,None,29,19,3,39,17,313,None,[],Libra,{(8, datetime.date(15, 10, 6)): [1, 14, 'prenatal'], (6, datetime.date(27, 12, 1)): [1, 26.16343644647156, 'prenatal']}
-314,0,1,11,21,True,990.0,None,None,8,33,61,8,18,314,None,[],Ophiuchus,{(9, datetime.date(16, 7, 12)): [1, 14.650896516198067, 'prenatal']}
-315,1,1,6,18,True,1830.0,None,None,43,61,82,46,19,315,None,[],Gemini,{(6, datetime.date(28, 5, 20)): [1, 26.94083139831801, 'prenatal']}
-316,1,1,5,29,True,120.0,None,None,89,4,77,91,63,316,None,[],Gemini,{}
-317,1,1,10,20,True,2010.0,None,None,90,67,58,15,58,317,None,[],Libra,{(2, datetime.date(17, 2, 1)): [1, 15.297050900830527, 'prenatal'], (6, datetime.date(29, 11, 29)): [1, 28.13102161235468, 'prenatal']}
-318,1,1,9,6,True,2610.0,None,None,37,87,59,17,82,318,None,[],Virgo,{(3, datetime.date(22, 9, 1)): [1, 21, 'prenatal']}
-319,1,1,3,2,True,1260.0,None,None,41,42,96,74,97,319,None,[],Pisces,{(1, datetime.date(44, 1, 30)): [1, 42.94399277379095, 'prenatal'], (9, datetime.date(67, 8, 3)): [1, 66.46576098700791, 'prenatal']}
-320,0,1,7,29,True,30.0,None,None,71,1,47,13,84,320,None,[],Leo,{(0, datetime.date(30, 6, 25)): [1, 28.92867241889668, 'prenatal'], (6, datetime.date(45, 9, 25)): [1, 44.19111907198164, 'prenatal']}
-321,1,1,11,26,True,600.0,None,None,93,20,30,91,20,321,None,[],Sagittarius,{(6, datetime.date(30, 11, 22)): [1, 29.00974112874897, 'prenatal'], (9, datetime.date(71, 12, 25)): [1, 70.1270293293864, 'prenatal']}
-322,1,1,7,29,True,270.0,None,None,8,9,31,44,15,322,None,[],Leo,{(2, datetime.date(25, 4, 20)): [1, 23.743418429806074, 'prenatal'], (9, datetime.date(34, 1, 25)): [1, 32.51628119308549, 'prenatal']}
-323,0,1,9,26,True,240.0,None,None,52,8,4,7,19,323,None,[],Virgo,{(0, datetime.date(27, 11, 26)): [1, 26.183843376867078, 'prenatal'], (6, datetime.date(53, 2, 28)): [1, 51.46077977906098, 'prenatal']}
-324,1,1,5,20,True,2460.0,None,None,95,82,29,42,45,324,None,[],Taurus,{(0, datetime.date(22, 4, 20)): [1, 20.933900318705504, 'prenatal'], (9, datetime.date(50, 5, 7)): [1, 48.99890051032537, 'prenatal']}
-325,1,1,1,21,True,150.0,None,None,7,5,13,30,82,325,None,[],Aquarius,{(1, datetime.date(36, 4, 30)): [1, 35.297710366897434, 'prenatal'], (9, datetime.date(49, 4, 24)): [1, 48.28932081658332, 'prenatal']}
-326,1,1,2,20,True,2850.0,None,None,27,95,67,36,4,326,None,[],Pisces,{}
-327,0,1,2,8,True,1020.0,None,None,79,34,24,4,22,327,None,[],Aquarius,{(6, datetime.date(42, 4, 3)): [1, 41.175401875180775, 'prenatal']}
-328,1,1,11,11,True,1080.0,None,None,82,36,23,60,97,328,None,[],Ophiuchus,{(1, datetime.date(28, 4, 12)): [1, 26.43591818962028, 'prenatal'], (9, datetime.date(36, 8, 5)): [1, 34.75806622710131, 'prenatal']}
-329,1,1,10,30,True,2670.0,None,None,49,89,91,63,75,329,None,[],Scorpius,{(1, datetime.date(30, 10, 4)): [1, 28.949448737641646, 'prenatal']}
-330,1,1,8,12,True,1710.0,None,None,9,57,68,91,6,330,None,[],Leo,{(2, datetime.date(18, 5, 18)): [1, 16.77657178204059, 'prenatal'], (8, datetime.date(44, 8, 1)): [1, 43, 'prenatal']}
-331,1,1,7,13,True,330.0,None,None,71,11,73,99,89,331,None,[],Cancer,{}
-332,1,1,11,15,True,2820.0,None,None,9,94,82,83,65,332,None,[],Ophiuchus,{(2, datetime.date(23, 2, 13)): [1, 21.26196506427706, 'prenatal'], (6, datetime.date(30, 10, 22)): [1, 28.955163211701894, 'prenatal']}
-333,1,1,11,3,True,450.0,None,None,60,15,31,78,59,333,None,[],Scorpius,{(8, datetime.date(134, 10, 2)): [1, 133, 'prenatal']}
-334,1,1,7,26,True,2400.0,None,None,62,80,53,85,50,334,None,[],Leo,{(9, datetime.date(25, 11, 5)): [1, 24.29738849536789, 'prenatal']}
-335,0,1,1,8,True,2310.0,None,None,17,77,63,52,70,335,None,[],Capricornus,{(2, datetime.date(27, 10, 9)): [1, 26.768418674250903, 'prenatal']}
-336,1,1,10,31,True,2190.0,None,None,79,73,8,8,96,336,None,[],Scorpius,{(2, datetime.date(22, 6, 17)): [1, 20.641961304657464, 'prenatal'], (0, datetime.date(28, 12, 5)): [1, 27.115311178768067, 'prenatal'], (6, datetime.date(64, 4, 19)): [1, 62.51200649233682, 'prenatal']}
-337,1,1,3,28,True,600.0,None,None,92,20,47,78,47,337,None,[],Aries,{(2, datetime.date(15, 10, 13)): [1, 14.554069512903942, 'prenatal'], (7, datetime.date(63, 3, 13)): [1, 62, 'prenatal']}
-338,0,1,10,24,True,2100.0,None,None,67,70,26,98,98,338,None,[],Libra,{(1, datetime.date(18, 2, 3)): [1, 16.29243865713288, 'prenatal'], (2, datetime.date(28, 1, 4)): [1, 26.214111140152507, 'prenatal'], (9, datetime.date(55, 4, 16)): [1, 53.51416979877486, 'prenatal']}
-339,0,1,3,27,True,1200.0,None,None,4,40,60,67,37,339,None,[],Aries,{}
-340,1,1,6,8,True,2910.0,None,None,39,97,95,41,100,340,None,[],Gemini,{}
-341,1,1,5,6,True,840.0,None,None,99,28,35,90,9,341,None,[],Taurus,{(2, datetime.date(12, 2, 12)): [1, 10.780343012294194, 'prenatal'], (6, datetime.date(63, 2, 21)): [1, 61.83879391358569, 'prenatal']}
-342,1,1,7,1,True,210.0,None,None,76,7,44,66,42,342,None,[],Cancer,{(6, datetime.date(32, 6, 6)): [1, 30.955522800405646, 'prenatal']}
-343,1,1,1,13,True,1980.0,None,None,74,66,92,36,21,343,None,[],Capricornus,{(9, datetime.date(47, 2, 2)): [1, 46.085467076303075, 'prenatal']}
-344,0,1,11,12,True,300.0,None,None,4,10,20,84,42,344,None,[],Ophiuchus,{}
-345,0,1,9,12,True,2190.0,None,None,20,73,36,89,13,345,None,[],Virgo,{(6, datetime.date(36, 3, 13)): [1, 34.52484859358257, 'prenatal']}
-346,1,1,8,8,True,480.0,None,None,54,16,83,50,46,346,None,[],Leo,{(7, datetime.date(61, 7, 24)): [1, 60, 'prenatal'], (9, datetime.date(68, 2, 19)): [1, 66.5795569713681, 'prenatal']}
-347,0,1,2,6,True,930.0,None,None,2,31,87,36,15,347,None,[],Aquarius,{(6, datetime.date(36, 12, 21)): [1, 35.89671139668824, 'prenatal']}
-348,0,1,1,24,True,2160.0,None,None,45,72,81,65,1,348,None,[],Aquarius,{(6, datetime.date(56, 7, 5)): [1, 55.483532166358955, 'prenatal']}
-349,0,1,8,2,True,1860.0,None,None,17,62,20,17,78,349,None,[],Leo,{(2, datetime.date(21, 6, 22)): [1, 19.90349497780549, 'prenatal'], (6, datetime.date(38, 7, 31)): [1, 37.01989143977699, 'prenatal']}
-350,1,1,1,4,True,2100.0,None,None,16,70,37,3,57,350,None,[],Capricornus,{(0, datetime.date(18, 9, 16)): [1, 17.709611630623076, 'prenatal'], (2, datetime.date(18, 12, 10)): [1, 17.9451721486753, 'prenatal'], (8, datetime.date(52, 12, 22)): [1, 52, 'prenatal']}
-351,0,1,7,28,True,720.0,None,None,53,24,22,99,28,351,None,[],Leo,{(3, datetime.date(18, 7, 24)): [1, 17, 'prenatal']}
-352,0,1,12,12,True,2850.0,None,None,9,95,9,65,84,352,None,[],Sagittarius,{(2, datetime.date(29, 2, 20)): [1, 27.211117158695792, 'prenatal']}
-353,0,1,2,20,True,510.0,None,None,66,17,53,92,36,353,None,[],Pisces,{(9, datetime.date(44, 9, 1)): [1, 43.56163896083555, 'prenatal']}
-354,1,1,11,22,True,540.0,None,None,49,18,10,53,12,354,None,[],Ophiuchus,{}
-355,0,1,5,1,True,1440.0,None,None,25,48,21,57,99,355,None,[],Taurus,{(9, datetime.date(17, 10, 27)): [1, 16.502453680449705, 'prenatal']}
-356,0,1,6,19,True,2100.0,None,None,9,70,20,94,86,356,None,[],Gemini,{(2, datetime.date(30, 4, 12)): [1, 28.835443679118736, 'prenatal']}
-357,0,1,10,3,True,2610.0,None,None,12,87,26,16,30,357,None,[],Virgo,{(0, datetime.date(18, 2, 19)): [1, 16.393620005057617, 'prenatal'], (2, datetime.date(20, 10, 21)): [1, 19.063195235486674, 'prenatal']}
-358,0,1,2,16,True,330.0,None,None,71,11,87,32,98,358,None,[],Pisces,{(6, datetime.date(13, 10, 25)): [1, 12.697761987863263, 'prenatal'], (7, datetime.date(47, 2, 5)): [1, 46, 'prenatal']}
-359,1,1,2,26,True,1560.0,None,None,29,52,100,9,50,359,None,[],Pisces,{(1, datetime.date(32, 6, 2)): [1, 31.285110841618547, 'prenatal'], (8, datetime.date(53, 2, 13)): [1, 52, 'prenatal']}
-360,1,1,4,19,True,990.0,None,None,16,33,79,45,42,360,None,[],Taurus,{(9, datetime.date(47, 9, 18)): [1, 46.44826211252956, 'prenatal']}
-361,0,1,9,9,True,1350.0,None,None,68,45,79,59,57,361,None,[],Virgo,{(7, datetime.date(6, 9, 8)): [1, 5, 'prenatal']}
-362,0,1,12,18,True,660.0,None,None,48,22,56,89,96,362,None,[],Sagittarius,{(2, datetime.date(17, 4, 13)): [1, 15.329301769043287, 'prenatal'], (0, datetime.date(19, 2, 22)): [1, 17.192563671416305, 'prenatal']}
-363,1,1,6,26,True,1350.0,None,None,78,45,82,13,91,363,None,[],Cancer,{(6, datetime.date(7, 6, 13)): [1, 5.967607777532859, 'prenatal'], (2, datetime.date(12, 4, 16)): [1, 10.8138331342479, 'prenatal'], (0, datetime.date(27, 5, 20)): [1, 25.916190258872092, 'prenatal']}
-364,1,1,11,15,True,2130.0,None,None,77,71,58,97,60,364,None,[],Ophiuchus,{(0, datetime.date(39, 3, 15)): [1, 37.35471719421294, 'prenatal'], (7, datetime.date(40, 11, 5)): [1, 39, 'prenatal']}
-365,0,1,1,21,True,2400.0,None,None,44,80,6,11,71,365,None,[],Aquarius,{(1, datetime.date(18, 10, 10)): [1, 17.730710370557752, 'prenatal'], (0, datetime.date(27, 11, 17)): [1, 26.840348523216058, 'prenatal'], (9, datetime.date(49, 6, 7)): [1, 48.408347355596206, 'prenatal']}
-366,0,1,8,19,True,2100.0,None,None,21,70,22,50,100,366,None,[],Leo,{(2, datetime.date(25, 6, 18)): [1, 23.84854403785997, 'prenatal'], (8, datetime.date(120, 7, 21)): [1, 119, 'prenatal']}
-367,0,1,5,23,True,330.0,None,None,43,11,24,48,35,367,None,[],Taurus,{}
-368,0,1,9,3,True,1290.0,None,None,55,43,79,100,69,368,None,[],Virgo,{(8, datetime.date(97, 8, 10)): [1, 96, 'prenatal']}
-369,1,1,3,20,True,2040.0,None,None,86,68,3,33,29,369,None,[],Pisces,{(1, datetime.date(41, 5, 8)): [1, 40.16328461412406, 'prenatal']}
-370,0,1,11,14,True,2250.0,None,None,98,75,65,55,41,370,None,[],Ophiuchus,{(9, datetime.date(21, 9, 7)): [1, 19.829647098128376, 'prenatal'], (7, datetime.date(75, 10, 27)): [1, 74, 'prenatal']}
-371,1,1,6,1,True,660.0,None,None,57,22,43,13,15,371,None,[],Gemini,{(3, datetime.date(15, 5, 29)): [1, 14, 'prenatal'], (6, datetime.date(31, 11, 14)): [1, 30.476260356436875, 'prenatal'], (8, datetime.date(127, 5, 2)): [1, 126, 'prenatal']}
-372,1,1,10,20,True,2310.0,None,None,76,77,31,4,36,372,None,[],Libra,{(7, datetime.date(33, 10, 12)): [1, 32, 'prenatal'], (1, datetime.date(45, 4, 30)): [1, 43.557140349295594, 'prenatal']}
-373,1,1,3,7,True,2940.0,None,None,13,98,51,17,85,373,None,[],Pisces,{}
-374,1,1,9,16,True,180.0,None,None,67,6,26,71,67,374,None,[],Virgo,{(1, datetime.date(19, 8, 27)): [1, 17.957659295390933, 'prenatal'], (9, datetime.date(27, 6, 20)): [1, 25.775571583388274, 'prenatal'], (8, datetime.date(83, 8, 27)): [1, 82, 'prenatal']}
-375,1,1,7,11,True,960.0,None,None,71,32,51,19,40,375,None,[],Cancer,{(1, datetime.date(26, 10, 23)): [1, 25.303169956955614, 'prenatal'], (8, datetime.date(55, 6, 28)): [1, 54, 'prenatal']}
-376,0,1,7,20,True,1110.0,None,None,21,37,34,42,44,376,None,[],Leo,{(8, datetime.date(28, 7, 13)): [1, 27, 'prenatal']}
-377,1,1,5,9,True,2490.0,None,None,92,83,9,47,29,377,None,[],Taurus,{(6, datetime.date(22, 11, 15)): [1, 21.534689185531974, 'prenatal'], (1, datetime.date(43, 7, 28)): [1, 42.247404592725786, 'prenatal']}
-378,1,1,1,23,True,1740.0,None,None,45,58,26,46,54,378,None,[],Aquarius,{(1, datetime.date(24, 12, 29)): [1, 23.949849887681914, 'prenatal'], (9, datetime.date(28, 12, 15)): [1, 27.914468656975494, 'prenatal']}
-379,0,1,6,11,True,1470.0,None,None,60,49,38,10,44,379,None,[],Gemini,{(2, datetime.date(23, 5, 9)): [1, 21.925042000122527, 'prenatal'], (0, datetime.date(33, 10, 22)): [1, 32.38875885476849, 'prenatal']}
-380,1,1,1,14,True,60.0,None,None,56,2,53,22,54,380,None,[],Capricornus,{(3, datetime.date(12, 1, 12)): [1, 11, 'prenatal']}
-381,1,1,6,27,True,1320.0,None,None,67,44,66,7,75,381,None,[],Cancer,{(1, datetime.date(28, 10, 14)): [1, 27.319127025221643, 'prenatal'], (9, datetime.date(56, 4, 27)): [1, 54.871333768782904, 'prenatal']}
-382,1,1,4,12,True,540.0,None,None,32,18,22,50,82,382,None,[],Aries,{(0, datetime.date(24, 1, 17)): [1, 22.782142899294062, 'prenatal'], (8, datetime.date(41, 4, 2)): [1, 40, 'prenatal'], (9, datetime.date(82, 12, 19)): [1, 81.74481054637788, 'prenatal']}
-383,1,1,9,10,True,1440.0,None,None,15,48,90,44,30,383,None,[],Virgo,{(3, datetime.date(28, 9, 3)): [1, 27, 'prenatal']}
-384,0,1,7,19,True,600.0,None,None,78,20,4,14,14,384,None,[],Leo,{(1, datetime.date(19, 9, 5)): [1, 18.14474346180491, 'prenatal']}
-385,0,1,1,12,True,2550.0,None,None,77,85,30,60,7,385,None,[],Capricornus,{(8, datetime.date(25, 1, 6)): [1, 24, 'prenatal'], (6, datetime.date(37, 10, 14)): [1, 36.78001821530068, 'prenatal'], (9, datetime.date(44, 3, 23)): [1, 43.223933105652996, 'prenatal']}
-386,1,1,7,28,True,360.0,None,None,84,12,12,17,3,386,None,[],Leo,{(0, datetime.date(34, 10, 24)): [1, 33.265082300866176, 'prenatal']}
-387,0,1,11,25,True,2190.0,None,None,54,73,30,66,66,387,None,[],Sagittarius,{(2, datetime.date(12, 11, 12)): [1, 10.974980434112618, 'prenatal'], (0, datetime.date(27, 12, 14)): [1, 26.06980075343169, 'prenatal'], (7, datetime.date(41, 11, 15)): [1, 40, 'prenatal']}
-388,0,1,4,12,True,1080.0,None,None,37,36,46,10,48,388,None,[],Aries,{}
-389,1,1,8,18,True,1260.0,None,None,75,42,79,49,57,389,None,[],Leo,{(2, datetime.date(24, 1, 7)): [1, 22.40537594525644, 'prenatal'], (1, datetime.date(38, 2, 15)): [1, 36.52156854935493, 'prenatal']}
-390,1,1,12,5,True,960.0,None,None,69,32,19,22,4,390,None,[],Sagittarius,{(1, datetime.date(20, 9, 12)): [1, 18.785783951990727, 'prenatal'], (6, datetime.date(27, 2, 25)): [1, 25.243175577216416, 'prenatal']}
-391,1,1,9,23,True,2700.0,None,None,63,90,31,29,59,391,None,[],Virgo,{(7, datetime.date(8, 9, 21)): [1, 7, 'prenatal']}
-392,0,1,3,5,True,2850.0,None,None,11,95,89,33,77,392,None,[],Pisces,{(8, datetime.date(12, 3, 2)): [1, 11, 'prenatal'], (1, datetime.date(35, 1, 10)): [1, 33.876359468799365, 'prenatal']}
-393,1,1,11,25,True,1050.0,None,None,43,35,65,11,77,393,None,[],Sagittarius,{(1, datetime.date(23, 7, 14)): [1, 21.647006642386664, 'prenatal'], (0, datetime.date(28, 12, 18)): [1, 27.083390037244197, 'prenatal']}
-394,1,1,12,17,True,2790.0,None,None,15,93,22,91,27,394,None,[],Sagittarius,{}
-395,1,1,11,25,True,1680.0,None,None,66,56,44,60,56,395,None,[],Sagittarius,{(2, datetime.date(28, 6, 5)): [1, 26.54713356585028, 'prenatal'], (9, datetime.date(28, 10, 14)): [1, 26.904246420834575, 'prenatal'], (8, datetime.date(84, 11, 4)): [1, 83, 'prenatal']}
-396,1,1,9,18,True,2460.0,None,None,67,82,88,95,3,396,None,[],Virgo,{(2, datetime.date(16, 8, 12)): [1, 14.91222205305429, 'prenatal']}
-397,1,1,12,26,True,900.0,None,None,59,30,26,18,4,397,None,[],Capricornus,{(0, datetime.date(41, 7, 8)): [1, 39.55954759935789, 'prenatal'], (9, datetime.date(46, 6, 22)): [1, 44.519391692649045, 'prenatal'], (8, datetime.date(93, 12, 3)): [1, 92, 'prenatal']}
-398,1,1,5,15,True,2460.0,None,None,15,82,20,14,13,398,None,[],Taurus,{(1, datetime.date(46, 6, 25)): [1, 45.143274080702994, 'prenatal']}
-399,1,1,2,9,True,2460.0,None,None,49,82,68,27,31,399,None,[],Aquarius,{(8, datetime.date(95, 1, 17)): [1, 94, 'prenatal']}
-400,0,1,6,28,True,2460.0,None,None,28,82,26,55,98,400,None,[],Cancer,{(3, datetime.date(11, 6, 26)): [1, 10, 'prenatal']}
-401,0,1,12,17,True,660.0,None,None,94,22,77,77,39,401,None,[],Sagittarius,{}
-402,0,1,3,18,True,900.0,None,None,40,30,43,42,90,402,None,[],Pisces,{}
-403,1,1,5,4,True,1860.0,None,None,44,62,13,76,13,403,None,[],Taurus,{(2, datetime.date(20, 1, 28)): [1, 18.748108821244102, 'prenatal'], (9, datetime.date(64, 11, 22)): [1, 63.597750006909095, 'prenatal']}
-404,1,1,3,13,True,2580.0,None,None,100,86,58,80,69,404,None,[],Pisces,{(8, datetime.date(104, 2, 17)): [1, 103, 'prenatal']}
-405,0,1,2,7,True,2340.0,None,None,60,78,36,70,85,405,None,[],Aquarius,{(9, datetime.date(13, 7, 23)): [1, 12.463341105246407, 'prenatal'], (7, datetime.date(22, 2, 2)): [1, 21, 'prenatal'], (1, datetime.date(44, 4, 20)): [1, 43.2291981306811, 'prenatal']}
-406,1,1,6,12,True,1410.0,None,None,57,47,51,58,43,406,None,[],Gemini,{(2, datetime.date(15, 1, 5)): [1, 13.577911696138276, 'prenatal']}
-407,1,1,1,24,True,2460.0,None,None,41,82,15,64,26,407,None,[],Aquarius,{(2, datetime.date(9, 12, 13)): [1, 8.890628617257768, 'prenatal']}
-408,0,1,7,15,True,1020.0,None,None,17,34,98,52,41,408,None,[],Cancer,{(2, datetime.date(21, 4, 28)): [1, 19.801285966607292, 'prenatal'], (1, datetime.date(23, 2, 19)): [1, 21.61565266778955, 'prenatal']}
-409,0,1,4,2,True,2100.0,None,None,82,70,9,73,18,409,None,[],Aries,{(0, datetime.date(17, 5, 13)): [1, 16.125606562806308, 'prenatal'], (7, datetime.date(61, 3, 18)): [1, 60, 'prenatal']}
-410,1,1,12,3,True,2310.0,None,None,41,77,93,34,10,410,None,[],Sagittarius,{(3, datetime.date(15, 11, 30)): [1, 14, 'prenatal'], (6, datetime.date(41, 3, 23)): [1, 39.32969265834427, 'prenatal'], (8, datetime.date(67, 11, 17)): [1, 66, 'prenatal']}
-411,1,1,10,26,True,1470.0,None,None,45,49,13,97,60,411,None,[],Libra,{(0, datetime.date(29, 5, 26)): [1, 27.602167141111487, 'prenatal'], (8, datetime.date(124, 9, 26)): [1, 123, 'prenatal']}
-412,0,1,4,3,True,1080.0,None,None,48,36,44,48,68,412,None,[],Aries,{(0, datetime.date(35, 8, 1)): [1, 34.35146789189206, 'prenatal'], (8, datetime.date(60, 3, 19)): [1, 59, 'prenatal']}
-413,0,1,5,23,True,1080.0,None,None,38,36,27,33,76,413,None,[],Taurus,{(0, datetime.date(29, 4, 18)): [1, 27.924039068590957, 'prenatal'], (9, datetime.date(35, 5, 16)): [1, 34.00369895115439, 'prenatal']}
-414,1,1,3,8,True,2910.0,None,None,60,97,19,20,42,414,None,[],Pisces,{(6, datetime.date(37, 7, 29)): [1, 36.418262141429466, 'prenatal'], (9, datetime.date(74, 9, 18)): [1, 73.58089191889735, 'prenatal']}
-415,0,1,11,15,True,1500.0,None,None,100,50,44,55,88,415,None,[],Ophiuchus,{(6, datetime.date(25, 8, 2)): [1, 23.729136869666693, 'prenatal']}
-416,1,1,12,19,True,2370.0,None,None,57,79,96,62,53,416,None,[],Sagittarius,{}
-417,1,1,12,31,True,2730.0,None,None,62,91,64,28,33,417,None,[],Capricornus,{}
-418,1,1,1,28,True,60.0,None,None,84,2,70,83,24,418,None,[],Aquarius,{(7, datetime.date(35, 1, 20)): [1, 34, 'prenatal']}
-419,0,1,1,3,True,2700.0,None,None,14,90,13,40,64,419,None,[],Capricornus,{(2, datetime.date(28, 1, 2)): [1, 27.014304059399542, 'prenatal']}
-420,1,1,8,29,True,1500.0,None,None,41,50,22,78,83,420,None,[],Virgo,{(6, datetime.date(30, 3, 8)): [1, 28.54430448174357, 'prenatal']}
-421,0,1,4,16,True,1920.0,None,None,24,64,73,59,54,421,None,[],Aries,{(2, datetime.date(23, 6, 8)): [1, 22.16164194417743, 'prenatal'], (8, datetime.date(28, 4, 9)): [1, 27, 'prenatal']}
-422,0,1,11,26,True,1350.0,None,None,68,45,45,90,13,422,None,[],Sagittarius,{(0, datetime.date(38, 5, 23)): [1, 36.51246829903863, 'prenatal']}
-423,1,1,5,4,True,2250.0,None,None,10,75,23,76,70,423,None,[],Taurus,{(3, datetime.date(13, 5, 1)): [1, 12, 'prenatal'], (0, datetime.date(28, 2, 12)): [1, 26.796605266806118, 'prenatal'], (9, datetime.date(72, 6, 3)): [1, 71.13172606979961, 'prenatal']}
-424,1,1,1,28,True,2250.0,None,None,38,75,60,37,15,424,None,[],Aquarius,{}
-425,1,1,11,21,True,30.0,None,None,69,1,54,100,51,425,None,[],Ophiuchus,{(0, datetime.date(26, 3, 5)): [1, 24.302951499363033, 'prenatal'], (2, datetime.date(30, 9, 1)): [1, 28.798771402798835, 'prenatal']}
-426,1,1,9,12,True,1410.0,None,None,18,47,30,71,14,426,None,[],Virgo,{(7, datetime.date(7, 9, 11)): [1, 6, 'prenatal'], (0, datetime.date(24, 4, 4)): [1, 22.577678644497258, 'prenatal']}
-427,0,1,4,24,True,1200.0,None,None,77,40,47,20,13,427,None,[],Taurus,{(6, datetime.date(7, 12, 16)): [1, 6.651664047248236, 'prenatal'], (9, datetime.date(47, 3, 10)): [1, 45.908603350314806, 'prenatal'], (8, datetime.date(91, 4, 2)): [1, 90, 'prenatal']}
-428,0,1,11,1,True,330.0,None,None,59,11,8,21,4,428,None,[],Scorpius,{(2, datetime.date(18, 12, 1)): [1, 17.093603074388028, 'prenatal'], (0, datetime.date(35, 3, 8)): [1, 33.37036339747096, 'prenatal']}
-429,1,1,2,21,True,1080.0,None,None,51,36,84,62,71,429,None,[],Pisces,{(8, datetime.date(23, 2, 16)): [1, 22, 'prenatal'], (9, datetime.date(39, 3, 6)): [1, 38.060905588214375, 'prenatal']}
-430,1,1,9,20,True,2520.0,None,None,75,84,45,30,26,430,None,[],Virgo,{(7, datetime.date(15, 9, 17)): [1, 14, 'prenatal'], (0, datetime.date(26, 9, 26)): [1, 25.03469192003866, 'prenatal']}
-431,0,1,11,10,True,90.0,None,None,16,3,48,16,40,431,None,[],Ophiuchus,{}
-432,1,1,12,30,True,2400.0,None,None,91,80,97,4,87,432,None,[],Capricornus,{(9, datetime.date(30, 10, 18)): [1, 28.820057487384485, 'prenatal']}
-433,1,1,11,10,True,960.0,None,None,70,32,35,50,70,433,None,[],Ophiuchus,{(1, datetime.date(28, 3, 14)): [1, 26.360223888892158, 'prenatal'], (0, datetime.date(29, 10, 14)): [1, 27.94748749678957, 'prenatal']}
-434,0,1,2,11,True,2670.0,None,None,23,89,49,48,17,434,None,[],Aquarius,{(2, datetime.date(22, 8, 9)): [1, 21.50417229085266, 'prenatal'], (1, datetime.date(35, 2, 8)): [1, 34.01481570229103, 'prenatal'], (9, datetime.date(56, 6, 26)): [1, 55.40904690835011, 'prenatal']}
-435,0,1,10,10,True,810.0,None,None,58,27,71,27,87,435,None,[],Libra,{}
-436,1,1,6,19,True,2460.0,None,None,95,82,28,75,70,436,None,[],Gemini,{(8, datetime.date(29, 6, 12)): [1, 28, 'prenatal'], (1, datetime.date(34, 5, 21)): [1, 32.944176441870624, 'prenatal']}
-437,1,1,9,17,True,330.0,None,None,7,11,44,48,25,437,None,[],Virgo,{(8, datetime.date(89, 8, 26)): [1, 88, 'prenatal']}
-438,1,1,6,18,True,510.0,None,None,28,17,89,14,28,438,None,[],Gemini,{(0, datetime.date(29, 11, 28)): [1, 28.467148249091842, 'prenatal'], (9, datetime.date(36, 10, 17)): [1, 35.35688755358115, 'prenatal']}
-439,0,1,7,13,True,810.0,None,None,58,27,38,32,39,439,None,[],Cancer,{(1, datetime.date(23, 7, 18)): [1, 22.028800463340513, 'prenatal'], (6, datetime.date(29, 9, 29)): [1, 28.23543960001659, 'prenatal']}
-440,1,1,4,15,True,2400.0,None,None,71,80,58,71,62,440,None,[],Aries,{(0, datetime.date(29, 12, 11)): [1, 28.67795716629894, 'prenatal']}
-441,0,1,2,2,True,930.0,None,None,59,31,14,81,28,441,None,[],Aquarius,{}
-442,0,1,3,21,True,90.0,None,None,75,3,23,49,69,442,None,[],Pisces,{(0, datetime.date(21, 8, 5)): [1, 20.389964231091042, 'prenatal']}
-443,1,1,1,27,True,2310.0,None,None,96,77,4,70,43,443,None,[],Aquarius,{}
-444,0,1,3,14,True,1200.0,None,None,22,40,59,47,17,444,None,[],Pisces,{(6, datetime.date(19, 8, 31)): [1, 18.477993840767862, 'prenatal'], (0, datetime.date(40, 3, 25)): [1, 39.0585752951348, 'prenatal']}
-445,1,1,7,16,True,2490.0,None,None,67,83,54,13,31,445,None,[],Leo,{}
-446,1,1,1,11,True,420.0,None,None,38,14,99,61,77,446,None,[],Capricornus,{(8, datetime.date(48, 12, 30)): [1, 48, 'prenatal']}
-447,0,1,2,23,True,1500.0,None,None,75,50,36,62,67,447,None,[],Pisces,{(0, datetime.date(28, 5, 17)): [1, 27.247419652646414, 'prenatal']}
-448,1,1,8,14,True,960.0,None,None,5,32,65,36,78,448,None,[],Leo,{(1, datetime.date(18, 12, 15)): [1, 17.34944634231296, 'prenatal'], (8, datetime.date(23, 8, 9)): [1, 22, 'prenatal'], (9, datetime.date(52, 1, 9)): [1, 50.43931481709452, 'prenatal']}
-449,0,1,5,18,True,1500.0,None,None,50,50,96,66,18,449,None,[],Taurus,{(1, datetime.date(25, 12, 21)): [1, 24.611892015686372, 'prenatal']}
-450,0,1,1,19,True,2400.0,None,None,94,80,64,62,47,450,None,[],Capricornus,{}
-451,1,1,9,6,True,2940.0,None,None,34,98,50,66,41,451,None,[],Virgo,{(2, datetime.date(22, 9, 6)): [1, 21.014699708260267, 'prenatal'], (9, datetime.date(40, 1, 24)): [1, 38.41039209598404, 'prenatal']}
-452,0,1,1,5,True,1650.0,None,None,42,55,42,82,52,452,None,[],Capricornus,{(7, datetime.date(25, 12, 30)): [1, 25, 'prenatal'], (1, datetime.date(33, 1, 2)): [1, 32.01578570647939, 'prenatal']}
-453,0,1,1,5,True,1320.0,None,None,30,44,2,98,43,453,None,[],Capricornus,{(3, datetime.date(12, 1, 3)): [1, 11, 'prenatal'], (0, datetime.date(37, 1, 29)): [1, 36.092006368632354, 'prenatal']}
-454,0,1,2,11,True,180.0,None,None,36,6,53,76,12,454,None,[],Aquarius,{(9, datetime.date(43, 1, 6)): [1, 41.92897627124561, 'prenatal']}
-455,1,1,9,30,True,540.0,None,None,22,18,15,36,52,455,None,[],Virgo,{(9, datetime.date(32, 7, 15)): [1, 30.812995334743093, 'prenatal']}
-456,0,1,7,9,True,1680.0,None,None,98,56,95,49,78,456,None,[],Cancer,{(3, datetime.date(17, 7, 5)): [1, 16, 'prenatal'], (1, datetime.date(24, 9, 29)): [1, 23.24163644392992, 'prenatal'], (0, datetime.date(24, 11, 8)): [1, 23.351639525639463, 'prenatal']}
-457,1,1,3,6,True,360.0,None,None,91,12,43,14,66,457,None,[],Pisces,{(1, datetime.date(27, 4, 21)): [1, 26.14263119910415, 'prenatal']}
-458,0,1,3,14,True,750.0,None,None,26,25,25,11,61,458,None,[],Pisces,{(1, datetime.date(24, 10, 8)): [1, 23.586327938027097, 'prenatal'], (6, datetime.date(32, 8, 16)): [1, 31.44785078504327, 'prenatal'], (9, datetime.date(66, 2, 3)): [1, 64.93771295548689, 'prenatal']}
-459,0,1,10,8,True,390.0,None,None,88,13,100,60,26,459,None,[],Libra,{(1, datetime.date(41, 2, 19)): [1, 39.395715300889556, 'prenatal']}
-460,1,1,7,20,True,480.0,None,None,59,16,94,93,23,460,None,[],Leo,{(2, datetime.date(28, 1, 3)): [1, 26.474590708137406, 'prenatal']}
-461,1,1,6,8,True,1470.0,None,None,76,49,42,14,32,461,None,[],Gemini,{(7, datetime.date(20, 6, 3)): [1, 19, 'prenatal'], (1, datetime.date(27, 11, 13)): [1, 26.451103792348945, 'prenatal']}
-462,0,1,4,17,True,1470.0,None,None,10,49,43,58,28,462,None,[],Aries,{(1, datetime.date(27, 1, 8)): [1, 25.74637491764084, 'prenatal']}
-463,0,1,7,13,True,1110.0,None,None,77,37,67,18,7,463,None,[],Cancer,{}
-464,0,1,12,12,True,2580.0,None,None,38,86,32,24,95,464,None,[],Sagittarius,{(2, datetime.date(17, 9, 20)): [1, 15.785325269282762, 'prenatal'], (0, datetime.date(32, 11, 16)): [1, 30.952859096899825, 'prenatal']}
-465,1,1,8,3,True,1020.0,None,None,50,34,15,10,91,465,None,[],Leo,{(1, datetime.date(21, 5, 12)): [1, 19.78872320460675, 'prenatal']}
-466,1,1,11,23,True,2100.0,None,None,75,70,86,99,17,466,None,[],Sagittarius,{(0, datetime.date(30, 5, 4)): [1, 28.463419343171314, 'prenatal'], (6, datetime.date(42, 7, 25)): [1, 40.696305588995976, 'prenatal']}
-467,0,1,2,24,True,210.0,None,None,60,7,46,93,34,467,None,[],Pisces,{}
-468,0,1,12,4,True,2850.0,None,None,21,95,2,57,91,468,None,[],Sagittarius,{(2, datetime.date(17, 5, 3)): [1, 15.424069161914641, 'prenatal'], (6, datetime.date(24, 2, 15)): [1, 22.213838616397716, 'prenatal']}
-469,0,1,1,6,True,2040.0,None,None,14,68,69,65,48,469,None,[],Capricornus,{(6, datetime.date(42, 5, 6)): [1, 41.357546371967864, 'prenatal'], (7, datetime.date(61, 12, 22)): [1, 61, 'prenatal']}
-470,1,1,1,6,True,1650.0,None,None,18,55,23,82,21,470,None,[],Capricornus,{(9, datetime.date(73, 8, 25)): [1, 72.68358320843637, 'prenatal']}
-471,1,1,3,11,True,1110.0,None,None,94,37,8,12,60,471,None,[],Pisces,{}
-472,1,1,9,6,True,1050.0,None,None,69,35,33,27,34,472,None,[],Virgo,{(2, datetime.date(27, 6, 25)): [1, 25.8182637079633, 'prenatal'], (1, datetime.date(31, 3, 2)): [1, 29.505253781109378, 'prenatal'], (0, datetime.date(32, 8, 8)): [1, 30.944268491419834, 'prenatal']}
-473,1,1,9,18,True,2820.0,None,None,22,94,19,89,54,473,None,[],Virgo,{(1, datetime.date(34, 6, 27)): [1, 32.797045602991716, 'prenatal'], (6, datetime.date(80, 6, 16)): [1, 78.79730650785228, 'prenatal']}
-474,1,1,8,3,True,1500.0,None,None,46,50,96,88,25,474,None,[],Leo,{(3, datetime.date(15, 7, 31)): [1, 14, 'prenatal'], (8, datetime.date(75, 7, 16)): [1, 74, 'prenatal']}
-475,0,1,5,8,True,2190.0,None,None,85,73,54,52,57,475,None,[],Taurus,{(2, datetime.date(17, 10, 1)): [1, 16.412529311380258, 'prenatal']}
-476,1,1,1,25,True,2550.0,None,None,54,85,99,45,54,476,None,[],Aquarius,{(2, datetime.date(22, 6, 5)): [1, 21.374381521767262, 'prenatal'], (0, datetime.date(29, 12, 31)): [1, 28.950944601106457, 'prenatal']}
-477,0,1,9,26,True,60.0,None,None,98,2,78,53,2,477,None,[],Virgo,{}
-478,1,1,11,15,True,2940.0,None,None,52,98,26,33,70,478,None,[],Ophiuchus,{(1, datetime.date(37, 12, 5)): [1, 36.07957423787215, 'prenatal']}
-479,1,1,2,16,True,720.0,None,None,36,24,8,34,64,479,None,[],Pisces,{(2, datetime.date(16, 12, 18)): [1, 15.848157008809661, 'prenatal'], (8, datetime.date(22, 2, 11)): [1, 21, 'prenatal'], (7, datetime.date(30, 2, 9)): [1, 29, 'prenatal']}
-480,0,1,4,30,True,360.0,None,None,18,12,27,83,38,480,None,[],Taurus,{(8, datetime.date(11, 4, 28)): [1, 10, 'prenatal']}
-481,1,1,8,25,True,210.0,None,None,4,7,6,88,35,481,None,[],Virgo,{(9, datetime.date(45, 5, 29)): [1, 43.79082810840678, 'prenatal'], (8, datetime.date(54, 8, 12)): [1, 53, 'prenatal']}
-482,1,1,9,24,True,2370.0,None,None,63,79,17,51,44,482,None,[],Virgo,{(2, datetime.date(12, 4, 7)): [1, 10.545149771653762, 'prenatal'], (0, datetime.date(21, 5, 8)): [1, 19.634106091907803, 'prenatal'], (8, datetime.date(58, 9, 10)): [1, 57, 'prenatal']}
-483,0,1,6,18,True,2910.0,None,None,98,97,30,57,40,483,None,[],Gemini,{}
-484,0,1,2,6,True,300.0,None,None,16,10,3,65,72,484,None,[],Aquarius,{(1, datetime.date(32, 7, 8)): [1, 31.43866699105351, 'prenatal']}
-485,1,1,12,29,True,1140.0,None,None,17,38,31,84,91,485,None,[],Capricornus,{(0, datetime.date(20, 8, 9)): [1, 18.62677680324449, 'prenatal'], (7, datetime.date(25, 12, 23)): [1, 24, 'prenatal']}
-486,0,1,11,20,True,360.0,None,None,86,12,96,73,19,486,None,[],Ophiuchus,{(8, datetime.date(136, 10, 18)): [1, 135, 'prenatal']}
-487,0,1,1,24,True,2610.0,None,None,12,87,37,60,45,487,None,[],Aquarius,{(1, datetime.date(26, 12, 25)): [1, 25.936717157672994, 'prenatal'], (9, datetime.date(59, 6, 26)): [1, 58.459181707843285, 'prenatal']}
-488,1,1,2,11,True,660.0,None,None,48,22,56,13,98,488,None,[],Aquarius,{(2, datetime.date(17, 1, 5)): [1, 15.91026336883429, 'prenatal']}
-489,1,1,1,22,True,90.0,None,None,64,3,19,5,72,489,None,[],Aquarius,{(1, datetime.date(35, 9, 2)): [1, 34.63526587430484, 'prenatal']}
-490,1,1,7,13,True,1770.0,None,None,10,59,52,61,32,490,None,[],Cancer,{(7, datetime.date(6, 7, 12)): [1, 5, 'prenatal'], (6, datetime.date(34, 4, 10)): [1, 32.76581057563938, 'prenatal'], (8, datetime.date(108, 6, 17)): [1, 107, 'prenatal']}
-491,0,1,5,22,True,810.0,None,None,9,27,91,91,98,491,None,[],Taurus,{}
-492,0,1,6,23,True,1140.0,None,None,26,38,48,60,37,492,None,[],Gemini,{(8, datetime.date(33, 6, 15)): [1, 32, 'prenatal']}
-493,1,1,9,11,True,1830.0,None,None,51,61,78,33,88,493,None,[],Virgo,{(0, datetime.date(23, 2, 1)): [1, 21.407013589300448, 'prenatal'], (1, datetime.date(35, 3, 3)): [1, 33.49669210976098, 'prenatal'], (7, datetime.date(43, 9, 1)): [1, 42, 'prenatal']}
-494,1,1,11,15,True,600.0,None,None,59,20,99,9,57,494,None,[],Ophiuchus,{(0, datetime.date(41, 7, 14)): [1, 39.69028333355638, 'prenatal']}
-495,0,1,3,19,True,990.0,None,None,66,33,93,31,92,495,None,[],Pisces,{(2, datetime.date(9, 3, 21)): [1, 8.013452599236178, 'prenatal'], (6, datetime.date(36, 12, 14)): [1, 35.76507589366516, 'prenatal'], (9, datetime.date(47, 5, 15)): [1, 46.18817896037649, 'prenatal']}
-496,1,1,5,2,True,630.0,None,None,97,21,77,82,13,496,None,[],Taurus,{(7, datetime.date(21, 4, 27)): [1, 20, 'prenatal'], (8, datetime.date(120, 4, 3)): [1, 119, 'prenatal']}
-497,0,1,3,3,True,210.0,None,None,46,7,5,92,50,497,None,[],Pisces,{(9, datetime.date(37, 5, 25)): [1, 36.25406177142428, 'prenatal']}
-498,1,1,11,3,True,2580.0,None,None,40,86,99,49,86,498,None,[],Scorpius,{}
-499,1,1,11,27,True,330.0,None,None,67,11,50,61,35,499,None,[],Sagittarius,{(0, datetime.date(29, 6, 15)): [1, 27.56939598504548, 'prenatal'], (7, datetime.date(37, 11, 18)): [1, 36, 'prenatal']}
-500,1,1,6,24,True,210.0,None,None,23,7,72,12,58,500,None,[],Gemini,{(7, datetime.date(70, 6, 7)): [1, 69, 'prenatal'], (9, datetime.date(73, 4, 26)): [1, 71.88810363285948, 'prenatal']}
-501,0,1,6,26,True,2430.0,None,None,45,81,96,92,100,501,None,[],Cancer,{(0, datetime.date(26, 7, 15)): [1, 25.069560598625905, 'prenatal'], (8, datetime.date(99, 6, 2)): [1, 98, 'prenatal']}
-502,1,1,3,10,True,2670.0,None,None,1,89,10,55,20,502,None,[],Pisces,{(6, datetime.date(18, 10, 21)): [1, 17.628853952926523, 'prenatal']}
-503,0,1,8,26,True,360.0,None,None,28,12,57,84,38,503,None,[],Virgo,{(2, datetime.date(14, 6, 10)): [1, 12.79746246864375, 'prenatal'], (6, datetime.date(42, 5, 9)): [1, 40.72960045409236, 'prenatal']}
-504,0,1,5,30,True,1710.0,None,None,15,57,6,2,40,504,None,[],Gemini,{(1, datetime.date(29, 6, 4)): [1, 28.035138740900763, 'prenatal'], (9, datetime.date(71, 12, 16)): [1, 70.59600719990804, 'prenatal'], (8, datetime.date(140, 4, 26)): [1, 139, 'prenatal']}
-505,1,1,11,15,True,1320.0,None,None,87,44,48,11,1,505,None,[],Ophiuchus,{(2, datetime.date(22, 5, 15)): [1, 20.510558668344856, 'prenatal']}
-506,0,1,3,9,True,1230.0,None,None,67,41,16,26,30,506,None,[],Pisces,{(0, datetime.date(40, 1, 17)): [1, 38.886926771862434, 'prenatal'], (8, datetime.date(73, 2, 19)): [1, 72, 'prenatal']}
-507,0,1,7,8,True,2370.0,None,None,2,79,39,16,88,507,None,[],Cancer,{(2, datetime.date(15, 12, 28)): [1, 14.484813319131788, 'prenatal']}
-508,0,1,9,20,True,990.0,None,None,45,33,5,43,70,508,None,[],Virgo,{}
-509,0,1,8,26,True,2010.0,None,None,57,67,33,34,81,509,None,[],Virgo,{(0, datetime.date(28, 3, 8)): [1, 26.551478263366366, 'prenatal']}
-510,1,1,1,1,True,2220.0,None,None,66,74,20,78,77,510,None,[],Capricornus,{(6, datetime.date(21, 3, 7)): [1, 20.193786101145186, 'prenatal']}
-511,1,1,11,13,True,2280.0,None,None,61,76,50,31,11,511,None,[],Ophiuchus,{(6, datetime.date(56, 12, 1)): [1, 55.090272796711254, 'prenatal'], (9, datetime.date(110, 5, 4)): [1, 108.54468906821371, 'prenatal']}
-512,1,1,7,22,True,1380.0,None,None,90,46,74,14,46,512,None,[],Leo,{(2, datetime.date(22, 4, 4)): [1, 20.716288457363724, 'prenatal'], (1, datetime.date(36, 11, 19)): [1, 35.3536546745616, 'prenatal']}
-513,0,1,3,13,True,2460.0,None,None,44,82,73,21,28,513,None,[],Pisces,{(9, datetime.date(30, 8, 12)): [1, 29.436854046509374, 'prenatal']}
-514,0,1,4,1,True,1710.0,None,None,73,57,4,90,43,514,None,[],Aries,{(2, datetime.date(19, 12, 22)): [1, 18.739316462684652, 'prenatal']}
-515,1,1,2,5,True,120.0,None,None,35,4,68,80,23,515,None,[],Aquarius,{(2, datetime.date(12, 1, 29)): [1, 10.986632007792386, 'prenatal']}
-516,0,1,1,2,True,2190.0,None,None,70,73,32,20,36,516,None,[],Capricornus,{(2, datetime.date(22, 12, 20)): [1, 21.97810096051172, 'prenatal']}
-517,0,1,9,1,True,2820.0,None,None,20,94,45,38,20,517,None,[],Virgo,{(0, datetime.date(35, 2, 2)): [1, 33.44519340205603, 'prenatal'], (8, datetime.date(135, 7, 31)): [1, 134, 'prenatal']}
-518,1,1,6,7,True,1230.0,None,None,56,41,33,43,48,518,None,[],Gemini,{(2, datetime.date(17, 5, 31)): [1, 15.994399295746085, 'prenatal']}
-519,1,1,4,20,True,2610.0,None,None,71,87,66,89,40,519,None,[],Taurus,{(9, datetime.date(32, 3, 10)): [1, 30.910905621544163, 'prenatal'], (1, datetime.date(34, 5, 23)): [1, 33.11436895346793, 'prenatal']}
-520,0,1,7,4,True,1590.0,None,None,3,53,80,75,89,520,None,[],Cancer,{(7, datetime.date(68, 6, 17)): [1, 67, 'prenatal']}
-521,1,1,12,8,True,1140.0,None,None,34,38,53,19,100,521,None,[],Sagittarius,{(1, datetime.date(21, 1, 13)): [1, 19.11252252098489, 'prenatal'], (8, datetime.date(39, 11, 29)): [1, 38, 'prenatal']}
-522,1,1,4,26,True,1440.0,None,None,17,48,75,78,89,522,None,[],Taurus,{(9, datetime.date(60, 4, 18)): [1, 59.02186077839555, 'prenatal'], (8, datetime.date(121, 3, 28)): [1, 120, 'prenatal']}
-523,1,1,1,20,True,1200.0,None,None,33,40,30,78,98,523,None,[],Capricornus,{(6, datetime.date(32, 10, 26)): [1, 31.786483993739644, 'prenatal'], (9, datetime.date(74, 3, 12)): [1, 73.19175129930089, 'prenatal']}
-524,0,1,8,22,True,1140.0,None,None,58,38,26,38,81,524,None,[],Virgo,{(9, datetime.date(25, 7, 2)): [1, 23.876920797602974, 'prenatal']}
-525,0,1,12,24,True,2550.0,None,None,89,85,28,51,38,525,None,[],Sagittarius,{(9, datetime.date(38, 1, 13)): [1, 36.08054098665311, 'prenatal'], (1, datetime.date(42, 8, 3)): [1, 40.63575867983729, 'prenatal']}
-526,1,1,4,23,True,1530.0,None,None,70,51,94,94,87,526,None,[],Taurus,{(7, datetime.date(2, 4, 23)): [1, 1, 'prenatal']}
-527,1,1,2,17,True,60.0,None,None,45,2,25,60,50,527,None,[],Pisces,{(0, datetime.date(29, 6, 22)): [1, 28.362251434708107, 'prenatal'], (9, datetime.date(42, 5, 2)): [1, 41.23206845267667, 'prenatal']}
-528,0,1,7,8,True,1560.0,None,None,42,52,12,62,26,528,None,[],Cancer,{(6, datetime.date(31, 5, 20)): [1, 29.88602494786685, 'prenatal'], (1, datetime.date(37, 4, 13)): [1, 35.78923320488292, 'prenatal']}
-529,1,1,10,11,True,2880.0,None,None,5,96,54,52,40,529,None,[],Libra,{}
-530,0,1,11,9,True,2970.0,None,None,13,99,50,44,68,530,None,[],Ophiuchus,{(6, datetime.date(65, 12, 22)): [1, 64.1620056568314, 'prenatal']}
-531,0,1,3,31,True,420.0,None,None,58,14,66,72,27,531,None,[],Aries,{(2, datetime.date(18, 4, 23)): [1, 17.07439728365026, 'prenatal']}
-532,0,1,5,12,True,1860.0,None,None,42,62,36,97,21,532,None,[],Taurus,{(1, datetime.date(25, 8, 14)): [1, 24.274501242625945, 'prenatal']}
-533,1,1,6,21,True,1890.0,None,None,24,63,10,16,54,533,None,[],Gemini,{(8, datetime.date(97, 5, 28)): [1, 96, 'prenatal']}
-534,0,1,6,5,True,2130.0,None,None,84,71,17,19,8,534,None,[],Gemini,{(1, datetime.date(32, 12, 31)): [1, 31.59493186459376, 'prenatal']}
-535,1,1,7,3,True,1320.0,None,None,67,44,61,23,16,535,None,[],Cancer,{}
-536,0,1,5,12,True,1590.0,None,None,56,53,20,70,75,536,None,[],Taurus,{(9, datetime.date(46, 12, 9)): [1, 45.60950277914495, 'prenatal'], (7, datetime.date(76, 4, 23)): [1, 75, 'prenatal']}
-537,0,1,11,17,True,1380.0,None,None,65,46,78,94,62,537,None,[],Ophiuchus,{(8, datetime.date(35, 11, 9)): [1, 34, 'prenatal']}
-538,0,1,3,18,True,2130.0,None,None,50,71,35,35,42,538,None,[],Pisces,{(1, datetime.date(20, 8, 31)): [1, 19.47100361697924, 'prenatal'], (0, datetime.date(28, 2, 27)): [1, 26.966287472931736, 'prenatal']}
-539,0,1,11,27,True,2550.0,None,None,27,85,79,33,53,539,None,[],Sagittarius,{(1, datetime.date(23, 1, 27)): [1, 21.183035442251274, 'prenatal'], (8, datetime.date(90, 11, 5)): [1, 89, 'prenatal']}
-540,0,1,9,29,True,1050.0,None,None,64,35,48,90,41,540,None,[],Virgo,{(6, datetime.date(26, 10, 12)): [1, 25.05245642357037, 'prenatal'], (1, datetime.date(32, 8, 13)): [1, 30.895402865172798, 'prenatal']}
-541,0,1,1,15,True,1110.0,None,None,13,37,63,67,80,541,None,[],Capricornus,{}
-542,1,1,9,2,True,1170.0,None,None,59,39,33,86,24,542,None,[],Virgo,{(9, datetime.date(33, 10, 5)): [1, 32.11435526409792, 'prenatal'], (6, datetime.date(37, 8, 16)): [1, 35.979118285110424, 'prenatal']}
-543,0,1,9,3,True,480.0,None,None,37,16,42,22,79,543,None,[],Virgo,{(1, datetime.date(20, 11, 21)): [1, 19.23264260919612, 'prenatal'], (8, datetime.date(122, 8, 5)): [1, 121, 'prenatal']}
-544,0,1,7,9,True,420.0,None,None,76,14,55,71,8,544,None,[],Cancer,{(7, datetime.date(20, 7, 4)): [1, 19, 'prenatal'], (6, datetime.date(23, 11, 18)): [1, 22.3775944885273, 'prenatal'], (1, datetime.date(35, 6, 19)): [1, 33.969465208706566, 'prenatal']}
-545,1,1,2,4,True,1590.0,None,None,11,53,36,98,16,545,None,[],Aquarius,{(0, datetime.date(33, 10, 22)): [1, 32.73452085305128, 'prenatal']}
-546,0,1,9,25,True,630.0,None,None,87,21,60,51,49,546,None,[],Virgo,{(0, datetime.date(34, 3, 4)): [1, 32.46054551298256, 'prenatal'], (8, datetime.date(127, 8, 26)): [1, 126, 'prenatal']}
-547,1,1,8,12,True,1350.0,None,None,61,45,25,53,95,547,None,[],Leo,{(6, datetime.date(35, 3, 22)): [1, 33.63016529765466, 'prenatal'], (1, datetime.date(36, 11, 16)): [1, 35.289780584919896, 'prenatal']}
-548,1,1,8,5,True,510.0,None,None,2,17,60,72,43,548,None,[],Leo,{}
-549,0,1,11,25,True,870.0,None,None,83,29,84,3,15,549,None,[],Sagittarius,{(1, datetime.date(29, 8, 14)): [1, 27.737085902625676, 'prenatal'], (9, datetime.date(48, 1, 14)): [1, 46.16798793053836, 'prenatal']}
-550,1,1,12,19,True,510.0,None,None,57,17,5,57,21,550,None,[],Sagittarius,{(0, datetime.date(32, 11, 7)): [1, 30.908207362556436, 'prenatal']}
-551,0,1,11,10,True,2040.0,None,None,72,68,96,36,59,551,None,[],Ophiuchus,{(8, datetime.date(118, 10, 13)): [1, 117, 'prenatal']}
-552,1,1,12,24,True,480.0,None,None,43,16,46,84,1,552,None,[],Sagittarius,{(0, datetime.date(37, 9, 17)): [1, 35.75665962102587, 'prenatal']}
-553,0,1,3,25,True,60.0,None,None,30,2,23,3,87,553,None,[],Aries,{(6, datetime.date(42, 6, 4)): [1, 41.22255703617787, 'prenatal']}
-554,1,1,3,3,True,2340.0,None,None,32,78,90,87,55,554,None,[],Pisces,{}
-555,0,1,7,30,True,1020.0,None,None,9,34,69,87,65,555,None,[],Leo,{(2, datetime.date(20, 9, 2)): [1, 19.107387794827687, 'prenatal'], (8, datetime.date(120, 7, 1)): [1, 119, 'prenatal']}
-556,0,1,4,28,True,2520.0,None,None,48,84,100,59,51,556,None,[],Taurus,{(0, datetime.date(28, 3, 2)): [1, 26.865659941535302, 'prenatal'], (1, datetime.date(35, 8, 30)): [1, 34.36296041301043, 'prenatal']}
-557,1,1,6,4,True,1170.0,None,None,55,39,15,67,58,557,None,[],Gemini,{(0, datetime.date(31, 3, 4)): [1, 29.76912737790329, 'prenatal']}
-558,1,1,1,24,True,2580.0,None,None,16,86,49,34,9,558,None,[],Aquarius,{}
-559,1,1,1,6,True,1740.0,None,None,15,58,24,44,19,559,None,[],Capricornus,{(0, datetime.date(17, 5, 8)): [1, 16.34656263520482, 'prenatal']}
-560,1,1,12,4,True,2160.0,None,None,11,72,60,99,31,560,None,[],Sagittarius,{(1, datetime.date(28, 11, 7)): [1, 26.945604213135773, 'prenatal']}
-561,0,1,11,18,True,150.0,None,None,76,5,73,68,77,561,None,[],Ophiuchus,{(0, datetime.date(40, 12, 16)): [1, 39.104835721229186, 'prenatal'], (9, datetime.date(54, 1, 2)): [1, 52.1612418471159, 'prenatal']}
-562,0,1,10,10,True,1470.0,None,None,11,49,10,14,17,562,None,[],Libra,{}
-563,0,1,5,7,True,2580.0,None,None,100,86,84,86,50,563,None,[],Taurus,{(2, datetime.date(20, 11, 28)): [1, 19.576022884652318, 'prenatal'], (8, datetime.date(85, 4, 16)): [1, 84, 'prenatal']}
-564,0,1,11,9,True,300.0,None,None,88,10,25,57,14,564,None,[],Ophiuchus,{(8, datetime.date(12, 11, 6)): [1, 11, 'prenatal']}
-565,1,1,9,6,True,810.0,None,None,82,27,11,46,4,565,None,[],Virgo,{(2, datetime.date(21, 3, 24)): [1, 19.560352061351665, 'prenatal'], (8, datetime.date(116, 8, 9)): [1, 115, 'prenatal']}
-566,0,1,2,13,True,1050.0,None,None,77,35,57,81,92,566,None,[],Aquarius,{(9, datetime.date(52, 3, 20)): [1, 51.13233580932729, 'prenatal']}
-567,1,1,3,18,True,690.0,None,None,8,23,56,53,30,567,None,[],Pisces,{}
-568,0,1,1,16,True,1410.0,None,None,52,47,96,27,95,568,None,[],Capricornus,{(0, datetime.date(31, 9, 3)): [1, 30.650898068030582, 'prenatal']}
-569,1,1,11,14,True,540.0,None,None,20,18,28,48,99,569,None,[],Ophiuchus,{(0, datetime.date(34, 3, 25)): [1, 32.381934799495866, 'prenatal']}
-570,1,1,5,8,True,60.0,None,None,31,2,30,48,36,570,None,[],Taurus,{(8, datetime.date(24, 5, 2)): [1, 23, 'prenatal']}
-571,1,1,4,4,True,2100.0,None,None,21,70,77,86,59,571,None,[],Aries,{(8, datetime.date(15, 4, 1)): [1, 14, 'prenatal']}
-572,1,1,9,25,True,1800.0,None,None,3,60,6,42,9,572,None,[],Virgo,{(2, datetime.date(19, 3, 31)): [1, 17.52556162882741, 'prenatal']}
-573,1,1,10,9,True,60.0,None,None,89,2,53,3,37,573,None,[],Libra,{(2, datetime.date(24, 7, 16)): [1, 22.78587630156776, 'prenatal'], (9, datetime.date(62, 3, 18)): [1, 60.481941587351656, 'prenatal'], (6, datetime.date(63, 6, 15)): [1, 61.723579772801784, 'prenatal']}
-574,1,1,11,19,True,1140.0,None,None,5,38,90,38,85,574,None,[],Ophiuchus,{(9, datetime.date(32, 3, 19)): [1, 30.352312675125496, 'prenatal']}
-575,1,1,4,27,True,1710.0,None,None,60,57,51,91,37,575,None,[],Taurus,{(2, datetime.date(14, 8, 3)): [1, 13.278361393265897, 'prenatal'], (8, datetime.date(80, 4, 7)): [1, 79, 'prenatal']}
-576,1,1,7,29,True,360.0,None,None,57,12,73,94,44,576,None,[],Leo,{(8, datetime.date(14, 7, 26)): [1, 13, 'prenatal']}
-577,1,1,2,1,True,2610.0,None,None,1,87,80,88,47,577,None,[],Aquarius,{(0, datetime.date(28, 11, 1)): [1, 27.76951823648567, 'prenatal']}
-578,0,1,12,4,True,1920.0,None,None,38,64,15,87,82,578,None,[],Sagittarius,{(8, datetime.date(30, 11, 27)): [1, 29, 'prenatal'], (6, datetime.date(31, 7, 9)): [1, 29.615646639175438, 'prenatal'], (9, datetime.date(67, 8, 18)): [1, 65.75017331393579, 'prenatal']}
-579,0,1,3,16,True,2820.0,None,None,52,94,11,15,34,579,None,[],Pisces,{}
-580,1,1,6,30,True,750.0,None,None,71,25,9,33,90,580,None,[],Cancer,{(7, datetime.date(10, 6, 28)): [1, 9, 'prenatal']}
-581,0,1,6,6,True,1710.0,None,None,60,57,61,69,99,581,None,[],Gemini,{}
-582,0,1,12,26,True,360.0,None,None,12,12,95,7,71,582,None,[],Capricornus,{(0, datetime.date(35, 4, 23)): [1, 33.34577792301688, 'prenatal']}
-583,1,1,1,1,True,480.0,None,None,10,16,41,74,80,583,None,[],Capricornus,{(0, datetime.date(18, 4, 20)): [1, 17.311794396084146, 'prenatal'], (8, datetime.date(55, 12, 19)): [1, 55, 'prenatal']}
-584,0,1,7,28,True,2820.0,None,None,15,94,82,4,9,584,None,[],Leo,{}
-585,0,1,4,9,True,2400.0,None,None,88,80,48,72,55,585,None,[],Aries,{(8, datetime.date(3, 4, 9)): [1, 2, 'prenatal'], (7, datetime.date(67, 3, 24)): [1, 66, 'prenatal']}
-586,0,1,1,4,True,2100.0,None,None,62,70,90,79,87,586,None,[],Capricornus,{(9, datetime.date(33, 1, 26)): [1, 32.08454868235978, 'prenatal']}
-587,1,1,3,29,True,2130.0,None,None,100,71,46,55,27,587,None,[],Aries,{(2, datetime.date(13, 12, 28)): [1, 12.759477791623278, 'prenatal'], (6, datetime.date(23, 6, 4)): [1, 22.19960845753617, 'prenatal'], (0, datetime.date(25, 4, 19)): [1, 24.07457790074045, 'prenatal']}
-588,0,1,11,27,True,2910.0,None,None,62,97,66,38,26,588,None,[],Sagittarius,{(0, datetime.date(29, 1, 24)): [1, 27.17845801285786, 'prenatal'], (1, datetime.date(38, 6, 25)): [1, 36.600144003791215, 'prenatal']}
-589,1,1,12,16,True,1770.0,None,None,48,59,42,10,56,589,None,[],Sagittarius,{(9, datetime.date(70, 8, 20)): [1, 68.72512972435285, 'prenatal']}
-590,1,1,11,5,True,1230.0,None,None,99,41,26,40,57,590,None,[],Ophiuchus,{}
-591,1,1,9,30,True,390.0,None,None,5,13,30,24,45,591,None,[],Virgo,{(2, datetime.date(26, 5, 14)): [1, 24.637972717409333, 'prenatal'], (8, datetime.date(49, 9, 18)): [1, 48, 'prenatal']}
-592,0,1,2,14,True,810.0,None,None,83,27,86,8,56,592,None,[],Aquarius,{(2, datetime.date(19, 8, 5)): [1, 18.48313349527939, 'prenatal'], (1, datetime.date(38, 10, 2)): [1, 37.657150326431406, 'prenatal']}
-593,0,1,7,21,True,360.0,None,None,74,12,26,27,92,593,None,[],Leo,{(2, datetime.date(23, 1, 10)): [1, 21.487895241850232, 'prenatal'], (6, datetime.date(27, 10, 1)): [1, 26.214485829728236, 'prenatal']}
-594,0,1,4,5,True,1020.0,None,None,61,34,33,82,31,594,None,[],Aries,{}
-595,1,1,8,25,True,570.0,None,None,6,19,34,58,40,595,None,[],Virgo,{(6, datetime.date(47, 6, 30)): [1, 45.877354474865825, 'prenatal']}
-596,0,1,6,6,True,1590.0,None,None,3,53,59,47,62,596,None,[],Gemini,{}
-597,1,1,7,3,True,2460.0,None,None,33,82,85,78,19,597,None,[],Cancer,{(0, datetime.date(23, 6, 28)): [1, 22.00036971801745, 'prenatal'], (9, datetime.date(46, 1, 14)): [1, 44.56464317437395, 'prenatal']}
-598,1,1,1,13,True,990.0,None,None,21,33,80,100,73,598,None,[],Capricornus,{(1, datetime.date(32, 12, 1)): [1, 31.905066795419803, 'prenatal']}
-599,0,1,12,30,True,1710.0,None,None,59,57,37,22,78,599,None,[],Capricornus,{(7, datetime.date(33, 12, 22)): [1, 32, 'prenatal'], (0, datetime.date(36, 6, 6)): [1, 34.4578479411901, 'prenatal']}
-600,0,1,12,9,True,270.0,None,None,67,9,82,66,94,600,None,[],Sagittarius,{}
-601,0,1,3,9,True,1680.0,None,None,21,56,22,33,70,601,None,[],Pisces,{(3, datetime.date(13, 3, 6)): [1, 12, 'prenatal']}
-602,0,1,6,28,True,180.0,None,None,5,6,28,71,50,602,None,[],Cancer,{(3, datetime.date(29, 6, 21)): [1, 28, 'prenatal']}
-603,0,1,4,19,True,1320.0,None,None,39,44,12,20,36,603,None,[],Taurus,{(0, datetime.date(31, 11, 20)): [1, 30.609177713270764, 'prenatal'], (9, datetime.date(66, 6, 16)): [1, 65.20508701858043, 'prenatal'], (8, datetime.date(117, 3, 22)): [1, 116, 'prenatal']}
-604,1,1,8,5,True,1530.0,None,None,63,51,91,2,39,604,None,[],Leo,{}
-605,1,1,6,5,True,2010.0,None,None,38,67,71,59,57,605,None,[],Gemini,{(6, datetime.date(5, 7, 11)): [1, 4.102937744687374, 'prenatal'], (1, datetime.date(28, 7, 11)): [1, 27.118234023584847, 'prenatal'], (9, datetime.date(42, 11, 19)): [1, 41.48562802079452, 'prenatal']}
-606,1,1,8,1,True,330.0,None,None,48,11,83,31,77,606,None,[],Leo,{(7, datetime.date(45, 7, 21)): [1, 44, 'prenatal']}
-607,0,1,3,31,True,1110.0,None,None,79,37,30,18,99,607,None,[],Aries,{(0, datetime.date(36, 5, 18)): [1, 35.15710886129789, 'prenatal'], (6, datetime.date(39, 2, 24)): [1, 37.93018163219903, 'prenatal'], (7, datetime.date(57, 3, 17)): [1, 56, 'prenatal']}
-608,1,1,9,2,True,1380.0,None,None,79,46,22,47,90,608,None,[],Virgo,{(6, datetime.date(23, 5, 5)): [1, 21.686745953188954, 'prenatal'], (8, datetime.date(36, 8, 24)): [1, 35, 'prenatal']}
-609,1,1,10,5,True,2430.0,None,None,30,81,69,83,22,609,None,[],Virgo,{(2, datetime.date(26, 11, 18)): [1, 25.138365161092363, 'prenatal'], (8, datetime.date(40, 9, 25)): [1, 39, 'prenatal'], (6, datetime.date(46, 3, 13)): [1, 44.46626438377602, 'prenatal']}
-610,1,1,7,16,True,2220.0,None,None,84,74,14,15,23,610,None,[],Leo,{(2, datetime.date(18, 12, 7)): [1, 17.405533453988976, 'prenatal'], (8, datetime.date(121, 6, 17)): [1, 120, 'prenatal']}
-611,1,1,1,1,True,720.0,None,None,68,24,58,42,40,611,None,[],Capricornus,{(8, datetime.date(17, 12, 28)): [1, 17, 'prenatal'], (0, datetime.date(24, 1, 24)): [1, 23.0792632496973, 'prenatal']}
-612,1,1,5,19,True,1800.0,None,None,8,60,82,41,48,612,None,[],Taurus,{(8, datetime.date(139, 4, 16)): [1, 138, 'prenatal']}
-613,1,1,10,24,True,2490.0,None,None,50,83,75,93,33,613,None,[],Libra,{(2, datetime.date(30, 3, 18)): [1, 28.41914104423644, 'prenatal'], (9, datetime.date(51, 1, 18)): [1, 49.27028616477727, 'prenatal']}
-614,0,1,8,6,True,60.0,None,None,61,2,16,25,96,614,None,[],Leo,{(1, datetime.date(47, 4, 13)): [1, 45.71542832448454, 'prenatal'], (8, datetime.date(80, 7, 17)): [1, 79, 'prenatal']}
-615,1,1,9,28,True,1650.0,None,None,91,55,96,40,27,615,None,[],Virgo,{(7, datetime.date(5, 9, 27)): [1, 4, 'prenatal'], (6, datetime.date(8, 5, 10)): [1, 6.62059794502699, 'prenatal']}
-616,1,1,10,1,True,1770.0,None,None,9,59,80,98,9,616,None,[],Virgo,{(2, datetime.date(27, 8, 3)): [1, 25.85569109517529, 'prenatal']}
-617,1,1,2,27,True,2130.0,None,None,79,71,31,16,66,617,None,[],Pisces,{}
-618,0,1,9,17,True,420.0,None,None,80,14,7,46,37,618,None,[],Virgo,{(6, datetime.date(71, 11, 11)): [1, 70.19750365360724, 'prenatal'], (9, datetime.date(74, 12, 22)): [1, 73.31448529446106, 'prenatal']}
-619,1,1,10,9,True,1080.0,None,None,8,36,2,29,72,619,None,[],Libra,{(1, datetime.date(27, 3, 25)): [1, 25.47447156820757, 'prenatal'], (0, datetime.date(39, 10, 11)): [1, 38.03145006034376, 'prenatal'], (6, datetime.date(48, 6, 19)): [1, 46.727908586797255, 'prenatal']}
-620,0,1,8,6,True,1200.0,None,None,2,40,64,2,49,620,None,[],Leo,{(6, datetime.date(44, 8, 27)): [1, 43.08814016584763, 'prenatal']}
-621,0,1,1,14,True,1980.0,None,None,95,66,50,90,42,621,None,[],Capricornus,{(8, datetime.date(22, 1, 9)): [1, 21, 'prenatal']}
-622,0,1,5,2,True,1110.0,None,None,99,37,46,15,93,622,None,[],Taurus,{(1, datetime.date(33, 5, 24)): [1, 32.08243158948162, 'prenatal'], (9, datetime.date(70, 10, 30)): [1, 69.54369289832323, 'prenatal']}
-623,0,1,3,29,True,1320.0,None,None,77,44,27,43,99,623,None,[],Aries,{}
-624,0,1,2,6,True,1230.0,None,None,25,41,96,14,3,624,None,[],Aquarius,{(1, datetime.date(29, 2, 10)): [1, 28.03089861723294, 'prenatal'], (9, datetime.date(32, 4, 27)): [1, 31.243812090622473, 'prenatal'], (0, datetime.date(32, 5, 28)): [1, 31.326689127759092, 'prenatal']}
-625,0,1,9,13,True,1080.0,None,None,10,36,55,54,47,625,None,[],Virgo,{(3, datetime.date(24, 9, 7)): [1, 23, 'prenatal']}
-626,0,1,3,8,True,60.0,None,None,84,2,37,57,19,626,None,[],Pisces,{}
-627,1,1,1,19,True,2790.0,None,None,15,93,33,94,33,627,None,[],Capricornus,{(0, datetime.date(36, 1, 9)): [1, 34.99491865966182, 'prenatal'], (7, datetime.date(55, 1, 6)): [1, 54, 'prenatal']}
-628,0,1,6,8,True,1050.0,None,None,87,35,85,89,88,628,None,[],Gemini,{(6, datetime.date(4, 1, 7)): [1, 2.5853021800113396, 'prenatal'], (9, datetime.date(24, 5, 17)): [1, 22.957524871975995, 'prenatal'], (1, datetime.date(31, 3, 9)): [1, 29.771706963669878, 'prenatal']}
-629,1,1,4,14,True,1590.0,None,None,68,53,72,1,50,629,None,[],Aries,{(0, datetime.date(19, 9, 4)): [1, 18.405143772066445, 'prenatal']}
-630,1,1,9,7,True,1500.0,None,None,52,50,37,5,86,630,None,[],Virgo,{(0, datetime.date(37, 6, 19)): [1, 35.80641272235375, 'prenatal']}
-631,0,1,4,14,True,2190.0,None,None,88,73,4,5,6,631,None,[],Aries,{}
-632,0,1,8,25,True,2340.0,None,None,86,78,91,88,16,632,None,[],Virgo,{(0, datetime.date(28, 11, 30)): [1, 27.28699303854568, 'prenatal']}
-633,0,1,6,9,True,1140.0,None,None,73,38,30,27,95,633,None,[],Gemini,{(7, datetime.date(64, 5, 24)): [1, 63, 'prenatal']}
-634,0,1,7,25,True,270.0,None,None,3,9,26,66,5,634,None,[],Leo,{(1, datetime.date(28, 11, 23)): [1, 27.351213968405457, 'prenatal']}
-635,0,1,12,23,True,2970.0,None,None,2,99,11,62,55,635,None,[],Sagittarius,{(2, datetime.date(22, 11, 13)): [1, 20.90561566996897, 'prenatal']}
-636,0,1,10,2,True,870.0,None,None,93,29,44,21,71,636,None,[],Virgo,{(1, datetime.date(20, 10, 4)): [1, 19.020766580531085, 'prenatal']}
-637,0,1,6,14,True,540.0,None,None,62,18,14,96,29,637,None,[],Gemini,{(6, datetime.date(12, 2, 25)): [1, 10.707741954681463, 'prenatal'], (8, datetime.date(68, 5, 28)): [1, 67, 'prenatal']}
-638,1,1,8,2,True,2970.0,None,None,56,99,50,33,4,638,None,[],Leo,{}
-639,0,1,2,4,True,1500.0,None,None,95,50,72,56,18,639,None,[],Aquarius,{(9, datetime.date(22, 3, 17)): [1, 21.128122834449798, 'prenatal'], (0, datetime.date(26, 6, 27)): [1, 25.41065919375953, 'prenatal']}
-640,1,1,4,9,True,1890.0,None,None,17,63,31,84,94,640,None,[],Aries,{(7, datetime.date(18, 4, 5)): [1, 17, 'prenatal'], (8, datetime.date(97, 3, 16)): [1, 96, 'prenatal']}
-641,1,1,6,23,True,2670.0,None,None,22,89,55,93,26,641,None,[],Gemini,{(3, datetime.date(25, 6, 17)): [1, 24, 'prenatal'], (0, datetime.date(31, 2, 11)): [1, 29.657559888383624, 'prenatal']}
-642,0,1,10,12,True,480.0,None,None,55,16,85,69,51,642,None,[],Libra,{(8, datetime.date(26, 10, 6)): [1, 25, 'prenatal']}
-643,0,1,7,2,True,2400.0,None,None,12,80,58,83,65,643,None,[],Cancer,{(9, datetime.date(39, 7, 2)): [1, 38.024920076809444, 'prenatal']}
-644,0,1,1,31,True,960.0,None,None,28,32,79,90,64,644,None,[],Aquarius,{(3, datetime.date(23, 1, 26)): [1, 22, 'prenatal']}
-645,1,1,2,4,True,1710.0,None,None,41,57,36,94,32,645,None,[],Aquarius,{(0, datetime.date(20, 2, 12)): [1, 19.035399723950917, 'prenatal'], (8, datetime.date(132, 1, 4)): [1, 131, 'prenatal']}
-646,0,1,6,24,True,2430.0,None,None,85,81,57,82,97,646,None,[],Gemini,{(2, datetime.date(16, 3, 19)): [1, 14.746725174732891, 'prenatal']}
-647,0,1,2,11,True,60.0,None,None,6,2,48,86,90,647,None,[],Aquarius,{(7, datetime.date(61, 1, 27)): [1, 60, 'prenatal'], (8, datetime.date(91, 1, 20)): [1, 90, 'prenatal']}
-648,1,1,3,11,True,690.0,None,None,95,23,54,92,9,648,None,[],Pisces,{(6, datetime.date(51, 3, 30)): [1, 50.08610221347119, 'prenatal'], (8, datetime.date(82, 2, 19)): [1, 81, 'prenatal']}
-649,0,1,3,7,True,780.0,None,None,62,26,48,9,24,649,None,[],Pisces,{(1, datetime.date(37, 11, 13)): [1, 36.713667794943206, 'prenatal'], (9, datetime.date(44, 4, 26)): [1, 43.1691251937905, 'prenatal']}
-650,0,1,4,3,True,1530.0,None,None,47,51,84,46,99,650,None,[],Aries,{(8, datetime.date(136, 3, 1)): [1, 135, 'prenatal']}
-651,1,1,3,1,True,300.0,None,None,67,10,45,74,84,651,None,[],Pisces,{(1, datetime.date(18, 1, 23)): [1, 16.911396658324797, 'prenatal'], (9, datetime.date(35, 1, 6)): [1, 33.876682696077935, 'prenatal']}
-652,1,1,6,22,True,1110.0,None,None,85,37,54,18,98,652,None,[],Gemini,{(9, datetime.date(23, 9, 24)): [1, 22.27367299832104, 'prenatal'], (1, datetime.date(28, 12, 16)): [1, 27.504456133794747, 'prenatal']}
-653,1,1,8,16,True,2850.0,None,None,1,95,98,8,5,653,None,[],Leo,{(8, datetime.date(10, 8, 14)): [1, 9, 'prenatal']}
-654,1,1,9,17,True,930.0,None,None,21,31,68,21,80,654,None,[],Virgo,{(1, datetime.date(24, 9, 24)): [1, 23.03578886290866, 'prenatal'], (0, datetime.date(35, 3, 14)): [1, 33.51056654247251, 'prenatal'], (9, datetime.date(67, 10, 11)): [1, 66.11109349555747, 'prenatal']}
-655,1,1,2,10,True,660.0,None,None,7,22,33,45,89,655,None,[],Aquarius,{(9, datetime.date(26, 5, 14)): [1, 25.272243298396305, 'prenatal'], (8, datetime.date(29, 2, 3)): [1, 28, 'prenatal']}
-656,0,1,12,2,True,1680.0,None,None,70,56,57,78,87,656,None,[],Sagittarius,{(2, datetime.date(19, 11, 9)): [1, 17.94943369911868, 'prenatal'], (0, datetime.date(29, 2, 5)): [1, 27.19929653400048, 'prenatal']}
-657,0,1,10,29,True,1410.0,None,None,73,47,29,63,8,657,None,[],Scorpius,{(0, datetime.date(30, 7, 18)): [1, 28.737553079580305, 'prenatal'], (8, datetime.date(100, 10, 5)): [1, 99, 'prenatal']}
-658,0,1,3,9,True,2640.0,None,None,17,88,49,43,93,658,None,[],Pisces,{(6, datetime.date(7, 2, 10)): [1, 5.929859037610385, 'prenatal'], (9, datetime.date(40, 10, 22)): [1, 39.65009625300171, 'prenatal']}
-659,1,1,3,15,True,750.0,None,None,9,25,88,32,3,659,None,[],Pisces,{}
-660,1,1,7,30,True,1950.0,None,None,80,65,52,9,40,660,None,[],Leo,{(1, datetime.date(41, 6, 24)): [1, 39.93077825733586, 'prenatal'], (9, datetime.date(54, 12, 12)): [1, 53.40733396068195, 'prenatal']}
-661,0,1,3,24,True,660.0,None,None,65,22,38,88,32,661,None,[],Aries,{(7, datetime.date(24, 3, 18)): [1, 23, 'prenatal']}
-662,0,1,4,4,True,2100.0,None,None,1,70,1,9,68,662,None,[],Aries,{(0, datetime.date(24, 6, 13)): [1, 23.21033770421931, 'prenatal'], (9, datetime.date(46, 4, 19)): [1, 45.07123489231595, 'prenatal'], (7, datetime.date(67, 3, 19)): [1, 66, 'prenatal']}
-663,1,1,6,27,True,660.0,None,None,39,22,17,7,17,663,None,[],Cancer,{(2, datetime.date(16, 4, 5)): [1, 14.784182737489608, 'prenatal']}
-664,0,1,8,9,True,2700.0,None,None,60,90,22,92,51,664,None,[],Leo,{(1, datetime.date(18, 7, 26)): [1, 16.973152539721884, 'prenatal'], (9, datetime.date(61, 12, 21)): [1, 60.409595901784314, 'prenatal']}
-665,0,1,8,16,True,1680.0,None,None,87,56,89,16,1,665,None,[],Leo,{(0, datetime.date(26, 10, 12)): [1, 25.174892111381567, 'prenatal']}
-666,0,1,8,1,True,1950.0,None,None,48,65,82,22,43,666,None,[],Leo,{(2, datetime.date(16, 9, 14)): [1, 15.132921384908103, 'prenatal'], (6, datetime.date(43, 7, 26)): [1, 42.01266208802325, 'prenatal'], (8, datetime.date(86, 7, 11)): [1, 85, 'prenatal']}
-667,0,1,8,21,True,2940.0,None,None,13,98,14,4,60,667,None,[],Leo,{(2, datetime.date(24, 6, 13)): [1, 22.828880600731846, 'prenatal'], (9, datetime.date(40, 9, 8)): [1, 39.07903872554774, 'prenatal']}
-668,1,1,1,4,True,930.0,None,None,77,31,74,57,3,668,None,[],Capricornus,{}
-669,1,1,10,7,True,510.0,None,None,96,17,59,18,7,669,None,[],Libra,{}
-670,1,1,3,1,True,1530.0,None,None,66,51,41,19,6,670,None,[],Pisces,{(6, datetime.date(10, 10, 25)): [1, 9.657576288673656, 'prenatal']}
-671,1,1,11,24,True,2220.0,None,None,20,74,87,95,57,671,None,[],Sagittarius,{(1, datetime.date(25, 1, 24)): [1, 23.18562508835442, 'prenatal'], (2, datetime.date(27, 6, 13)): [1, 25.569260990170605, 'prenatal']}
-672,0,1,7,29,True,750.0,None,None,87,25,11,68,34,672,None,[],Leo,{}
-673,0,1,2,25,True,1110.0,None,None,95,37,4,66,42,673,None,[],Pisces,{}
-674,0,1,3,9,True,2370.0,None,None,46,79,13,71,94,674,None,[],Pisces,{(6, datetime.date(17, 6, 26)): [1, 16.310884864477206, 'prenatal']}
-675,1,1,10,25,True,2190.0,None,None,66,73,28,22,17,675,None,[],Libra,{(2, datetime.date(23, 2, 11)): [1, 21.31402717372812, 'prenatal'], (0, datetime.date(25, 1, 19)): [1, 23.253176898706016, 'prenatal'], (9, datetime.date(45, 6, 15)): [1, 43.66951341146685, 'prenatal']}
-676,1,1,7,22,True,1650.0,None,None,25,55,24,64,69,676,None,[],Leo,{}
-677,0,1,3,6,True,2010.0,None,None,91,67,83,41,33,677,None,[],Pisces,{(2, datetime.date(16, 8, 8)): [1, 15.437098892707313, 'prenatal'], (0, datetime.date(29, 8, 4)): [1, 28.433768475588778, 'prenatal']}
-678,1,1,6,22,True,1020.0,None,None,12,34,36,13,62,678,None,[],Gemini,{(1, datetime.date(28, 11, 24)): [1, 27.44554902683793, 'prenatal']}
-679,0,1,7,25,True,810.0,None,None,34,27,100,87,76,679,None,[],Leo,{(1, datetime.date(24, 5, 20)): [1, 22.835698056464647, 'prenatal']}
-680,1,1,6,1,True,1650.0,None,None,90,55,60,80,34,680,None,[],Gemini,{(9, datetime.date(49, 6, 2)): [1, 48.03651324342485, 'prenatal']}
-681,1,1,3,18,True,2670.0,None,None,41,89,96,75,51,681,None,[],Pisces,{(0, datetime.date(33, 9, 28)): [1, 32.553950152184576, 'prenatal']}
-682,1,1,11,11,True,330.0,None,None,19,11,11,67,94,682,None,[],Ophiuchus,{(6, datetime.date(48, 10, 5)): [1, 46.93414437118405, 'prenatal']}
-683,0,1,12,9,True,1230.0,None,None,97,41,71,55,69,683,None,[],Sagittarius,{(9, datetime.date(26, 5, 2)): [1, 24.412233410724905, 'prenatal'], (8, datetime.date(120, 11, 10)): [1, 119, 'prenatal']}
-684,1,1,4,13,True,1080.0,None,None,29,36,8,1,20,684,None,[],Aries,{(2, datetime.date(24, 2, 17)): [1, 22.86443943062177, 'prenatal'], (1, datetime.date(31, 6, 8)): [1, 30.174373559654224, 'prenatal']}
-685,1,1,6,19,True,2040.0,None,None,75,68,26,47,43,685,None,[],Gemini,{(7, datetime.date(22, 6, 14)): [1, 21, 'prenatal'], (9, datetime.date(68, 4, 19)): [1, 66.8817922676417, 'prenatal']}
-686,0,1,8,6,True,60.0,None,None,92,2,24,36,97,686,None,[],Leo,{}
-687,0,1,3,16,True,210.0,None,None,76,7,48,85,84,687,None,[],Pisces,{(1, datetime.date(18, 10, 27)): [1, 17.628927257330183, 'prenatal'], (0, datetime.date(35, 1, 9)): [1, 33.84181364299724, 'prenatal']}
-688,0,1,6,23,True,2490.0,None,None,97,83,71,11,81,688,None,[],Gemini,{(2, datetime.date(19, 12, 10)): [1, 18.478047661148278, 'prenatal'], (1, datetime.date(31, 6, 30)): [1, 30.03877223066624, 'prenatal']}
-689,1,1,3,18,True,2610.0,None,None,42,87,15,14,93,689,None,[],Pisces,{}
-690,0,1,5,8,True,2910.0,None,None,80,97,9,80,46,690,None,[],Taurus,{(9, datetime.date(25, 4, 19)): [1, 23.964725300610297, 'prenatal'], (6, datetime.date(25, 5, 22)): [1, 24.05590448141291, 'prenatal'], (7, datetime.date(51, 4, 26)): [1, 50, 'prenatal']}
-691,1,1,11,9,True,2490.0,None,None,90,83,28,25,95,691,None,[],Ophiuchus,{(1, datetime.date(35, 3, 17)): [1, 33.37310241907995, 'prenatal']}
-692,0,1,7,14,True,600.0,None,None,7,20,35,74,28,692,None,[],Cancer,{(0, datetime.date(25, 10, 10)): [1, 24.259692538186453, 'prenatal'], (8, datetime.date(89, 6, 22)): [1, 88, 'prenatal']}
-693,1,1,11,7,True,2400.0,None,None,97,80,60,54,27,693,None,[],Ophiuchus,{(1, datetime.date(26, 1, 8)): [1, 24.1882238337025, 'prenatal'], (9, datetime.date(65, 6, 5)): [1, 63.62177655548721, 'prenatal']}
-694,1,1,6,8,True,1440.0,None,None,52,48,73,66,26,694,None,[],Gemini,{(9, datetime.date(36, 6, 13)): [1, 35.04097366624863, 'prenatal']}
-695,0,1,9,11,True,2880.0,None,None,90,96,33,99,49,695,None,[],Virgo,{(0, datetime.date(40, 10, 29)): [1, 39.15991459379232, 'prenatal']}
-696,0,1,4,22,True,1650.0,None,None,42,55,94,30,32,696,None,[],Taurus,{(8, datetime.date(7, 4, 21)): [1, 6, 'prenatal'], (2, datetime.date(28, 8, 21)): [1, 27.351155470141016, 'prenatal']}
-697,1,1,9,16,True,2940.0,None,None,55,98,76,91,2,697,None,[],Virgo,{(6, datetime.date(4, 8, 8)): [1, 2.897858496060344, 'prenatal'], (8, datetime.date(14, 9, 13)): [1, 13, 'prenatal']}
-698,0,1,9,29,True,1200.0,None,None,50,40,10,83,73,698,None,[],Virgo,{(2, datetime.date(17, 7, 22)): [1, 15.823164188500673, 'prenatal'], (0, datetime.date(25, 7, 5)): [1, 23.782421522272077, 'prenatal'], (8, datetime.date(44, 9, 18)): [1, 43, 'prenatal']}
-699,1,1,7,12,True,2010.0,None,None,97,67,35,77,49,699,None,[],Cancer,{(1, datetime.date(39, 9, 21)): [1, 38.22134809214454, 'prenatal'], (6, datetime.date(51, 12, 11)): [1, 50.450649911384154, 'prenatal']}
-700,0,1,10,25,True,60.0,None,None,47,2,99,87,74,700,None,[],Libra,{(2, datetime.date(14, 8, 12)): [1, 12.807904789511564, 'prenatal'], (8, datetime.date(69, 10, 8)): [1, 68, 'prenatal']}
-701,1,1,10,27,True,2850.0,None,None,43,95,25,25,44,701,None,[],Libra,{}
-702,1,1,1,11,True,1470.0,None,None,17,49,20,42,48,702,None,[],Capricornus,{(2, datetime.date(27, 3, 27)): [1, 26.224609093399735, 'prenatal']}
-703,0,1,5,3,True,1620.0,None,None,10,54,74,89,96,703,None,[],Taurus,{(1, datetime.date(32, 3, 13)): [1, 30.884925959219004, 'prenatal'], (8, datetime.date(55, 4, 20)): [1, 54, 'prenatal']}
-704,0,1,9,19,True,240.0,None,None,27,8,45,41,57,704,None,[],Virgo,{(2, datetime.date(17, 2, 8)): [1, 15.401587037591725, 'prenatal'], (9, datetime.date(23, 7, 14)): [1, 21.831707954029504, 'prenatal']}
-705,0,1,3,17,True,960.0,None,None,19,32,43,70,7,705,None,[],Pisces,{}
-706,1,1,9,21,True,1500.0,None,None,4,50,35,55,99,706,None,[],Virgo,{(2, datetime.date(23, 5, 20)): [1, 21.67460123389699, 'prenatal'], (9, datetime.date(33, 11, 29)): [1, 32.21250379723581, 'prenatal']}
-707,0,1,12,11,True,180.0,None,None,89,6,70,28,36,707,None,[],Sagittarius,{(7, datetime.date(12, 12, 8)): [1, 11, 'prenatal'], (1, datetime.date(33, 5, 20)): [1, 31.46294133412138, 'prenatal']}
-708,0,1,4,11,True,1020.0,None,None,41,34,50,28,26,708,None,[],Aries,{}
-709,0,1,3,16,True,870.0,None,None,36,29,7,36,49,709,None,[],Pisces,{(6, datetime.date(24, 6, 24)): [1, 23.292177244941808, 'prenatal']}
-710,1,1,3,10,True,2580.0,None,None,30,86,16,46,66,710,None,[],Pisces,{(2, datetime.date(22, 4, 15)): [1, 21.112638994084662, 'prenatal']}
-711,0,1,8,30,True,570.0,None,None,48,19,37,96,21,711,None,[],Virgo,{(0, datetime.date(33, 10, 8)): [1, 32.12992124138384, 'prenatal']}
-712,0,1,3,3,True,2640.0,None,None,3,88,61,31,62,712,None,[],Pisces,{(8, datetime.date(92, 2, 9)): [1, 91, 'prenatal']}
-713,1,1,4,3,True,2100.0,None,None,95,70,99,30,1,713,None,[],Aries,{(3, datetime.date(22, 3, 29)): [1, 21, 'prenatal'], (8, datetime.date(40, 3, 24)): [1, 39, 'prenatal']}
-714,0,1,9,21,True,1230.0,None,None,49,41,98,30,95,714,None,[],Virgo,{(6, datetime.date(47, 12, 20)): [1, 46.279352432853166, 'prenatal']}
-715,1,1,1,2,True,1350.0,None,None,99,45,58,64,4,715,None,[],Capricornus,{(9, datetime.date(59, 6, 12)): [1, 58.48182701478679, 'prenatal']}
-716,0,1,7,4,True,180.0,None,None,15,6,29,19,27,716,None,[],Cancer,{(6, datetime.date(38, 7, 3)): [1, 37.0246321815209, 'prenatal']}
-717,1,1,2,12,True,1410.0,None,None,1,47,16,50,5,717,None,[],Aquarius,{(6, datetime.date(7, 6, 11)): [1, 6.331470803388207, 'prenatal']}
-718,1,1,10,22,True,960.0,None,None,22,32,8,63,8,718,None,[],Libra,{(0, datetime.date(40, 11, 12)): [1, 39.08706738255869, 'prenatal'], (8, datetime.date(103, 9, 28)): [1, 102, 'prenatal']}
-719,0,1,7,11,True,2760.0,None,None,86,92,14,69,80,719,None,[],Cancer,{}
-720,0,1,1,26,True,2850.0,None,None,22,95,97,46,87,720,None,[],Aquarius,{(2, datetime.date(24, 3, 3)): [1, 23.115564696953534, 'prenatal']}
-721,1,1,8,16,True,750.0,None,None,50,25,75,86,57,721,None,[],Leo,{(6, datetime.date(43, 6, 7)): [1, 41.83689966374497, 'prenatal']}
-722,0,1,11,13,True,510.0,None,None,46,17,85,16,19,722,None,[],Ophiuchus,{}
-723,1,1,5,4,True,750.0,None,None,70,25,7,57,42,723,None,[],Taurus,{(7, datetime.date(50, 4, 22)): [1, 49, 'prenatal']}
-724,0,1,9,12,True,2610.0,None,None,43,87,44,27,63,724,None,[],Virgo,{(8, datetime.date(28, 9, 5)): [1, 27, 'prenatal']}
-725,0,1,4,21,True,540.0,None,None,79,18,59,100,56,725,None,[],Taurus,{}
-726,0,1,1,4,True,2340.0,None,None,26,78,13,66,7,726,None,[],Capricornus,{(6, datetime.date(12, 3, 25)): [1, 11.229180096342972, 'prenatal'], (0, datetime.date(34, 11, 22)): [1, 33.90468759222897, 'prenatal']}
-727,1,1,12,8,True,1050.0,None,None,20,35,73,13,6,727,None,[],Sagittarius,{}
-728,0,1,9,10,True,2010.0,None,None,71,67,47,62,12,728,None,[],Virgo,{(2, datetime.date(13, 9, 8)): [1, 12.002741667282834, 'prenatal'], (9, datetime.date(58, 6, 20)): [1, 56.81569827967588, 'prenatal']}
-729,1,1,8,19,True,120.0,None,None,42,4,54,33,3,729,None,[],Leo,{(6, datetime.date(22, 11, 2)): [1, 21.220518891147073, 'prenatal']}
-730,0,1,2,16,True,270.0,None,None,34,9,99,92,10,730,None,[],Pisces,{}
-731,1,1,6,22,True,750.0,None,None,93,25,13,33,54,731,None,[],Gemini,{(1, datetime.date(28, 7, 14)): [1, 27.082103245722163, 'prenatal']}
-732,1,1,1,8,True,960.0,None,None,34,32,22,20,66,732,None,[],Capricornus,{(7, datetime.date(26, 1, 2)): [1, 25, 'prenatal']}
-733,1,1,9,12,True,2010.0,None,None,83,67,79,39,10,733,None,[],Virgo,{(7, datetime.date(47, 9, 1)): [1, 46, 'prenatal'], (8, datetime.date(121, 8, 14)): [1, 120, 'prenatal']}
-734,1,1,7,12,True,2040.0,None,None,48,68,51,51,28,734,None,[],Cancer,{}
-735,1,1,7,15,True,1860.0,None,None,68,62,48,65,57,735,None,[],Cancer,{}
-736,1,1,11,9,True,2910.0,None,None,64,97,23,30,54,736,None,[],Ophiuchus,{(2, datetime.date(17, 10, 30)): [1, 15.983588941024058, 'prenatal']}
-737,0,1,6,22,True,2850.0,None,None,13,95,75,100,26,737,None,[],Gemini,{}
-738,1,1,12,2,True,1740.0,None,None,65,58,66,28,74,738,None,[],Sagittarius,{}
-739,1,1,3,12,True,750.0,None,None,58,25,24,32,71,739,None,[],Pisces,{(0, datetime.date(37, 5, 13)): [1, 36.197053731124846, 'prenatal'], (6, datetime.date(39, 3, 9)): [1, 38.01674695146974, 'prenatal']}
-740,0,1,5,13,True,510.0,None,None,71,17,49,41,94,740,None,[],Taurus,{(2, datetime.date(21, 11, 27)): [1, 20.556467270553426, 'prenatal'], (8, datetime.date(110, 4, 17)): [1, 109, 'prenatal']}
-741,0,1,12,1,True,2700.0,None,None,65,90,81,42,44,741,None,[],Sagittarius,{(9, datetime.date(21, 12, 5)): [1, 20.02668332439044, 'prenatal'], (0, datetime.date(36, 8, 19)): [1, 34.74087703676902, 'prenatal']}
-742,0,1,7,10,True,930.0,None,None,19,31,62,44,9,742,None,[],Cancer,{}
-743,1,1,9,10,True,270.0,None,None,41,9,41,51,97,743,None,[],Virgo,{(1, datetime.date(25, 11, 3)): [1, 24.166043848536294, 'prenatal'], (7, datetime.date(39, 9, 1)): [1, 38, 'prenatal'], (8, datetime.date(138, 8, 8)): [1, 137, 'prenatal']}
-744,0,1,5,20,True,600.0,None,None,9,20,45,49,52,744,None,[],Taurus,{(8, datetime.date(56, 5, 6)): [1, 55, 'prenatal']}
-745,0,1,4,13,True,2760.0,None,None,50,92,26,37,53,745,None,[],Aries,{(1, datetime.date(36, 10, 5)): [1, 35.5042755042567, 'prenatal'], (8, datetime.date(96, 3, 20)): [1, 95, 'prenatal']}
-746,1,1,9,28,True,900.0,None,None,84,30,44,58,22,746,None,[],Virgo,{(6, datetime.date(52, 10, 11)): [1, 51.073377007316026, 'prenatal']}
-747,0,1,1,7,True,540.0,None,None,25,18,91,71,25,747,None,[],Capricornus,{(3, datetime.date(28, 1, 1)): [1, 27, 'prenatal']}
-748,1,1,8,9,True,570.0,None,None,28,19,49,45,21,748,None,[],Leo,{}
-749,1,1,2,9,True,1230.0,None,None,60,41,92,85,97,749,None,[],Aquarius,{(1, datetime.date(18, 10, 25)): [1, 17.71924142724412, 'prenatal'], (0, datetime.date(38, 3, 24)): [1, 37.143329698150886, 'prenatal'], (8, datetime.date(98, 1, 16)): [1, 97, 'prenatal']}
-750,0,1,9,14,True,690.0,None,None,37,23,22,59,25,750,None,[],Virgo,{(6, datetime.date(26, 11, 4)): [1, 25.15642503212588, 'prenatal']}
-751,1,1,1,13,True,60.0,None,None,23,2,93,83,41,751,None,[],Capricornus,{(6, datetime.date(34, 1, 24)): [1, 33.05415372415137, 'prenatal'], (7, datetime.date(47, 1, 2)): [1, 46, 'prenatal']}
-752,0,1,9,15,True,300.0,None,None,34,10,36,96,13,752,None,[],Virgo,{(2, datetime.date(14, 1, 9)): [1, 12.32663821612317, 'prenatal'], (1, datetime.date(36, 5, 12)): [1, 34.68060740738216, 'prenatal']}
-753,0,1,5,23,True,2880.0,None,None,61,96,12,9,10,753,None,[],Taurus,{(0, datetime.date(28, 3, 3)): [1, 26.799258401761783, 'prenatal'], (8, datetime.date(45, 5, 12)): [1, 44, 'prenatal']}
-754,1,1,12,23,True,60.0,None,None,32,2,26,90,80,754,None,[],Sagittarius,{}
-755,0,1,5,18,True,90.0,None,None,55,3,11,98,95,755,None,[],Taurus,{(6, datetime.date(25, 3, 5)): [1, 23.81558601234535, 'prenatal']}
-756,1,1,3,18,True,690.0,None,None,46,23,25,63,99,756,None,[],Pisces,{(2, datetime.date(21, 11, 19)): [1, 20.68929925633656, 'prenatal'], (9, datetime.date(29, 7, 6)): [1, 28.321127759581934, 'prenatal']}
-757,0,1,4,3,True,360.0,None,None,95,12,2,92,6,757,None,[],Aries,{(1, datetime.date(27, 11, 6)): [1, 26.61189056398511, 'prenatal']}
-758,1,1,1,21,True,2220.0,None,None,40,74,84,79,87,758,None,[],Aquarius,{(3, datetime.date(24, 1, 16)): [1, 23, 'prenatal'], (0, datetime.date(36, 11, 13)): [1, 35.837892091909595, 'prenatal']}
-759,1,1,5,26,True,1050.0,None,None,21,35,24,33,66,759,None,[],Taurus,{}
-760,1,1,10,22,True,2580.0,None,None,18,86,40,57,41,760,None,[],Libra,{(1, datetime.date(43, 3, 8)): [1, 41.403965433920156, 'prenatal'], (6, datetime.date(49, 10, 27)): [1, 48.04899358092223, 'prenatal']}
-761,1,1,6,22,True,1260.0,None,None,52,42,46,34,22,761,None,[],Gemini,{(1, datetime.date(36, 1, 18)): [1, 34.59777011051319, 'prenatal']}
-762,1,1,5,25,True,900.0,None,None,73,30,1,57,74,762,None,[],Taurus,{(1, datetime.date(19, 12, 31)): [1, 18.61583939957513, 'prenatal'], (3, datetime.date(29, 5, 18)): [1, 28, 'prenatal']}
-763,1,1,5,7,True,510.0,None,None,84,17,66,23,10,763,None,[],Taurus,{(1, datetime.date(31, 2, 12)): [1, 29.78986520598335, 'prenatal']}
-764,0,1,9,23,True,510.0,None,None,97,17,3,63,71,764,None,[],Virgo,{(8, datetime.date(81, 9, 3)): [1, 80, 'prenatal']}
-765,1,1,12,8,True,2280.0,None,None,30,76,53,91,22,765,None,[],Sagittarius,{(2, datetime.date(16, 6, 10)): [1, 14.516110637972325, 'prenatal'], (9, datetime.date(45, 7, 26)): [1, 43.66082953136555, 'prenatal']}
-766,0,1,2,1,True,1770.0,None,None,3,59,81,84,67,766,None,[],Aquarius,{(2, datetime.date(27, 12, 8)): [1, 26.8660005087847, 'prenatal']}
-767,0,1,11,16,True,630.0,None,None,37,21,43,32,49,767,None,[],Ophiuchus,{(9, datetime.date(20, 5, 8)): [1, 18.48920593149352, 'prenatal'], (6, datetime.date(25, 8, 31)): [1, 23.807653345851826, 'prenatal']}
-768,0,1,1,6,True,1020.0,None,None,95,34,53,12,14,768,None,[],Capricornus,{(6, datetime.date(20, 7, 30)): [1, 19.578039872974493, 'prenatal'], (2, datetime.date(25, 3, 16)): [1, 24.208123672733883, 'prenatal'], (8, datetime.date(37, 12, 28)): [1, 37, 'prenatal']}
-769,1,1,3,3,True,1800.0,None,None,79,60,65,60,93,769,None,[],Pisces,{(1, datetime.date(24, 3, 16)): [1, 23.053591698057094, 'prenatal'], (8, datetime.date(96, 2, 8)): [1, 95, 'prenatal']}
-770,0,1,2,11,True,1260.0,None,None,1,42,95,48,61,770,None,[],Aquarius,{(2, datetime.date(20, 7, 16)): [1, 19.440330998784113, 'prenatal']}
-771,1,1,11,3,True,1260.0,None,None,1,42,66,4,30,771,None,[],Scorpius,{(0, datetime.date(26, 12, 17)): [1, 25.1383672399196, 'prenatal']}
-772,1,1,7,19,True,1830.0,None,None,35,61,11,96,63,772,None,[],Leo,{(1, datetime.date(33, 11, 1)): [1, 32.31166147931753, 'prenatal'], (6, datetime.date(53, 5, 31)): [1, 51.904064984320534, 'prenatal']}
-773,1,1,7,11,True,930.0,None,None,82,31,59,38,68,773,None,[],Cancer,{(1, datetime.date(20, 10, 21)): [1, 19.293881927415633, 'prenatal']}
-774,1,1,7,8,True,330.0,None,None,39,11,91,43,80,774,None,[],Cancer,{(9, datetime.date(42, 3, 2)): [1, 40.6771568455257, 'prenatal']}
-775,1,1,3,8,True,1140.0,None,None,4,38,36,47,65,775,None,[],Pisces,{(8, datetime.date(23, 3, 3)): [1, 22, 'prenatal'], (7, datetime.date(75, 2, 18)): [1, 74, 'prenatal']}
-776,1,1,10,1,True,1560.0,None,None,14,52,84,96,6,776,None,[],Virgo,{(9, datetime.date(14, 8, 4)): [1, 12.849370891400895, 'prenatal'], (7, datetime.date(23, 9, 26)): [1, 22, 'prenatal']}
-777,0,1,9,11,True,630.0,None,None,10,21,30,47,53,777,None,[],Virgo,{(6, datetime.date(29, 6, 5)): [1, 27.752067732617945, 'prenatal'], (9, datetime.date(57, 5, 11)): [1, 55.70314670189245, 'prenatal']}
-778,1,1,12,16,True,1560.0,None,None,61,52,81,48,89,778,None,[],Sagittarius,{(2, datetime.date(20, 4, 16)): [1, 18.34528847453634, 'prenatal']}
-779,1,1,12,1,True,120.0,None,None,98,4,47,16,26,779,None,[],Sagittarius,{(2, datetime.date(16, 3, 22)): [1, 14.315855853265653, 'prenatal'], (8, datetime.date(102, 11, 7)): [1, 101, 'prenatal']}
-780,0,1,9,29,True,1230.0,None,None,75,41,91,45,57,780,None,[],Virgo,{(2, datetime.date(18, 5, 16)): [1, 16.640458259287787, 'prenatal'], (9, datetime.date(32, 11, 3)): [1, 31.11934081944497, 'prenatal']}
-781,0,1,8,7,True,2850.0,None,None,67,95,97,32,98,781,None,[],Leo,{(2, datetime.date(16, 4, 21)): [1, 14.715092922131197, 'prenatal'], (7, datetime.date(22, 8, 2)): [1, 21, 'prenatal']}
-782,1,1,4,15,True,1110.0,None,None,94,37,2,17,5,782,None,[],Aries,{(6, datetime.date(6, 11, 21)): [1, 5.606056073600129, 'prenatal'], (1, datetime.date(21, 2, 11)): [1, 19.84330731822896, 'prenatal']}
-783,1,1,10,12,True,1830.0,None,None,43,61,61,79,13,783,None,[],Libra,{(2, datetime.date(11, 10, 3)): [1, 9.981894217362628, 'prenatal']}
-784,1,1,9,16,True,1350.0,None,None,99,45,59,90,53,784,None,[],Virgo,{}
-785,1,1,4,26,True,540.0,None,None,100,18,33,81,98,785,None,[],Taurus,{(1, datetime.date(36, 7, 19)): [1, 35.25511925966127, 'prenatal']}
-786,1,1,6,7,True,60.0,None,None,45,2,74,80,40,786,None,[],Gemini,{(8, datetime.date(88, 5, 16)): [1, 87, 'prenatal']}
-787,1,1,1,1,True,120.0,None,None,34,4,3,83,75,787,None,[],Capricornus,{(0, datetime.date(33, 6, 30)): [1, 32.51530651887756, 'prenatal']}
-788,0,1,7,7,True,870.0,None,None,22,29,45,14,81,788,None,[],Cancer,{(9, datetime.date(52, 2, 3)): [1, 50.612215098633165, 'prenatal']}
-789,0,1,4,4,True,600.0,None,None,65,20,34,79,90,789,None,[],Aries,{(9, datetime.date(35, 10, 31)): [1, 34.5990740508609, 'prenatal'], (6, datetime.date(64, 9, 23)): [1, 63.517561255125216, 'prenatal']}
-790,0,1,1,9,True,1530.0,None,None,85,51,23,79,51,790,None,[],Capricornus,{(6, datetime.date(36, 2, 13)): [1, 35.119340694052624, 'prenatal']}
-791,1,1,11,16,True,960.0,None,None,19,32,30,67,30,791,None,[],Ophiuchus,{(3, datetime.date(24, 11, 10)): [1, 23, 'prenatal'], (6, datetime.date(38, 4, 29)): [1, 36.47567606583488, 'prenatal']}
-792,1,1,9,2,True,2070.0,None,None,33,69,88,55,48,792,None,[],Virgo,{(1, datetime.date(28, 6, 18)): [1, 26.813383191938737, 'prenatal'], (6, datetime.date(68, 5, 25)): [1, 66.7727237638825, 'prenatal']}
-793,1,1,1,19,True,990.0,None,None,15,33,60,33,91,793,None,[],Capricornus,{(2, datetime.date(16, 11, 29)): [1, 15.8723822946138, 'prenatal'], (7, datetime.date(74, 1, 1)): [1, 73, 'prenatal']}
-794,0,1,4,24,True,750.0,None,None,53,25,78,92,46,794,None,[],Taurus,{(2, datetime.date(30, 5, 31)): [1, 29.120960613170876, 'prenatal'], (8, datetime.date(127, 3, 25)): [1, 126, 'prenatal']}
-795,0,1,1,8,True,390.0,None,None,87,13,74,55,70,795,None,[],Capricornus,{}
-796,0,1,12,12,True,2370.0,None,None,56,79,70,38,69,796,None,[],Sagittarius,{(9, datetime.date(41, 2, 23)): [1, 39.22908201055515, 'prenatal']}
-797,1,1,9,1,True,390.0,None,None,32,13,13,36,54,797,None,[],Virgo,{(0, datetime.date(20, 7, 23)): [1, 18.90594681406266, 'prenatal']}
-798,1,1,8,17,True,390.0,None,None,45,13,19,75,42,798,None,[],Leo,{(6, datetime.date(38, 1, 2)): [1, 36.40295990533465, 'prenatal']}
-799,0,1,12,23,True,930.0,None,None,98,31,67,44,36,799,None,[],Sagittarius,{(7, datetime.date(49, 12, 11)): [1, 48, 'prenatal']}
-800,1,1,9,20,True,600.0,None,None,43,20,15,13,1,800,None,[],Virgo,{(2, datetime.date(17, 11, 24)): [1, 16.190454752720903, 'prenatal']}
-801,1,1,9,6,True,660.0,None,None,72,22,77,30,49,801,None,[],Virgo,{(1, datetime.date(27, 2, 28)): [1, 25.49780426035667, 'prenatal']}
-802,1,1,6,18,True,1830.0,None,None,54,61,20,23,62,802,None,[],Gemini,{(0, datetime.date(34, 8, 27)): [1, 33.21558238037545, 'prenatal'], (6, datetime.date(54, 1, 8)): [1, 52.595949986346724, 'prenatal']}
-803,1,1,5,1,True,150.0,None,None,79,5,63,94,78,803,None,[],Taurus,{(6, datetime.date(9, 12, 23)): [1, 8.652293473111726, 'prenatal']}
-804,1,1,9,7,True,1260.0,None,None,24,42,67,43,87,804,None,[],Virgo,{(2, datetime.date(15, 6, 11)): [1, 13.767864052696229, 'prenatal'], (1, datetime.date(18, 4, 5)): [1, 16.587192093187358, 'prenatal'], (0, datetime.date(37, 6, 6)): [1, 35.772008916035794, 'prenatal']}
-805,0,1,8,13,True,270.0,None,None,74,9,44,91,7,805,None,[],Leo,{(6, datetime.date(11, 6, 2)): [1, 9.810896685531247, 'prenatal'], (2, datetime.date(28, 2, 22)): [1, 26.54539406866779, 'prenatal']}
-806,0,1,12,9,True,690.0,None,None,66,23,23,54,72,806,None,[],Sagittarius,{}
-807,1,1,10,18,True,2550.0,None,None,22,85,80,84,54,807,None,[],Libra,{(2, datetime.date(17, 12, 12)): [1, 16.16242944197009, 'prenatal'], (8, datetime.date(57, 10, 4)): [1, 56, 'prenatal']}
-808,1,1,11,12,True,330.0,None,None,38,11,66,58,81,808,None,[],Ophiuchus,{}
-809,1,1,2,5,True,1860.0,None,None,11,62,19,67,35,809,None,[],Aquarius,{(9, datetime.date(26, 6, 17)): [1, 25.380227596157646, 'prenatal']}
-810,0,1,8,30,True,2250.0,None,None,19,75,34,68,32,810,None,[],Virgo,{(1, datetime.date(46, 9, 10)): [1, 45.06199512514377, 'prenatal']}
-811,0,1,5,3,True,2490.0,None,None,83,83,10,46,29,811,None,[],Taurus,{(0, datetime.date(26, 8, 28)): [1, 25.337721161648904, 'prenatal']}
-812,1,1,7,14,True,690.0,None,None,84,23,70,98,36,812,None,[],Cancer,{(0, datetime.date(29, 10, 8)): [1, 28.25574215512233, 'prenatal'], (6, datetime.date(81, 12, 29)): [1, 80.51756204065785, 'prenatal']}
-813,1,1,11,9,True,2490.0,None,None,61,83,93,19,96,813,None,[],Ophiuchus,{(0, datetime.date(35, 10, 25)): [1, 33.98122131489701, 'prenatal']}
-814,0,1,7,30,True,1620.0,None,None,12,54,44,72,29,814,None,[],Leo,{}
-815,0,1,2,25,True,1290.0,None,None,28,43,96,89,99,815,None,[],Pisces,{(1, datetime.date(31, 4, 5)): [1, 30.12675479519366, 'prenatal']}
-816,0,1,2,5,True,1770.0,None,None,33,59,22,10,43,816,None,[],Aquarius,{(2, datetime.date(14, 9, 10)): [1, 13.605468586436125, 'prenatal']}
-817,0,1,11,9,True,2670.0,None,None,22,89,48,25,78,817,None,[],Ophiuchus,{}
-818,1,1,12,24,True,2580.0,None,None,89,86,6,37,80,818,None,[],Sagittarius,{(0, datetime.date(25, 9, 11)): [1, 23.73421749910111, 'prenatal']}
-819,1,1,4,26,True,180.0,None,None,64,6,88,37,89,819,None,[],Taurus,{(9, datetime.date(48, 5, 27)): [1, 47.11793713639621, 'prenatal']}
-820,0,1,1,5,True,2460.0,None,None,28,82,100,7,20,820,None,[],Capricornus,{(7, datetime.date(5, 1, 4)): [1, 4, 'prenatal'], (0, datetime.date(37, 3, 14)): [1, 36.21258464055575, 'prenatal']}
-821,1,1,7,13,True,1890.0,None,None,73,63,100,55,2,821,None,[],Cancer,{}
-822,1,1,1,30,True,2910.0,None,None,20,97,46,39,98,822,None,[],Aquarius,{(1, datetime.date(37, 4, 19)): [1, 36.24178564005258, 'prenatal']}
-823,1,1,12,11,True,1860.0,None,None,43,62,25,52,69,823,None,[],Sagittarius,{}
-824,1,1,11,8,True,1530.0,None,None,65,51,40,13,94,824,None,[],Ophiuchus,{(1, datetime.date(42, 11, 17)): [1, 41.054542353453456, 'prenatal']}
-825,0,1,8,3,True,630.0,None,None,19,21,45,66,3,825,None,[],Leo,{(6, datetime.date(38, 10, 3)): [1, 37.19314166774956, 'prenatal']}
-826,1,1,4,23,True,1530.0,None,None,49,51,11,44,22,826,None,[],Taurus,{}
-827,0,1,5,3,True,1260.0,None,None,48,42,8,69,80,827,None,[],Taurus,{(2, datetime.date(25, 11, 3)): [1, 24.520909514754635, 'prenatal']}
-828,0,1,1,3,True,300.0,None,None,83,10,68,88,35,828,None,[],Capricornus,{(8, datetime.date(42, 12, 24)): [1, 42, 'prenatal'], (1, datetime.date(46, 2, 9)): [1, 45.13224020388992, 'prenatal']}
-829,1,1,7,16,True,1230.0,None,None,88,41,94,12,96,829,None,[],Leo,{(2, datetime.date(25, 9, 20)): [1, 24.198036226004188, 'prenatal'], (6, datetime.date(31, 12, 9)): [1, 30.421013132328255, 'prenatal']}
-830,1,1,5,17,True,1110.0,None,None,89,37,82,65,70,830,None,[],Taurus,{}
-831,1,1,6,28,True,2700.0,None,None,70,90,1,55,1,831,None,[],Cancer,{(1, datetime.date(20, 11, 4)): [1, 19.36859410318657, 'prenatal'], (7, datetime.date(38, 6, 19)): [1, 37, 'prenatal']}
-832,0,1,8,4,True,690.0,None,None,14,23,22,30,94,832,None,[],Leo,{}
-833,0,1,8,25,True,720.0,None,None,43,24,4,87,1,833,None,[],Virgo,{(2, datetime.date(21, 12, 18)): [1, 20.33093368766217, 'prenatal']}
-834,1,1,11,27,True,930.0,None,None,86,31,17,9,78,834,None,[],Sagittarius,{}
-835,0,1,11,10,True,660.0,None,None,8,22,17,60,37,835,None,[],Ophiuchus,{(1, datetime.date(25, 4, 13)): [1, 23.43962259803304, 'prenatal']}
-836,1,1,1,18,True,2940.0,None,None,99,98,3,77,10,836,None,[],Capricornus,{(9, datetime.date(55, 7, 16)): [1, 54.526246967948694, 'prenatal']}
-837,0,1,7,7,True,1680.0,None,None,88,56,98,96,65,837,None,[],Cancer,{(8, datetime.date(57, 6, 23)): [1, 56, 'prenatal']}
-838,1,1,2,28,True,960.0,None,None,30,32,41,12,84,838,None,[],Pisces,{(0, datetime.date(33, 5, 19)): [1, 32.24218574282771, 'prenatal'], (8, datetime.date(129, 1, 28)): [1, 128, 'prenatal']}
-839,1,1,3,24,True,540.0,None,None,9,18,61,79,100,839,None,[],Aries,{(6, datetime.date(38, 5, 25)): [1, 37.19474551418, 'prenatal']}
-840,1,1,3,23,True,1830.0,None,None,97,61,81,67,37,840,None,[],Pisces,{(2, datetime.date(23, 1, 16)): [1, 21.8337101607514, 'prenatal'], (9, datetime.date(81, 1, 23)): [1, 79.89343169743589, 'prenatal']}
-841,0,1,4,18,True,330.0,None,None,58,11,30,16,74,841,None,[],Aries,{(6, datetime.date(26, 6, 5)): [1, 25.149412670067115, 'prenatal'], (8, datetime.date(122, 3, 20)): [1, 121, 'prenatal']}
-842,0,1,4,21,True,2850.0,None,None,57,95,83,96,39,842,None,[],Taurus,{}
-843,0,1,12,20,True,1260.0,None,None,49,42,51,77,90,843,None,[],Sagittarius,{(7, datetime.date(7, 12, 19)): [1, 6, 'prenatal'], (1, datetime.date(38, 11, 24)): [1, 36.954875194720536, 'prenatal'], (6, datetime.date(62, 5, 5)): [1, 60.41393817063981, 'prenatal']}
-844,0,1,8,3,True,2730.0,None,None,72,91,22,36,57,844,None,[],Leo,{(1, datetime.date(25, 10, 6)): [1, 24.193640357962188, 'prenatal'], (6, datetime.date(30, 2, 16)): [1, 28.559931701191907, 'prenatal']}
-845,0,1,7,12,True,2190.0,None,None,25,73,89,50,20,845,None,[],Cancer,{(2, datetime.date(17, 12, 24)): [1, 16.463477869808543, 'prenatal']}
-846,0,1,9,5,True,810.0,None,None,65,27,87,55,85,846,None,[],Virgo,{(7, datetime.date(2, 9, 5)): [1, 1, 'prenatal']}
-847,1,1,3,11,True,180.0,None,None,80,6,66,28,96,847,None,[],Pisces,{(1, datetime.date(23, 8, 5)): [1, 22.416697814982545, 'prenatal']}
-848,1,1,12,29,True,1830.0,None,None,68,61,27,23,92,848,None,[],Capricornus,{(2, datetime.date(17, 6, 11)): [1, 15.46236908834288, 'prenatal'], (1, datetime.date(36, 5, 31)): [1, 34.44401626115749, 'prenatal'], (9, datetime.date(80, 6, 7)): [1, 78.49381982137447, 'prenatal']}
-849,1,1,5,27,True,210.0,None,None,56,7,11,55,75,849,None,[],Gemini,{(1, datetime.date(18, 1, 10)): [1, 16.63642134917574, 'prenatal']}
-850,0,1,2,17,True,2880.0,None,None,93,96,72,48,66,850,None,[],Pisces,{(6, datetime.date(53, 2, 13)): [1, 52.025649117618805, 'prenatal'], (9, datetime.date(58, 10, 15)): [1, 57.697524959805236, 'prenatal']}
-851,1,1,5,23,True,1440.0,None,None,55,48,49,97,15,851,None,[],Taurus,{(0, datetime.date(36, 2, 8)): [1, 34.73699037594119, 'prenatal'], (6, datetime.date(44, 12, 11)): [1, 43.585775790554756, 'prenatal']}
-852,1,1,4,29,True,900.0,None,None,74,30,17,84,7,852,None,[],Taurus,{(9, datetime.date(44, 6, 19)): [1, 43.171784990737386, 'prenatal'], (8, datetime.date(64, 4, 13)): [1, 63, 'prenatal']}
-853,1,1,2,1,True,3000.0,None,None,73,100,87,83,76,853,None,[],Aquarius,{(0, datetime.date(33, 3, 13)): [1, 32.13228458992795, 'prenatal'], (8, datetime.date(45, 1, 21)): [1, 44, 'prenatal']}
-854,0,1,12,30,True,1680.0,None,None,10,56,97,88,20,854,None,[],Capricornus,{(6, datetime.date(28, 1, 5)): [1, 26.032935805911105, 'prenatal']}
-855,1,1,2,9,True,1800.0,None,None,90,60,38,80,30,855,None,[],Aquarius,{(6, datetime.date(15, 10, 14)): [1, 14.687221946044762, 'prenatal'], (2, datetime.date(16, 9, 1)): [1, 15.571509524054264, 'prenatal']}
-856,1,1,2,17,True,2250.0,None,None,43,75,16,31,57,856,None,[],Pisces,{(2, datetime.date(22, 12, 27)): [1, 21.873590372060868, 'prenatal'], (8, datetime.date(79, 1, 29)): [1, 78, 'prenatal']}
-857,0,1,9,1,True,2790.0,None,None,96,93,29,82,37,857,None,[],Virgo,{(9, datetime.date(25, 1, 3)): [1, 23.35816160524174, 'prenatal'], (2, datetime.date(25, 6, 19)): [1, 23.815577021508197, 'prenatal']}
-858,1,1,9,13,True,1980.0,None,None,90,66,11,62,93,858,None,[],Virgo,{}
-859,0,1,6,8,True,2160.0,None,None,13,72,35,86,40,859,None,[],Gemini,{(1, datetime.date(21, 12, 21)): [1, 20.551912500454982, 'prenatal'], (9, datetime.date(67, 9, 26)): [1, 66.3455848551624, 'prenatal']}
-860,0,1,1,4,True,2370.0,None,None,26,79,57,92,15,860,None,[],Capricornus,{(0, datetime.date(30, 8, 3)): [1, 29.59882860195135, 'prenatal']}
-861,0,1,5,6,True,2280.0,None,None,38,76,88,63,29,861,None,[],Taurus,{(1, datetime.date(17, 9, 13)): [1, 16.36754784819967, 'prenatal']}
-862,0,1,3,12,True,2970.0,None,None,90,99,65,36,67,862,None,[],Pisces,{(6, datetime.date(55, 11, 9)): [1, 54.69918233164343, 'prenatal']}
-863,1,1,3,23,True,240.0,None,None,13,8,97,14,77,863,None,[],Pisces,{(2, datetime.date(26, 11, 12)): [1, 25.65761980426629, 'prenatal']}
-864,0,1,1,18,True,1470.0,None,None,78,49,96,54,3,864,None,[],Capricornus,{(9, datetime.date(28, 9, 16)): [1, 27.68129493301617, 'prenatal'], (6, datetime.date(76, 2, 18)): [1, 75.13623819560542, 'prenatal']}
-865,0,1,3,27,True,810.0,None,None,80,27,14,3,23,865,None,[],Aries,{}
-866,0,1,6,26,True,210.0,None,None,22,7,84,38,54,866,None,[],Cancer,{(0, datetime.date(26, 5, 2)): [1, 24.867822638354014, 'prenatal']}
-867,1,1,9,5,True,2370.0,None,None,57,79,29,73,98,867,None,[],Virgo,{(7, datetime.date(7, 9, 4)): [1, 6, 'prenatal']}
-868,1,1,11,17,True,2010.0,None,None,40,67,76,18,56,868,None,[],Ophiuchus,{(9, datetime.date(11, 1, 20)): [1, 9.182481350403073, 'prenatal']}
-869,1,1,7,2,True,1230.0,None,None,20,41,18,93,76,869,None,[],Cancer,{(1, datetime.date(22, 4, 28)): [1, 20.83621387745235, 'prenatal']}
-870,0,1,12,28,True,540.0,None,None,47,18,14,8,35,870,None,[],Capricornus,{(8, datetime.date(6, 12, 27)): [1, 5, 'prenatal'], (2, datetime.date(22, 10, 1)): [1, 20.7742160407513, 'prenatal']}
-871,1,1,6,15,True,450.0,None,None,84,15,55,22,95,871,None,[],Gemini,{(8, datetime.date(125, 5, 16)): [1, 124, 'prenatal']}
-872,1,1,12,17,True,1500.0,None,None,1,50,73,34,13,872,None,[],Sagittarius,{}
-873,0,1,9,10,True,1920.0,None,None,95,64,99,68,96,873,None,[],Virgo,{(7, datetime.date(31, 9, 3)): [1, 30, 'prenatal']}
-874,0,1,10,5,True,1590.0,None,None,23,53,9,79,100,874,None,[],Virgo,{(9, datetime.date(79, 10, 29)): [1, 78.11933753167978, 'prenatal']}
-875,0,1,9,26,True,840.0,None,None,56,28,17,49,82,875,None,[],Virgo,{(1, datetime.date(34, 6, 16)): [1, 32.74279311446769, 'prenatal'], (0, datetime.date(35, 7, 9)): [1, 33.80747664723994, 'prenatal']}
-876,1,1,4,7,True,780.0,None,None,17,26,99,17,1,876,None,[],Aries,{}
-877,0,1,4,2,True,90.0,None,None,15,3,100,85,35,877,None,[],Aries,{(9, datetime.date(36, 5, 25)): [1, 35.17186610210489, 'prenatal']}
-878,1,1,7,9,True,2430.0,None,None,95,81,54,82,40,878,None,[],Cancer,{(2, datetime.date(23, 11, 23)): [1, 22.390041629758997, 'prenatal'], (1, datetime.date(31, 2, 8)): [1, 29.605606588725454, 'prenatal'], (9, datetime.date(39, 9, 2)): [1, 38.175633354610234, 'prenatal']}
-879,1,1,6,20,True,210.0,None,None,54,7,65,50,20,879,None,[],Gemini,{(7, datetime.date(13, 6, 17)): [1, 12, 'prenatal']}
-880,0,1,7,27,True,1170.0,None,None,74,39,12,17,6,880,None,[],Leo,{(0, datetime.date(26, 12, 30)): [1, 25.444807786644642, 'prenatal']}
-881,1,1,8,6,True,900.0,None,None,74,30,43,3,19,881,None,[],Leo,{(2, datetime.date(15, 12, 23)): [1, 14.390249810295938, 'prenatal']}
-882,1,1,5,14,True,2250.0,None,None,40,75,57,87,48,882,None,[],Taurus,{}
-883,0,1,3,2,True,90.0,None,None,54,3,70,46,51,883,None,[],Pisces,{(1, datetime.date(45, 4, 5)): [1, 44.12345052278501, 'prenatal']}
-884,1,1,3,5,True,540.0,None,None,97,18,59,33,88,884,None,[],Pisces,{(0, datetime.date(37, 10, 17)): [1, 36.645609099366645, 'prenatal']}
-885,0,1,8,9,True,2520.0,None,None,80,84,96,71,85,885,None,[],Leo,{(6, datetime.date(23, 10, 20)): [1, 22.212467353012386, 'prenatal'], (1, datetime.date(33, 8, 4)): [1, 32.0104396728087, 'prenatal']}
-886,0,1,3,5,True,210.0,None,None,89,7,4,64,100,886,None,[],Pisces,{(0, datetime.date(30, 6, 17)): [1, 29.304302160979056, 'prenatal'], (8, datetime.date(92, 2, 11)): [1, 91, 'prenatal']}
-887,0,1,11,8,True,1890.0,None,None,11,63,60,51,24,887,None,[],Ophiuchus,{(1, datetime.date(33, 10, 24)): [1, 31.98275948344766, 'prenatal'], (7, datetime.date(74, 10, 21)): [1, 73, 'prenatal']}
-888,0,1,5,27,True,2220.0,None,None,93,74,10,100,43,888,None,[],Gemini,{(0, datetime.date(24, 12, 2)): [1, 23.535178557530383, 'prenatal']}
-889,0,1,11,3,True,2760.0,None,None,89,92,81,23,70,889,None,[],Scorpius,{}
-890,1,1,10,31,True,270.0,None,None,55,9,14,40,45,890,None,[],Scorpius,{(1, datetime.date(24, 3, 23)): [1, 22.410533211213682, 'prenatal']}
-891,1,1,7,15,True,270.0,None,None,86,9,6,100,49,891,None,[],Cancer,{(2, datetime.date(21, 12, 21)): [1, 20.45110774776903, 'prenatal'], (6, datetime.date(22, 8, 14)): [1, 21.09715862642119, 'prenatal'], (0, datetime.date(23, 9, 5)): [1, 22.157275134031963, 'prenatal']}
-892,1,1,1,5,True,480.0,None,None,17,16,22,60,76,892,None,[],Capricornus,{(2, datetime.date(20, 3, 5)): [1, 19.17787436585421, 'prenatal'], (0, datetime.date(35, 6, 6)): [1, 34.43988935679731, 'prenatal']}
-893,1,1,10,25,True,990.0,None,None,25,33,85,68,36,893,None,[],Libra,{}
-894,1,1,10,9,True,2400.0,None,None,68,80,8,30,1,894,None,[],Libra,{}
-895,1,1,7,25,True,1770.0,None,None,79,59,21,97,20,895,None,[],Leo,{}
-896,1,1,10,5,True,510.0,None,None,39,17,30,15,24,896,None,[],Virgo,{(7, datetime.date(20, 9, 30)): [1, 19, 'prenatal'], (9, datetime.date(35, 7, 26)): [1, 33.82947422729257, 'prenatal']}
-897,1,1,11,23,True,990.0,None,None,98,33,19,58,19,897,None,[],Sagittarius,{(2, datetime.date(17, 10, 27)): [1, 15.939590528563045, 'prenatal']}
-898,0,1,8,27,True,2790.0,None,None,29,93,96,30,87,898,None,[],Virgo,{(0, datetime.date(28, 3, 2)): [1, 26.53337507645237, 'prenatal']}
-899,1,1,7,2,True,750.0,None,None,55,25,64,82,41,899,None,[],Cancer,{(1, datetime.date(26, 6, 6)): [1, 24.947269920981494, 'prenatal'], (9, datetime.date(41, 9, 26)): [1, 40.26378208599987, 'prenatal']}
-900,0,1,3,4,True,1350.0,None,None,90,45,3,53,6,900,None,[],Pisces,{(1, datetime.date(27, 1, 20)): [1, 25.898842915475573, 'prenatal']}
-901,0,1,12,1,True,1200.0,None,None,26,40,54,52,1,901,None,[],Sagittarius,{(0, datetime.date(28, 1, 6)): [1, 26.115833345458405, 'prenatal'], (6, datetime.date(35, 2, 14)): [1, 33.2275377901419, 'prenatal']}
-902,1,1,4,21,True,1770.0,None,None,23,59,32,9,23,902,None,[],Taurus,{}
-903,1,1,3,10,True,1590.0,None,None,59,53,70,87,11,903,None,[],Pisces,{(7, datetime.date(18, 3, 6)): [1, 17, 'prenatal'], (9, datetime.date(40, 5, 20)): [1, 39.22407553804921, 'prenatal']}
-904,0,1,6,19,True,750.0,None,None,17,25,51,73,8,904,None,[],Gemini,{(8, datetime.date(127, 5, 20)): [1, 126, 'prenatal']}
-905,0,1,5,11,True,1860.0,None,None,20,62,67,18,6,905,None,[],Taurus,{(8, datetime.date(19, 5, 7)): [1, 18, 'prenatal'], (2, datetime.date(21, 4, 15)): [1, 19.943289222577775, 'prenatal']}
-906,1,1,1,5,True,180.0,None,None,5,6,51,8,100,906,None,[],Capricornus,{(0, datetime.date(19, 7, 20)): [1, 18.548223643295486, 'prenatal']}
-907,1,1,4,14,True,1650.0,None,None,86,55,68,57,42,907,None,[],Aries,{(9, datetime.date(52, 2, 6)): [1, 50.85021845270074, 'prenatal']}
-908,1,1,8,21,True,600.0,None,None,49,20,21,52,39,908,None,[],Leo,{(6, datetime.date(42, 3, 6)): [1, 40.56951435361826, 'prenatal']}
-909,0,1,6,22,True,630.0,None,None,88,21,27,86,96,909,None,[],Gemini,{(0, datetime.date(34, 1, 18)): [1, 32.59783069129819, 'prenatal'], (8, datetime.date(48, 6, 10)): [1, 47, 'prenatal']}
-910,1,1,8,30,True,1680.0,None,None,88,56,9,44,38,910,None,[],Virgo,{(2, datetime.date(12, 10, 18)): [1, 11.143945945386685, 'prenatal']}
-911,0,1,4,16,True,180.0,None,None,100,6,31,28,64,911,None,[],Aries,{(2, datetime.date(10, 2, 10)): [1, 8.829651228104705, 'prenatal'], (0, datetime.date(25, 5, 7)): [1, 24.07457427444256, 'prenatal']}
-912,1,1,9,9,True,1650.0,None,None,69,55,51,93,91,912,None,[],Virgo,{}
-913,0,1,12,24,True,2580.0,None,None,92,86,31,2,95,913,None,[],Sagittarius,{(2, datetime.date(13, 10, 14)): [1, 11.816062994550553, 'prenatal'], (6, datetime.date(64, 7, 6)): [1, 62.57692270287762, 'prenatal']}
-914,1,1,4,7,True,2100.0,None,None,81,70,83,88,73,914,None,[],Aries,{(2, datetime.date(24, 7, 24)): [1, 23.313342442359694, 'prenatal']}
-915,1,1,2,9,True,2310.0,None,None,21,77,6,64,45,915,None,[],Aquarius,{(6, datetime.date(48, 1, 14)): [1, 46.96126640530299, 'prenatal'], (8, datetime.date(55, 1, 27)): [1, 54, 'prenatal']}
-916,1,1,6,2,True,960.0,None,None,67,32,94,53,41,916,None,[],Gemini,{(9, datetime.date(13, 6, 30)): [1, 12.086448292326502, 'prenatal']}
-917,1,1,10,11,True,300.0,None,None,11,10,8,26,15,917,None,[],Libra,{(1, datetime.date(19, 5, 29)): [1, 17.641624557228113, 'prenatal']}
-918,1,1,5,14,True,1560.0,None,None,47,52,3,35,6,918,None,[],Taurus,{}
-919,0,1,5,26,True,1530.0,None,None,19,51,5,51,42,919,None,[],Taurus,{(7, datetime.date(72, 5, 8)): [1, 71, 'prenatal']}
-920,1,1,7,11,True,1590.0,None,None,70,53,53,36,5,920,None,[],Cancer,{(1, datetime.date(19, 8, 6)): [1, 18.084651139181997, 'prenatal']}
-921,1,1,8,11,True,2250.0,None,None,49,75,11,70,23,921,None,[],Leo,{(6, datetime.date(36, 10, 14)): [1, 35.20139307312397, 'prenatal']}
-922,0,1,12,13,True,150.0,None,None,38,5,41,44,96,922,None,[],Sagittarius,{}
-923,0,1,6,9,True,2490.0,None,None,99,83,82,78,70,923,None,[],Gemini,{(1, datetime.date(20, 6, 23)): [1, 19.05290142491768, 'prenatal'], (6, datetime.date(23, 1, 16)): [1, 21.619767671560517, 'prenatal']}
-924,0,1,7,27,True,840.0,None,None,83,28,5,35,41,924,None,[],Leo,{(0, datetime.date(29, 12, 30)): [1, 28.448364742249442, 'prenatal'], (9, datetime.date(34, 7, 26)): [1, 33.02121826165221, 'prenatal']}
-925,0,1,8,5,True,690.0,None,None,84,23,97,15,53,925,None,[],Leo,{(2, datetime.date(21, 5, 24)): [1, 19.81462234489027, 'prenatal'], (3, datetime.date(21, 7, 31)): [1, 20, 'prenatal'], (8, datetime.date(46, 7, 25)): [1, 45, 'prenatal']}
-926,0,1,2,12,True,600.0,None,None,67,20,57,66,92,926,None,[],Aquarius,{(1, datetime.date(18, 11, 23)): [1, 17.79098628689627, 'prenatal']}
-927,1,1,8,29,True,2820.0,None,None,78,94,49,100,84,927,None,[],Virgo,{(3, datetime.date(24, 8, 23)): [1, 23, 'prenatal'], (1, datetime.date(29, 2, 21)): [1, 27.50404639823098, 'prenatal'], (9, datetime.date(29, 6, 10)): [1, 27.800685554062802, 'prenatal']}
-928,0,1,7,19,True,1230.0,None,None,98,41,90,8,81,928,None,[],Leo,{(1, datetime.date(20, 12, 9)): [1, 19.406021282597266, 'prenatal']}
-929,1,1,7,14,True,1200.0,None,None,93,40,99,39,95,929,None,[],Cancer,{(6, datetime.date(5, 6, 22)): [1, 3.94288791184249, 'prenatal']}
-930,1,1,2,6,True,1860.0,None,None,73,62,54,30,64,930,None,[],Aquarius,{(2, datetime.date(21, 12, 27)): [1, 20.903614069458285, 'prenatal'], (1, datetime.date(31, 12, 31)): [1, 30.91960919893847, 'prenatal']}
-931,1,1,1,4,True,2340.0,None,None,3,78,12,64,61,931,None,[],Capricornus,{(9, datetime.date(24, 11, 6)): [1, 23.854999890212703, 'prenatal'], (6, datetime.date(68, 12, 19)): [1, 68.00426304514909, 'prenatal']}
-932,1,1,10,4,True,360.0,None,None,46,12,85,25,94,932,None,[],Virgo,{(2, datetime.date(16, 11, 17)): [1, 15.132121001965196, 'prenatal']}
-933,0,1,8,3,True,1080.0,None,None,28,36,84,88,33,933,None,[],Leo,{}
-934,1,1,11,22,True,2100.0,None,None,65,70,25,95,89,934,None,[],Ophiuchus,{(2, datetime.date(21, 9, 6)): [1, 19.80447943895119, 'prenatal']}
-935,1,1,8,6,True,1620.0,None,None,3,54,46,78,10,935,None,[],Leo,{(0, datetime.date(26, 11, 8)): [1, 25.274381112104173, 'prenatal'], (2, datetime.date(26, 11, 27)): [1, 25.32716663148393, 'prenatal']}
-936,1,1,4,1,True,450.0,None,None,4,15,94,98,90,936,None,[],Aries,{}
-937,0,1,2,17,True,270.0,None,None,6,9,13,6,4,937,None,[],Pisces,{}
-938,0,1,3,29,True,150.0,None,None,47,5,48,42,13,938,None,[],Aries,{(1, datetime.date(19, 3, 11)): [1, 17.963055239688096, 'prenatal'], (2, datetime.date(19, 5, 14)): [1, 18.137233543271524, 'prenatal']}
-939,1,1,5,10,True,390.0,None,None,52,13,30,98,20,939,None,[],Taurus,{(6, datetime.date(5, 2, 2)): [1, 3.737712418305705, 'prenatal']}
-940,0,1,3,21,True,2400.0,None,None,100,80,52,72,69,940,None,[],Pisces,{(2, datetime.date(23, 11, 5)): [1, 22.641312435682117, 'prenatal'], (6, datetime.date(48, 8, 25)): [1, 47.46412505150347, 'prenatal']}
-941,0,1,1,19,True,2700.0,None,None,66,90,44,8,95,941,None,[],Capricornus,{(2, datetime.date(25, 11, 13)): [1, 24.835044290709533, 'prenatal']}
-942,0,1,11,10,True,1320.0,None,None,2,44,44,52,16,942,None,[],Ophiuchus,{(0, datetime.date(35, 4, 12)): [1, 33.442135633088476, 'prenatal'], (9, datetime.date(36, 11, 19)): [1, 35.050365874879034, 'prenatal']}
-943,0,1,8,11,True,2340.0,None,None,15,78,50,73,89,943,None,[],Leo,{}
-944,1,1,3,9,True,1350.0,None,None,71,45,57,63,26,944,None,[],Pisces,{(9, datetime.date(30, 7, 10)): [1, 29.356297462942987, 'prenatal']}
-945,0,1,6,15,True,1500.0,None,None,98,50,98,89,24,945,None,[],Gemini,{(1, datetime.date(18, 5, 28)): [1, 16.96254645507497, 'prenatal'], (6, datetime.date(38, 8, 10)): [1, 37.17906915084586, 'prenatal'], (7, datetime.date(42, 6, 5)): [1, 41, 'prenatal']}
-946,1,1,9,21,True,1740.0,None,None,74,58,53,55,52,946,None,[],Virgo,{(2, datetime.date(27, 8, 20)): [1, 25.92974133993421, 'prenatal']}
-947,0,1,5,13,True,2130.0,None,None,19,71,78,85,15,947,None,[],Taurus,{}
-948,0,1,7,2,True,2910.0,None,None,5,97,15,20,94,948,None,[],Cancer,{(0, datetime.date(19, 5, 13)): [1, 17.874589129110596, 'prenatal'], (1, datetime.date(47, 9, 10)): [1, 46.22263764727516, 'prenatal'], (9, datetime.date(67, 9, 12)): [1, 66.24375576699491, 'prenatal']}
-949,1,1,1,5,True,840.0,None,None,92,28,38,84,4,949,None,[],Capricornus,{}
-950,0,1,8,12,True,1620.0,None,None,71,54,80,67,49,950,None,[],Leo,{(7, datetime.date(52, 7, 30)): [1, 51, 'prenatal'], (9, datetime.date(64, 4, 25)): [1, 62.74613598297874, 'prenatal']}
-951,1,1,9,9,True,2370.0,None,None,75,79,41,98,76,951,None,[],Virgo,{}
-952,0,1,3,29,True,1800.0,None,None,62,60,10,64,52,952,None,[],Aries,{(1, datetime.date(23, 5, 25)): [1, 22.17177427973564, 'prenatal'], (9, datetime.date(34, 2, 25)): [1, 32.936251356767805, 'prenatal']}
-953,1,1,4,17,True,2220.0,None,None,77,74,14,12,48,953,None,[],Aries,{(1, datetime.date(30, 9, 22)): [1, 29.454123867977057, 'prenatal'], (9, datetime.date(43, 9, 18)): [1, 42.44974790509867, 'prenatal']}
-954,1,1,2,9,True,1770.0,None,None,8,59,4,78,91,954,None,[],Aquarius,{(8, datetime.date(61, 1, 25)): [1, 60, 'prenatal']}
-955,1,1,10,20,True,630.0,None,None,2,21,8,70,83,955,None,[],Libra,{(2, datetime.date(16, 12, 30)): [1, 15.207652912931373, 'prenatal']}
-956,1,1,6,1,True,2400.0,None,None,75,80,60,78,15,956,None,[],Gemini,{(2, datetime.date(24, 10, 18)): [1, 23.39839687510761, 'prenatal']}
-957,1,1,9,2,True,1440.0,None,None,71,48,91,23,7,957,None,[],Virgo,{(2, datetime.date(14, 12, 24)): [1, 13.318570917465916, 'prenatal'], (6, datetime.date(20, 6, 13)): [1, 18.79347220828253, 'prenatal'], (8, datetime.date(89, 8, 11)): [1, 88, 'prenatal']}
-958,0,1,8,11,True,3000.0,None,None,68,100,58,2,53,958,None,[],Leo,{(9, datetime.date(48, 11, 4)): [1, 47.26696350752995, 'prenatal']}
-959,1,1,11,2,True,2940.0,None,None,30,98,79,59,32,959,None,[],Scorpius,{(0, datetime.date(26, 9, 16)): [1, 24.889302707993288, 'prenatal'], (9, datetime.date(41, 2, 15)): [1, 39.31669286903577, 'prenatal']}
-960,1,1,12,3,True,1170.0,None,None,100,39,64,6,94,960,None,[],Sagittarius,{(6, datetime.date(31, 12, 14)): [1, 30.051779566988483, 'prenatal']}
-961,1,1,9,14,True,600.0,None,None,7,20,76,25,27,961,None,[],Virgo,{(6, datetime.date(37, 8, 7)): [1, 35.92202628148211, 'prenatal']}
-962,0,1,4,14,True,1860.0,None,None,76,62,3,39,61,962,None,[],Aries,{}
-963,1,1,3,23,True,1410.0,None,None,8,47,84,65,95,963,None,[],Pisces,{(6, datetime.date(5, 2, 27)): [1, 3.9386143919352854, 'prenatal']}
-964,0,1,7,1,True,1500.0,None,None,38,50,48,2,14,964,None,[],Cancer,{}
-965,0,1,6,5,True,570.0,None,None,4,19,85,6,23,965,None,[],Gemini,{}
-966,0,1,1,15,True,2910.0,None,None,93,97,6,56,53,966,None,[],Capricornus,{(2, datetime.date(25, 5, 14)): [1, 24.343983163252076, 'prenatal'], (0, datetime.date(32, 6, 14)): [1, 31.43358160534814, 'prenatal'], (1, datetime.date(32, 8, 9)): [1, 31.58743097509422, 'prenatal']}
-967,0,1,1,1,True,210.0,None,None,1,7,8,89,35,967,None,[],Capricornus,{(1, datetime.date(28, 11, 11)): [1, 27.879628068855943, 'prenatal']}
-968,1,1,8,20,True,240.0,None,None,89,8,58,9,63,968,None,[],Leo,{(1, datetime.date(44, 12, 27)): [1, 43.38484145718425, 'prenatal'], (8, datetime.date(116, 7, 23)): [1, 115, 'prenatal']}
-969,0,1,6,10,True,960.0,None,None,72,32,63,65,6,969,None,[],Gemini,{(9, datetime.date(27, 10, 4)): [1, 26.335158423189743, 'prenatal'], (1, datetime.date(28, 9, 17)): [1, 27.291231703357422, 'prenatal']}
-970,0,1,12,13,True,2280.0,None,None,36,76,80,2,35,970,None,[],Sagittarius,{(9, datetime.date(55, 4, 14)): [1, 53.372167313012994, 'prenatal']}
-971,1,1,10,18,True,1110.0,None,None,79,37,84,7,9,971,None,[],Libra,{(1, datetime.date(26, 6, 9)): [1, 24.658198657432266, 'prenatal'], (7, datetime.date(46, 10, 7)): [1, 45, 'prenatal']}
-972,0,1,8,18,True,240.0,None,None,78,8,83,33,9,972,None,[],Leo,{}
-973,1,1,1,23,True,1500.0,None,None,80,50,18,42,74,973,None,[],Aquarius,{(0, datetime.date(23, 7, 10)): [1, 22.47474666468772, 'prenatal'], (6, datetime.date(34, 11, 13)): [1, 33.8289599649361, 'prenatal']}
-974,1,1,6,22,True,180.0,None,None,1,6,41,36,88,974,None,[],Gemini,{(1, datetime.date(34, 12, 26)): [1, 33.53649703687348, 'prenatal']}
-975,0,1,10,4,True,2820.0,None,None,69,94,92,82,69,975,None,[],Virgo,{(0, datetime.date(27, 11, 16)): [1, 26.134600988340864, 'prenatal'], (6, datetime.date(45, 7, 9)): [1, 43.79245082427194, 'prenatal']}
-976,0,1,11,9,True,1710.0,None,None,82,57,19,52,9,976,None,[],Ophiuchus,{(7, datetime.date(23, 11, 4)): [1, 22, 'prenatal']}
-977,0,1,10,25,True,2970.0,None,None,47,99,81,93,76,977,None,[],Libra,{(1, datetime.date(44, 9, 29)): [1, 42.96028569704729, 'prenatal']}
-978,1,1,9,15,True,330.0,None,None,20,11,18,27,88,978,None,[],Virgo,{(2, datetime.date(18, 1, 6)): [1, 16.321380209148383, 'prenatal']}
-979,0,1,12,10,True,1980.0,None,None,54,66,83,64,12,979,None,[],Sagittarius,{(0, datetime.date(31, 5, 15)): [1, 29.447606230742284, 'prenatal']}
-980,1,1,3,17,True,630.0,None,None,73,21,35,50,14,980,None,[],Pisces,{(2, datetime.date(19, 5, 3)): [1, 18.140506137300182, 'prenatal']}
-981,0,1,1,18,True,1260.0,None,None,31,42,86,61,96,981,None,[],Capricornus,{(2, datetime.date(8, 12, 20)): [1, 7.9272618771858525, 'prenatal'], (7, datetime.date(34, 1, 10)): [1, 33, 'prenatal']}
-982,1,1,12,6,True,90.0,None,None,85,3,65,17,59,982,None,[],Sagittarius,{(2, datetime.date(12, 4, 10)): [1, 10.35274576371109, 'prenatal'], (1, datetime.date(26, 11, 30)): [1, 25.001787693901214, 'prenatal']}
-983,0,1,4,2,True,2790.0,None,None,87,93,51,99,59,983,None,[],Aries,{}
-984,0,1,4,27,True,1020.0,None,None,28,34,19,76,8,984,None,[],Taurus,{(2, datetime.date(19, 5, 2)): [1, 18.026434647878684, 'prenatal'], (9, datetime.date(40, 8, 17)): [1, 39.33683720151643, 'prenatal'], (8, datetime.date(60, 4, 12)): [1, 59, 'prenatal']}
-985,0,1,7,14,True,2340.0,None,None,23,78,18,64,53,985,None,[],Cancer,{(6, datetime.date(33, 5, 27)): [1, 31.891847195993122, 'prenatal'], (9, datetime.date(40, 12, 5)): [1, 39.42433643617882, 'prenatal']}
-986,1,1,10,13,True,2280.0,None,None,14,76,52,73,21,986,None,[],Libra,{(8, datetime.date(70, 9, 26)): [1, 69, 'prenatal']}
-987,0,1,7,8,True,1980.0,None,None,18,66,11,52,57,987,None,[],Cancer,{}
-988,1,1,11,27,True,1020.0,None,None,54,34,30,42,45,988,None,[],Sagittarius,{}
-989,0,1,7,8,True,2460.0,None,None,66,82,81,85,2,989,None,[],Cancer,{(1, datetime.date(36, 4, 4)): [1, 34.766225525542346, 'prenatal'], (8, datetime.date(49, 6, 26)): [1, 48, 'prenatal'], (9, datetime.date(61, 11, 12)): [1, 60.39120401508424, 'prenatal']}
-990,1,1,4,22,True,2130.0,None,None,7,71,100,57,61,990,None,[],Taurus,{}
-991,1,1,8,8,True,150.0,None,None,46,5,89,91,18,991,None,[],Leo,{(0, datetime.date(40, 6, 20)): [1, 38.89559103354358, 'prenatal'], (7, datetime.date(66, 7, 23)): [1, 65, 'prenatal']}
-992,0,1,10,21,True,2610.0,None,None,53,87,33,6,59,992,None,[],Libra,{(6, datetime.date(12, 4, 17)): [1, 10.496414735867624, 'prenatal'], (2, datetime.date(19, 2, 3)): [1, 17.299731951991255, 'prenatal'], (9, datetime.date(31, 7, 8)): [1, 29.732334553251647, 'prenatal']}
-993,0,1,7,27,True,750.0,None,None,45,25,79,15,27,993,None,[],Leo,{(2, datetime.date(25, 1, 16)): [1, 23.49212141778472, 'prenatal'], (6, datetime.date(25, 9, 27)): [1, 24.187485741767887, 'prenatal'], (7, datetime.date(40, 7, 17)): [1, 39, 'prenatal']}
-994,0,1,6,3,True,630.0,None,None,88,21,31,13,14,994,None,[],Gemini,{(1, datetime.date(32, 4, 4)): [1, 30.857649848817072, 'prenatal']}
-995,1,1,7,18,True,1650.0,None,None,3,55,8,8,42,995,None,[],Leo,{(7, datetime.date(4, 7, 17)): [1, 3, 'prenatal']}
-996,1,1,9,1,True,1590.0,None,None,95,53,73,4,26,996,None,[],Virgo,{(2, datetime.date(20, 12, 26)): [1, 19.33152986687325, 'prenatal'], (8, datetime.date(21, 8, 27)): [1, 20, 'prenatal']}
-997,0,1,9,29,True,960.0,None,None,93,32,96,79,22,997,None,[],Virgo,{(6, datetime.date(22, 6, 25)): [1, 20.751270029133668, 'prenatal'], (0, datetime.date(29, 11, 19)): [1, 28.161612109109733, 'prenatal']}
-998,1,1,4,10,True,330.0,None,None,66,11,48,79,46,998,None,[],Aries,{(6, datetime.date(28, 1, 22)): [1, 26.803248579920666, 'prenatal'], (9, datetime.date(35, 4, 29)): [1, 34.07603824450293, 'prenatal']}
-999,0,1,6,22,True,1140.0,None,None,42,38,64,97,19,999,None,[],Gemini,{(0, datetime.date(33, 3, 10)): [1, 31.739468366141296, 'prenatal'], (6, datetime.date(40, 10, 11)): [1, 39.33202164724315, 'prenatal']}
+0,1,1,6,26,True,2310.0,None,None,92,77,90,35,43,0,None,[],Cancer,{(0, datetime.date(23, 11, 28)): [1, 22.44046311093411, 'prenatal'], (6, datetime.date(44, 6, 18)): [1, 43.01070632660073, 'prenatal'], (9, datetime.date(53, 12, 7)): [1, 52.48748627993484, 'prenatal']}
+1,1,1,6,27,True,1200.0,None,None,65,40,44,20,65,1,None,[],Cancer,{(3, datetime.date(25, 6, 21)): [1, 24, 'prenatal'], (1, datetime.date(45, 4, 9)): [1, 43.81564547240698, 'prenatal'], (9, datetime.date(71, 10, 30)): [1, 70.39131219815641, 'prenatal']}
+2,0,1,11,19,True,1290.0,None,None,46,43,77,100,45,2,None,[],Ophiuchus,{}
+3,0,1,8,17,True,1380.0,None,None,99,46,67,51,61,3,None,[],Leo,{(9, datetime.date(41, 10, 6)): [1, 40.16546013058816, 'prenatal']}
+4,0,1,3,7,True,3000.0,None,None,100,100,42,14,39,4,None,[],Pisces,{(2, datetime.date(10, 1, 28)): [1, 8.9025994291894, 'prenatal']}
+5,0,1,2,8,True,1110.0,None,None,95,37,26,69,84,5,None,[],Aquarius,{(2, datetime.date(20, 12, 8)): [1, 19.845950251603934, 'prenatal'], (6, datetime.date(49, 10, 14)): [1, 48.713026503103464, 'prenatal']}
+6,1,1,9,14,True,510.0,None,None,7,17,98,87,66,6,None,[],Virgo,{(3, datetime.date(29, 9, 7)): [1, 28, 'prenatal']}
+7,1,1,8,31,True,600.0,None,None,18,20,58,37,87,7,None,[],Virgo,{(0, datetime.date(24, 10, 20)): [1, 23.15382824043011, 'prenatal'], (1, datetime.date(30, 2, 24)): [1, 28.506251778757644, 'prenatal'], (6, datetime.date(37, 8, 2)): [1, 35.946323175948294, 'prenatal']}
+8,1,1,4,10,True,1410.0,None,None,41,47,34,10,88,8,None,[],Aries,{(6, datetime.date(47, 4, 4)): [1, 46.0143499780487, 'prenatal']}
+9,1,1,1,30,True,420.0,None,None,96,14,59,40,83,9,None,[],Aquarius,{(2, datetime.date(13, 11, 30)): [1, 12.842988745182708, 'prenatal'], (0, datetime.date(28, 3, 31)): [1, 27.184940047468537, 'prenatal'], (8, datetime.date(39, 1, 21)): [1, 38, 'prenatal']}
+10,1,1,4,30,True,870.0,None,None,82,29,18,44,10,10,None,[],Taurus,{(6, datetime.date(22, 9, 17)): [1, 21.39874018778196, 'prenatal'], (0, datetime.date(31, 5, 2)): [1, 30.02476182505175, 'prenatal'], (9, datetime.date(32, 11, 16)): [1, 31.570288438797686, 'prenatal']}
+11,0,1,10,18,True,2910.0,None,None,69,97,93,54,55,11,None,[],Libra,{(6, datetime.date(25, 10, 12)): [1, 24.001640671957723, 'prenatal'], (8, datetime.date(65, 10, 2)): [1, 64, 'prenatal']}
+12,1,1,7,28,True,2430.0,None,None,91,81,97,9,6,12,None,[],Leo,{(0, datetime.date(31, 8, 24)): [1, 30.09326559876783, 'prenatal']}
+13,0,1,11,30,True,90.0,None,None,30,3,68,9,29,13,None,[],Sagittarius,{(2, datetime.date(22, 4, 11)): [1, 20.376562914620813, 'prenatal'], (6, datetime.date(56, 3, 11)): [1, 54.31640811066027, 'prenatal']}
+14,0,1,1,18,True,2550.0,None,None,82,85,26,79,2,14,None,[],Capricornus,{(2, datetime.date(18, 1, 27)): [1, 17.036177492017405, 'prenatal']}
+15,1,1,8,28,True,2640.0,None,None,27,88,86,2,56,15,None,[],Virgo,{(9, datetime.date(25, 11, 8)): [1, 24.214707900033897, 'prenatal'], (6, datetime.date(32, 3, 23)): [1, 30.59162117139353, 'prenatal'], (8, datetime.date(136, 7, 26)): [1, 135, 'prenatal']}
+16,0,1,12,4,True,720.0,None,None,55,24,72,75,96,16,None,[],Sagittarius,{(6, datetime.date(32, 5, 31)): [1, 30.51230549490674, 'prenatal']}
+17,0,1,12,9,True,1680.0,None,None,7,56,36,24,56,17,None,[],Sagittarius,{(2, datetime.date(24, 2, 14)): [1, 22.199533473182846, 'prenatal']}
+18,1,1,7,23,True,1770.0,None,None,85,59,99,24,68,18,None,[],Leo,{(9, datetime.date(37, 2, 26)): [1, 35.6229035166779, 'prenatal'], (8, datetime.date(122, 6, 24)): [1, 121, 'prenatal']}
+19,1,1,1,31,True,2130.0,None,None,59,71,62,89,47,19,None,[],Aquarius,{(2, datetime.date(17, 10, 22)): [1, 16.7363457487867, 'prenatal'], (3, datetime.date(23, 1, 26)): [1, 22, 'prenatal']}
+20,0,1,10,23,True,1650.0,None,None,48,55,37,16,92,20,None,[],Libra,{(7, datetime.date(27, 10, 17)): [1, 26, 'prenatal']}
+21,1,1,12,22,True,60.0,None,None,5,2,56,12,20,21,None,[],Sagittarius,{(1, datetime.date(37, 2, 7)): [1, 35.15500736201151, 'prenatal']}
+22,0,1,9,17,True,1770.0,None,None,9,59,85,39,71,22,None,[],Virgo,{(1, datetime.date(28, 7, 14)): [1, 26.841502541411064, 'prenatal']}
+23,1,1,12,23,True,2010.0,None,None,32,67,42,61,54,23,None,[],Sagittarius,{(8, datetime.date(36, 12, 14)): [1, 35, 'prenatal']}
+24,1,1,5,7,True,1080.0,None,None,88,36,81,12,81,24,None,[],Taurus,{(6, datetime.date(29, 3, 14)): [1, 27.87213710977236, 'prenatal']}
+25,0,1,9,1,True,2280.0,None,None,95,76,53,50,40,25,None,[],Virgo,{(0, datetime.date(33, 6, 23)): [1, 31.832378666156398, 'prenatal']}
+26,0,1,4,25,True,2490.0,None,None,65,83,77,12,11,26,None,[],Taurus,{(0, datetime.date(31, 10, 24)): [1, 30.517837073647772, 'prenatal']}
+27,1,1,4,1,True,240.0,None,None,24,8,16,64,70,27,None,[],Aries,{(1, datetime.date(32, 12, 11)): [1, 31.71897936459203, 'prenatal']}
+28,1,1,8,29,True,1440.0,None,None,49,48,29,6,93,28,None,[],Virgo,{(9, datetime.date(61, 4, 12)): [1, 59.66181249700104, 'prenatal']}
+29,1,1,9,17,True,150.0,None,None,32,5,18,60,75,29,None,[],Virgo,{(8, datetime.date(130, 8, 17)): [1, 129, 'prenatal']}
+30,0,1,1,31,True,2490.0,None,None,56,83,89,5,67,30,None,[],Aquarius,{(2, datetime.date(29, 6, 29)): [1, 28.427456863712777, 'prenatal'], (1, datetime.date(29, 7, 13)): [1, 28.46700973918938, 'prenatal'], (8, datetime.date(35, 1, 23)): [1, 34, 'prenatal']}
+31,0,1,12,13,True,1410.0,None,None,57,47,83,30,59,31,None,[],Sagittarius,{}
+32,0,1,8,12,True,2760.0,None,None,83,92,59,42,46,32,None,[],Leo,{(2, datetime.date(14, 8, 20)): [1, 13.030683039042934, 'prenatal']}
+33,0,1,5,7,True,2910.0,None,None,59,97,67,41,90,33,None,[],Taurus,{(1, datetime.date(28, 1, 9)): [1, 26.69441013641788, 'prenatal'], (9, datetime.date(51, 10, 3)): [1, 50.442808182332136, 'prenatal']}
+34,0,1,10,5,True,2280.0,None,None,65,76,93,48,52,34,None,[],Virgo,{}
+35,1,1,6,7,True,1290.0,None,None,28,43,30,7,10,35,None,[],Gemini,{}
+36,0,1,9,13,True,1350.0,None,None,60,45,98,21,23,36,None,[],Virgo,{(2, datetime.date(20, 11, 29)): [1, 19.225502720145542, 'prenatal']}
+37,0,1,9,22,True,2760.0,None,None,66,92,29,11,93,37,None,[],Virgo,{(8, datetime.date(98, 8, 29)): [1, 97, 'prenatal']}
+38,1,1,3,30,True,630.0,None,None,85,21,71,4,83,38,None,[],Aries,{}
+39,1,1,3,12,True,1470.0,None,None,45,49,56,69,17,39,None,[],Pisces,{(6, datetime.date(33, 1, 5)): [1, 31.84162793081631, 'prenatal']}
+40,0,1,5,20,True,2850.0,None,None,7,95,96,16,26,40,None,[],Taurus,{}
+41,1,1,8,24,True,2970.0,None,None,39,99,13,34,18,41,None,[],Virgo,{}
+42,1,1,7,10,True,2310.0,None,None,43,77,71,87,16,42,None,[],Cancer,{}
+43,0,1,10,31,True,2580.0,None,None,62,86,16,35,71,43,None,[],Scorpius,{(1, datetime.date(22, 12, 24)): [1, 21.163176296162643, 'prenatal'], (0, datetime.date(38, 12, 4)): [1, 37.119788229588124, 'prenatal']}
+44,0,1,5,2,True,1320.0,None,None,59,44,99,36,49,44,None,[],Taurus,{(2, datetime.date(14, 6, 1)): [1, 13.092425655572425, 'prenatal'], (0, datetime.date(29, 8, 22)): [1, 28.327284141626397, 'prenatal'], (8, datetime.date(108, 4, 6)): [1, 107, 'prenatal']}
+45,0,1,7,7,True,270.0,None,None,85,9,69,61,29,45,None,[],Cancer,{(3, datetime.date(15, 7, 4)): [1, 14, 'prenatal'], (2, datetime.date(23, 6, 27)): [1, 21.986707500727345, 'prenatal']}
+46,0,1,7,12,True,420.0,None,None,44,14,5,96,66,46,None,[],Cancer,{(6, datetime.date(26, 7, 12)): [1, 25.017092986253576, 'prenatal'], (1, datetime.date(32, 10, 29)): [1, 31.32062102772035, 'prenatal']}
+47,0,1,8,27,True,960.0,None,None,40,32,89,36,30,47,None,[],Virgo,{(7, datetime.date(47, 8, 16)): [1, 46, 'prenatal'], (8, datetime.date(136, 7, 25)): [1, 135, 'prenatal']}
+48,0,1,10,27,True,2370.0,None,None,100,79,3,99,40,48,None,[],Libra,{(0, datetime.date(27, 11, 14)): [1, 26.06780620563824, 'prenatal']}
+49,0,1,7,11,True,1710.0,None,None,1,57,56,21,9,49,None,[],Cancer,{(2, datetime.date(24, 11, 23)): [1, 23.386650104580976, 'prenatal'], (8, datetime.date(106, 6, 16)): [1, 105, 'prenatal']}
+50,0,1,9,30,True,2700.0,None,None,1,90,55,65,68,50,None,[],Virgo,{(2, datetime.date(39, 2, 9)): [1, 37.388448089215515, 'prenatal'], (8, datetime.date(87, 9, 9)): [1, 86, 'prenatal']}
+51,1,1,1,3,True,2040.0,None,None,56,68,93,2,72,51,None,[],Capricornus,{(9, datetime.date(56, 11, 14)): [1, 55.90355003484187, 'prenatal'], (8, datetime.date(109, 12, 8)): [1, 109, 'prenatal']}
+52,0,1,8,4,True,930.0,None,None,27,31,81,64,95,52,None,[],Leo,{(0, datetime.date(31, 4, 5)): [1, 29.68825895110067, 'prenatal'], (1, datetime.date(31, 5, 18)): [1, 29.80763698133783, 'prenatal']}
+53,1,1,5,2,True,2400.0,None,None,4,80,19,79,44,53,None,[],Taurus,{}
+54,1,1,2,12,True,1170.0,None,None,86,39,42,77,87,54,None,[],Aquarius,{(6, datetime.date(14, 9, 5)): [1, 13.57232423663406, 'prenatal']}
+55,0,1,11,15,True,210.0,None,None,77,7,79,72,85,55,None,[],Ophiuchus,{(2, datetime.date(13, 6, 29)): [1, 11.627455632717762, 'prenatal'], (0, datetime.date(37, 1, 22)): [1, 35.21210163160974, 'prenatal']}
+56,0,1,4,12,True,1740.0,None,None,78,58,52,97,55,56,None,[],Aries,{(0, datetime.date(31, 8, 6)): [1, 30.337612343186372, 'prenatal'], (1, datetime.date(43, 7, 1)): [1, 42.24774674819861, 'prenatal'], (8, datetime.date(53, 3, 30)): [1, 52, 'prenatal']}
+57,0,1,2,5,True,510.0,None,None,78,17,91,54,65,57,None,[],Aquarius,{(2, datetime.date(11, 4, 30)): [1, 10.23592866572572, 'prenatal']}
+58,0,1,1,20,True,1410.0,None,None,6,47,22,33,63,58,None,[],Capricornus,{(0, datetime.date(20, 10, 17)): [1, 19.754809329317332, 'prenatal'], (1, datetime.date(26, 3, 31)): [1, 25.210467447090405, 'prenatal']}
+59,0,1,1,9,True,360.0,None,None,32,12,80,62,73,59,None,[],Capricornus,{}
+60,1,1,4,2,True,2220.0,None,None,27,74,62,72,43,60,None,[],Aries,{(1, datetime.date(24, 12, 2)): [1, 23.686044487253444, 'prenatal']}
+61,0,1,12,4,True,2280.0,None,None,31,76,7,37,65,61,None,[],Sagittarius,{}
+62,1,1,10,17,True,2370.0,None,None,26,79,86,52,71,62,None,[],Libra,{(8, datetime.date(8, 10, 15)): [1, 7, 'prenatal']}
+63,1,1,8,9,True,2310.0,None,None,51,77,15,62,55,63,None,[],Leo,{(9, datetime.date(53, 9, 2)): [1, 52.10224816938142, 'prenatal']}
+64,0,1,10,18,True,1770.0,None,None,89,59,51,68,93,64,None,[],Libra,{(9, datetime.date(73, 2, 8)): [1, 71.36103746865358, 'prenatal']}
+65,1,1,2,3,True,1530.0,None,None,21,51,69,27,11,65,None,[],Aquarius,{(0, datetime.date(38, 6, 5)): [1, 37.361448311798185, 'prenatal']}
+66,1,1,2,21,True,1860.0,None,None,44,62,41,69,15,66,None,[],Pisces,{(7, datetime.date(17, 2, 17)): [1, 16, 'prenatal'], (9, datetime.date(51, 3, 18)): [1, 50.10351290687294, 'prenatal']}
+67,0,1,8,21,True,2040.0,None,None,65,68,29,72,47,67,None,[],Leo,{(8, datetime.date(25, 8, 15)): [1, 24, 'prenatal'], (6, datetime.date(33, 1, 17)): [1, 31.432155255674076, 'prenatal']}
+68,0,1,11,18,True,3000.0,None,None,91,100,100,63,74,68,None,[],Ophiuchus,{(2, datetime.date(21, 4, 30)): [1, 19.46037993306338, 'prenatal'], (8, datetime.date(21, 11, 13)): [1, 20, 'prenatal']}
+69,1,1,3,12,True,330.0,None,None,77,11,15,12,45,69,None,[],Pisces,{}
+70,1,1,3,10,True,150.0,None,None,81,5,90,78,45,70,None,[],Pisces,{(1, datetime.date(25, 6, 8)): [1, 24.264171242580616, 'prenatal']}
+71,1,1,9,24,True,2010.0,None,None,76,67,95,100,96,71,None,[],Virgo,{}
+72,0,1,10,24,True,1080.0,None,None,58,36,42,29,63,72,None,[],Libra,{(7, datetime.date(15, 10, 21)): [1, 14, 'prenatal'], (1, datetime.date(29, 8, 19)): [1, 27.839086340524165, 'prenatal']}
+73,1,1,9,14,True,2580.0,None,None,84,86,96,30,87,73,None,[],Virgo,{(2, datetime.date(26, 6, 7)): [1, 24.74563228728181, 'prenatal'], (6, datetime.date(33, 12, 4)): [1, 32.244358468927224, 'prenatal'], (8, datetime.date(51, 9, 2)): [1, 50, 'prenatal']}
+74,0,1,9,1,True,960.0,None,None,3,32,43,79,27,74,None,[],Virgo,{(1, datetime.date(20, 5, 4)): [1, 18.68737948314373, 'prenatal'], (8, datetime.date(83, 8, 12)): [1, 82, 'prenatal']}
+75,0,1,4,3,True,1710.0,None,None,67,57,25,14,73,75,None,[],Aries,{(7, datetime.date(7, 4, 2)): [1, 6, 'prenatal'], (2, datetime.date(20, 3, 13)): [1, 18.95636331246836, 'prenatal']}
+76,1,1,9,9,True,1950.0,None,None,72,65,98,69,6,76,None,[],Virgo,{(1, datetime.date(23, 9, 6)): [1, 22.007733910133002, 'prenatal'], (2, datetime.date(26, 5, 10)): [1, 24.684693958160405, 'prenatal']}
+77,1,1,3,20,True,2970.0,None,None,77,99,49,34,94,77,None,[],Pisces,{(0, datetime.date(21, 6, 26)): [1, 20.28276973236964, 'prenatal']}
+78,1,1,5,18,True,1830.0,None,None,31,61,77,70,26,78,None,[],Taurus,{(0, datetime.date(27, 5, 21)): [1, 26.026477907031172, 'prenatal'], (9, datetime.date(50, 9, 17)): [1, 49.367794101217264, 'prenatal']}
+79,1,1,8,1,True,1920.0,None,None,16,64,23,19,21,79,None,[],Leo,{(9, datetime.date(65, 5, 9)): [1, 63.8156914975903, 'prenatal']}
+80,1,1,8,13,True,810.0,None,None,76,27,7,17,67,80,None,[],Leo,{(7, datetime.date(36, 8, 4)): [1, 35, 'prenatal'], (0, datetime.date(40, 4, 4)): [1, 38.66918744389532, 'prenatal']}
+81,0,1,7,21,True,2190.0,None,None,38,73,16,29,47,81,None,[],Leo,{(9, datetime.date(48, 11, 9)): [1, 47.33783890988678, 'prenatal']}
+82,0,1,10,18,True,750.0,None,None,10,25,56,65,25,82,None,[],Libra,{(8, datetime.date(15, 10, 15)): [1, 14, 'prenatal'], (6, datetime.date(36, 3, 20)): [1, 34.4457692255956, 'prenatal']}
+83,0,1,2,22,True,1020.0,None,None,5,34,8,13,84,83,None,[],Pisces,{(1, datetime.date(29, 7, 10)): [1, 28.397786678946858, 'prenatal'], (9, datetime.date(42, 5, 19)): [1, 41.264077609091736, 'prenatal']}
+84,0,1,2,16,True,390.0,None,None,29,13,68,4,32,84,None,[],Pisces,{(0, datetime.date(24, 6, 4)): [1, 23.31430712517376, 'prenatal'], (6, datetime.date(68, 5, 22)): [1, 67.30686436046406, 'prenatal']}
+85,0,1,4,27,True,1830.0,None,None,95,61,56,56,98,85,None,[],Taurus,{(7, datetime.date(67, 4, 11)): [1, 66, 'prenatal']}
+86,1,1,6,5,True,510.0,None,None,58,17,62,76,65,86,None,[],Gemini,{(2, datetime.date(17, 10, 23)): [1, 16.397107552438353, 'prenatal'], (0, datetime.date(32, 2, 12)): [1, 30.712299920801314, 'prenatal']}
+87,0,1,10,15,True,1110.0,None,None,7,37,50,69,20,87,None,[],Libra,{(1, datetime.date(32, 8, 26)): [1, 30.88709422169933, 'prenatal'], (6, datetime.date(77, 10, 4)): [1, 76.02212629663785, 'prenatal']}
+88,1,1,4,13,True,2610.0,None,None,6,87,56,99,94,88,None,[],Aries,{(8, datetime.date(49, 4, 1)): [1, 48, 'prenatal'], (6, datetime.date(50, 2, 2)): [1, 48.841356907594886, 'prenatal']}
+89,1,1,5,21,True,1980.0,None,None,83,66,72,59,22,89,None,[],Taurus,{(0, datetime.date(34, 3, 26)): [1, 32.86929941495647, 'prenatal']}
+90,0,1,11,22,True,2730.0,None,None,78,91,20,13,51,90,None,[],Ophiuchus,{(0, datetime.date(32, 9, 27)): [1, 30.870700572476917, 'prenatal'], (7, datetime.date(37, 11, 13)): [1, 36, 'prenatal']}
+91,1,1,4,28,True,510.0,None,None,18,17,31,74,89,91,None,[],Taurus,{(3, datetime.date(24, 4, 22)): [1, 23, 'prenatal'], (9, datetime.date(28, 6, 4)): [1, 27.122708415771434, 'prenatal'], (8, datetime.date(87, 4, 7)): [1, 86, 'prenatal']}
+92,0,1,1,28,True,1740.0,None,None,92,58,3,27,24,92,None,[],Aquarius,{}
+93,0,1,3,26,True,300.0,None,None,14,10,86,100,67,93,None,[],Aries,{(1, datetime.date(24, 2, 1)): [1, 22.869272966291582, 'prenatal'], (2, datetime.date(27, 3, 27)): [1, 26.0212917178723, 'prenatal'], (6, datetime.date(41, 12, 23)): [1, 40.77265804653278, 'prenatal']}
+94,0,1,9,3,True,1020.0,None,None,93,34,88,69,70,94,None,[],Virgo,{(3, datetime.date(19, 8, 30)): [1, 18, 'prenatal'], (8, datetime.date(28, 8, 27)): [1, 27, 'prenatal']}
+95,1,1,9,2,True,2460.0,None,None,61,82,60,33,67,95,None,[],Virgo,{(6, datetime.date(10, 2, 26)): [1, 8.49309955534985, 'prenatal'], (1, datetime.date(39, 1, 1)): [1, 37.35862890127591, 'prenatal'], (9, datetime.date(42, 10, 12)): [1, 41.13837156932995, 'prenatal']}
+96,1,1,7,21,True,150.0,None,None,62,5,18,10,51,96,None,[],Leo,{(2, datetime.date(20, 6, 23)): [1, 18.937587551681734, 'prenatal'], (9, datetime.date(49, 7, 20)): [1, 48.03170301371259, 'prenatal']}
+97,0,1,11,4,True,1260.0,None,None,83,42,32,71,92,97,None,[],Ophiuchus,{}
+98,1,1,12,2,True,2160.0,None,None,26,72,74,72,85,98,None,[],Sagittarius,{}
+99,1,1,10,10,True,2430.0,None,None,28,81,99,57,52,99,None,[],Libra,{(6, datetime.date(6, 7, 13)): [1, 4.760941391774239, 'prenatal']}
+100,0,1,6,8,True,1380.0,None,None,77,46,74,38,70,100,None,[],Gemini,{(1, datetime.date(32, 3, 24)): [1, 30.81491828217185, 'prenatal'], (0, datetime.date(33, 4, 18)): [1, 31.88359624898441, 'prenatal'], (8, datetime.date(91, 5, 17)): [1, 90, 'prenatal']}
+101,0,1,2,4,True,2250.0,None,None,100,75,58,36,35,101,None,[],Aquarius,{(9, datetime.date(96, 8, 21)): [1, 95.61079845117047, 'prenatal']}
+102,1,1,6,2,True,630.0,None,None,30,21,57,63,61,102,None,[],Gemini,{}
+103,1,1,2,3,True,2970.0,None,None,39,99,52,17,28,103,None,[],Aquarius,{(2, datetime.date(11, 9, 25)): [1, 10.648033050453591, 'prenatal']}
+104,0,1,3,26,True,2400.0,None,None,37,80,95,69,58,104,None,[],Aries,{(6, datetime.date(19, 2, 12)): [1, 17.897574269381813, 'prenatal'], (1, datetime.date(22, 9, 26)): [1, 21.51995179224118, 'prenatal']}
+105,0,1,5,1,True,900.0,None,None,78,30,6,76,65,105,None,[],Taurus,{(1, datetime.date(33, 12, 29)): [1, 32.68652638018278, 'prenatal'], (6, datetime.date(41, 6, 13)): [1, 40.145308552564586, 'prenatal'], (9, datetime.date(42, 7, 20)): [1, 41.24920878625189, 'prenatal']}
+106,1,1,8,1,True,1200.0,None,None,78,40,17,27,92,106,None,[],Leo,{(8, datetime.date(19, 7, 28)): [1, 18, 'prenatal'], (9, datetime.date(32, 7, 31)): [1, 31.021519957384065, 'prenatal']}
+107,0,1,8,10,True,1950.0,None,None,14,65,81,59,98,107,None,[],Leo,{(3, datetime.date(14, 8, 7)): [1, 13, 'prenatal'], (2, datetime.date(15, 11, 28)): [1, 14.311181013850444, 'prenatal'], (9, datetime.date(58, 9, 10)): [1, 57.12501611466297, 'prenatal']}
+108,1,1,1,10,True,180.0,None,None,72,6,76,15,12,108,None,[],Capricornus,{(2, datetime.date(19, 3, 10)): [1, 18.175174328467648, 'prenatal'], (8, datetime.date(41, 12, 31)): [1, 41, 'prenatal'], (9, datetime.date(44, 8, 12)): [1, 43.618495457300185, 'prenatal']}
+109,1,1,7,4,True,2220.0,None,None,86,74,9,70,56,109,None,[],Cancer,{}
+110,1,1,11,23,True,1740.0,None,None,76,58,14,89,49,110,None,[],Sagittarius,{(2, datetime.date(23, 9, 13)): [1, 21.820830926206845, 'prenatal']}
+111,0,1,1,14,True,2550.0,None,None,60,85,36,100,70,111,None,[],Capricornus,{(2, datetime.date(20, 11, 16)): [1, 19.85336722555036, 'prenatal']}
+112,1,1,5,21,True,930.0,None,None,90,31,64,30,14,112,None,[],Taurus,{}
+113,0,1,10,28,True,690.0,None,None,15,23,38,18,99,113,None,[],Scorpius,{(9, datetime.date(45, 6, 30)): [1, 43.70305475025314, 'prenatal']}
+114,1,1,10,25,True,1950.0,None,None,52,65,78,47,30,114,None,[],Libra,{(7, datetime.date(19, 10, 21)): [1, 18, 'prenatal'], (0, datetime.date(34, 9, 26)): [1, 32.944417388492305, 'prenatal'], (6, datetime.date(69, 5, 26)): [1, 67.63126340888962, 'prenatal']}
+115,0,1,3,1,True,1830.0,None,None,91,61,23,48,16,115,None,[],Pisces,{(7, datetime.date(25, 2, 23)): [1, 24, 'prenatal'], (0, datetime.date(35, 9, 29)): [1, 34.60432019371761, 'prenatal']}
+116,0,1,2,7,True,840.0,None,None,27,28,50,6,41,116,None,[],Aquarius,{(0, datetime.date(36, 1, 28)): [1, 34.996705521634034, 'prenatal']}
+117,1,1,4,13,True,420.0,None,None,54,14,79,47,12,117,None,[],Aries,{(7, datetime.date(7, 4, 12)): [1, 6, 'prenatal'], (1, datetime.date(28, 6, 15)): [1, 27.19350317286484, 'prenatal']}
+118,0,1,9,3,True,690.0,None,None,98,23,48,85,85,118,None,[],Virgo,{(1, datetime.date(20, 11, 2)): [1, 19.180519391699352, 'prenatal'], (7, datetime.date(41, 8, 24)): [1, 40, 'prenatal']}
+119,1,1,9,6,True,2760.0,None,None,90,92,9,77,4,119,None,[],Virgo,{}
+120,1,1,11,2,True,1200.0,None,None,76,40,2,41,100,120,None,[],Scorpius,{}
+121,1,1,7,10,True,1740.0,None,None,53,58,55,60,4,121,None,[],Cancer,{(0, datetime.date(26, 6, 10)): [1, 24.934846281522496, 'prenatal'], (2, datetime.date(26, 12, 31)): [1, 25.493261527179598, 'prenatal']}
+122,1,1,5,14,True,2820.0,None,None,77,94,72,77,56,122,None,[],Taurus,{(8, datetime.date(7, 5, 13)): [1, 6, 'prenatal'], (9, datetime.date(38, 1, 18)): [1, 36.70781275699096, 'prenatal']}
+123,1,1,10,2,True,3000.0,None,None,10,100,37,88,73,123,None,[],Virgo,{(6, datetime.date(45, 11, 30)): [1, 44.19224552937144, 'prenatal']}
+124,0,1,12,6,True,660.0,None,None,55,22,24,51,99,124,None,[],Sagittarius,{(8, datetime.date(93, 11, 13)): [1, 92, 'prenatal']}
+125,1,1,11,26,True,2130.0,None,None,36,71,79,81,18,125,None,[],Sagittarius,{(1, datetime.date(22, 12, 15)): [1, 21.066087830160342, 'prenatal']}
+126,1,1,8,15,True,1470.0,None,None,32,49,92,16,14,126,None,[],Leo,{(1, datetime.date(22, 5, 19)): [1, 20.773286890243938, 'prenatal'], (7, datetime.date(37, 8, 6)): [1, 36, 'prenatal']}
+127,0,1,9,24,True,240.0,None,None,60,8,54,86,61,127,None,[],Virgo,{(6, datetime.date(76, 1, 5)): [1, 74.33395311622186, 'prenatal'], (8, datetime.date(129, 8, 24)): [1, 128, 'prenatal']}
+128,1,1,3,28,True,1440.0,None,None,64,48,91,20,47,128,None,[],Aries,{(7, datetime.date(48, 3, 16)): [1, 47, 'prenatal']}
+129,1,1,9,1,True,420.0,None,None,83,14,45,84,21,129,None,[],Virgo,{(2, datetime.date(24, 8, 13)): [1, 22.965600284231417, 'prenatal']}
+130,1,1,9,10,True,2640.0,None,None,89,88,60,2,90,130,None,[],Virgo,{(3, datetime.date(15, 9, 7)): [1, 14, 'prenatal'], (8, datetime.date(27, 9, 4)): [1, 26, 'prenatal']}
+131,1,1,10,13,True,2850.0,None,None,47,95,100,96,90,131,None,[],Libra,{(2, datetime.date(23, 9, 26)): [1, 21.969130809083513, 'prenatal'], (0, datetime.date(27, 8, 1)): [1, 25.817230544711514, 'prenatal']}
+132,0,1,6,25,True,2400.0,None,None,8,80,74,90,32,132,None,[],Gemini,{(8, datetime.date(81, 6, 5)): [1, 80, 'prenatal']}
+133,0,1,2,19,True,1530.0,None,None,51,51,94,39,26,133,None,[],Pisces,{(7, datetime.date(7, 2, 18)): [1, 6, 'prenatal'], (0, datetime.date(26, 5, 31)): [1, 25.29350333094643, 'prenatal'], (6, datetime.date(55, 6, 7)): [1, 54.3316766369821, 'prenatal']}
+134,0,1,6,29,True,2940.0,None,None,50,98,29,56,55,134,None,[],Cancer,{(2, datetime.date(19, 3, 27)): [1, 17.755072091233245, 'prenatal'], (0, datetime.date(29, 9, 2)): [1, 28.19729120982519, 'prenatal']}
+135,0,1,6,12,True,1710.0,None,None,14,57,8,60,43,135,None,[],Gemini,{(1, datetime.date(25, 1, 15)): [1, 23.612162192734257, 'prenatal']}
+136,0,1,4,7,True,2610.0,None,None,96,87,67,55,83,136,None,[],Aries,{(1, datetime.date(28, 10, 28)): [1, 27.579569247360098, 'prenatal'], (0, datetime.date(31, 11, 27)): [1, 30.662986271624675, 'prenatal']}
+137,0,1,10,7,True,450.0,None,None,93,15,90,31,55,137,None,[],Libra,{(0, datetime.date(34, 5, 26)): [1, 32.65575274415359, 'prenatal'], (1, datetime.date(40, 3, 22)): [1, 38.48323451408441, 'prenatal']}
+138,1,1,1,11,True,1050.0,None,None,63,35,90,10,89,138,None,[],Capricornus,{(2, datetime.date(22, 4, 16)): [1, 21.274510102130392, 'prenatal'], (6, datetime.date(46, 11, 16)): [1, 45.87764682611561, 'prenatal']}
+139,0,1,6,10,True,2730.0,None,None,54,91,85,62,60,139,None,[],Gemini,{(9, datetime.date(35, 5, 27)): [1, 33.98372059550078, 'prenatal']}
+140,1,1,9,12,True,3000.0,None,None,71,100,52,5,93,140,None,[],Virgo,{}
+141,0,1,4,26,True,2880.0,None,None,10,96,68,86,76,141,None,[],Taurus,{(1, datetime.date(34, 4, 17)): [1, 32.99958418121221, 'prenatal'], (7, datetime.date(44, 4, 15)): [1, 43, 'prenatal']}
+142,1,1,7,18,True,1740.0,None,None,33,58,59,39,81,142,None,[],Leo,{(8, datetime.date(139, 6, 15)): [1, 138, 'prenatal']}
+143,1,1,9,13,True,1980.0,None,None,11,66,40,42,25,143,None,[],Virgo,{}
+144,0,1,12,9,True,2820.0,None,None,35,94,7,75,51,144,None,[],Sagittarius,{(9, datetime.date(29, 2, 7)): [1, 27.183748382199827, 'prenatal']}
+145,1,1,7,18,True,1530.0,None,None,65,51,78,83,83,145,None,[],Leo,{(1, datetime.date(21, 5, 17)): [1, 19.844050245434516, 'prenatal'], (7, datetime.date(52, 7, 5)): [1, 51, 'prenatal']}
+146,1,1,2,16,True,360.0,None,None,26,12,74,34,66,146,None,[],Pisces,{(2, datetime.date(17, 6, 3)): [1, 16.30662512897258, 'prenatal']}
+147,0,1,2,27,True,450.0,None,None,51,15,61,17,61,147,None,[],Pisces,{(9, datetime.date(23, 8, 14)): [1, 22.475015428625554, 'prenatal'], (1, datetime.date(32, 12, 18)): [1, 31.828107987145813, 'prenatal']}
+148,0,1,2,28,True,360.0,None,None,68,12,38,92,71,148,None,[],Pisces,{(6, datetime.date(27, 7, 4)): [1, 26.36166555195711, 'prenatal']}
+149,0,1,6,2,True,1050.0,None,None,81,35,7,86,78,149,None,[],Gemini,{(2, datetime.date(20, 2, 26)): [1, 18.74795713150738, 'prenatal']}
+150,1,1,7,14,True,60.0,None,None,78,2,33,59,26,150,None,[],Cancer,{(1, datetime.date(24, 4, 18)): [1, 22.77810522201507, 'prenatal'], (0, datetime.date(35, 9, 10)): [1, 34.18225309269584, 'prenatal']}
+151,0,1,3,12,True,2940.0,None,None,40,98,22,41,73,151,None,[],Pisces,{(8, datetime.date(42, 3, 2)): [1, 41, 'prenatal']}
+152,1,1,11,4,True,30.0,None,None,43,1,26,68,16,152,None,[],Ophiuchus,{(9, datetime.date(8, 1, 27)): [1, 6.235583713141921, 'prenatal'], (8, datetime.date(20, 10, 30)): [1, 19, 'prenatal']}
+153,1,1,10,23,True,30.0,None,None,72,1,20,28,73,153,None,[],Libra,{(2, datetime.date(18, 1, 30)): [1, 16.28240520164247, 'prenatal'], (0, datetime.date(23, 1, 19)): [1, 21.25737455565274, 'prenatal'], (8, datetime.date(93, 9, 30)): [1, 92, 'prenatal']}
+154,0,1,11,25,True,300.0,None,None,75,10,45,24,13,154,None,[],Sagittarius,{(3, datetime.date(11, 11, 23)): [1, 10, 'prenatal'], (7, datetime.date(48, 11, 13)): [1, 47, 'prenatal'], (9, datetime.date(49, 5, 22)): [1, 47.52176374632887, 'prenatal']}
+155,1,1,7,10,True,1110.0,None,None,50,37,21,21,89,155,None,[],Cancer,{(6, datetime.date(20, 10, 20)): [1, 19.29485009256454, 'prenatal'], (0, datetime.date(27, 9, 10)): [1, 26.188072012329272, 'prenatal']}
+156,1,1,7,23,True,1980.0,None,None,2,66,8,48,85,156,None,[],Leo,{(6, datetime.date(6, 7, 22)): [1, 5.002511803146874, 'prenatal'], (2, datetime.date(25, 2, 18)): [1, 23.592238786306535, 'prenatal']}
+157,0,1,11,20,True,420.0,None,None,60,14,20,48,31,157,None,[],Ophiuchus,{(6, datetime.date(55, 3, 24)): [1, 53.3754701017981, 'prenatal']}
+158,1,1,7,31,True,1920.0,None,None,41,64,44,12,14,158,None,[],Leo,{(6, datetime.date(14, 1, 19)): [1, 12.481114866266733, 'prenatal'], (9, datetime.date(14, 7, 7)): [1, 12.943361687079872, 'prenatal']}
+159,0,1,7,3,True,300.0,None,None,1,10,86,3,40,159,None,[],Cancer,{(0, datetime.date(31, 10, 18)): [1, 30.313608638704356, 'prenatal']}
+160,1,1,4,26,True,2760.0,None,None,78,92,29,90,90,160,None,[],Taurus,{(0, datetime.date(20, 5, 31)): [1, 19.10961958244343, 'prenatal']}
+161,1,1,6,5,True,2820.0,None,None,44,94,56,28,98,161,None,[],Gemini,{}
+162,0,1,1,20,True,750.0,None,None,67,25,77,64,35,162,None,[],Capricornus,{(2, datetime.date(15, 7, 23)): [1, 14.512486672483357, 'prenatal'], (0, datetime.date(27, 9, 11)): [1, 26.65938255122992, 'prenatal']}
+163,1,1,7,24,True,2250.0,None,None,30,75,63,7,61,163,None,[],Leo,{(1, datetime.date(29, 7, 24)): [1, 28.021221596777263, 'prenatal'], (6, datetime.date(45, 5, 5)): [1, 43.81184498214, 'prenatal']}
+164,0,1,9,25,True,330.0,None,None,31,11,74,11,27,164,None,[],Virgo,{(8, datetime.date(7, 9, 24)): [1, 6, 'prenatal'], (7, datetime.date(38, 9, 16)): [1, 37, 'prenatal'], (6, datetime.date(54, 10, 11)): [1, 53.07964723985452, 'prenatal']}
+165,1,1,4,3,True,2370.0,None,None,56,79,23,52,13,165,None,[],Aries,{(1, datetime.date(20, 12, 21)): [1, 19.73248173704107, 'prenatal'], (2, datetime.date(23, 1, 7)): [1, 21.778539015113246, 'prenatal']}
+166,1,1,8,19,True,2400.0,None,None,33,80,75,29,83,166,None,[],Leo,{(2, datetime.date(18, 5, 6)): [1, 16.724629027236478, 'prenatal'], (0, datetime.date(37, 11, 25)): [1, 36.293550256589164, 'prenatal']}
+167,1,1,5,24,True,1530.0,None,None,13,51,60,45,14,167,None,[],Taurus,{(6, datetime.date(27, 4, 1)): [1, 25.87362367058106, 'prenatal'], (0, datetime.date(33, 8, 8)): [1, 32.23177086576493, 'prenatal'], (9, datetime.date(54, 3, 14)): [1, 52.843443129620184, 'prenatal']}
+168,1,1,10,20,True,1020.0,None,None,50,34,82,93,17,168,None,[],Libra,{(0, datetime.date(18, 1, 25)): [1, 16.27835635413223, 'prenatal']}
+169,0,1,7,5,True,2130.0,None,None,58,71,10,88,42,169,None,[],Cancer,{(0, datetime.date(33, 2, 12)): [1, 31.6319577566779, 'prenatal'], (1, datetime.date(47, 7, 19)): [1, 46.068838002490935, 'prenatal']}
+170,0,1,10,5,True,2670.0,None,None,93,89,21,72,20,170,None,[],Virgo,{(0, datetime.date(36, 11, 12)): [1, 35.13099850633537, 'prenatal'], (8, datetime.date(68, 9, 18)): [1, 67, 'prenatal'], (9, datetime.date(80, 9, 17)): [1, 79.00702121839407, 'prenatal']}
+171,0,1,8,7,True,2940.0,None,None,27,98,16,82,32,171,None,[],Leo,{(6, datetime.date(52, 10, 24)): [1, 51.24966936049471, 'prenatal'], (8, datetime.date(139, 7, 5)): [1, 138, 'prenatal']}
+172,0,1,8,14,True,1710.0,None,None,25,57,100,86,59,172,None,[],Leo,{(8, datetime.date(10, 8, 12)): [1, 9, 'prenatal']}
+173,0,1,9,25,True,3000.0,None,None,32,100,67,21,59,173,None,[],Virgo,{(6, datetime.date(69, 5, 25)): [1, 67.70978022524717, 'prenatal'], (8, datetime.date(115, 8, 29)): [1, 114, 'prenatal']}
+174,0,1,11,5,True,1470.0,None,None,42,49,76,73,37,174,None,[],Ophiuchus,{(6, datetime.date(13, 9, 20)): [1, 11.883954887661833, 'prenatal'], (9, datetime.date(60, 8, 24)): [1, 58.84350450936407, 'prenatal']}
+175,0,1,6,11,True,1890.0,None,None,54,63,39,8,49,175,None,[],Gemini,{(0, datetime.date(39, 10, 11)): [1, 38.35952220787547, 'prenatal']}
+176,1,1,6,5,True,2130.0,None,None,14,71,31,9,58,176,None,[],Gemini,{(2, datetime.date(23, 5, 16)): [1, 21.959167293546322, 'prenatal'], (8, datetime.date(112, 5, 9)): [1, 111, 'prenatal']}
+177,0,1,11,3,True,480.0,None,None,76,16,26,82,85,177,None,[],Scorpius,{(0, datetime.date(25, 9, 13)): [1, 23.877054231601758, 'prenatal'], (8, datetime.date(33, 10, 26)): [1, 32, 'prenatal']}
+178,0,1,8,13,True,1410.0,None,None,1,47,57,31,83,178,None,[],Leo,{(9, datetime.date(27, 1, 5)): [1, 25.414883472248647, 'prenatal']}
+179,1,1,4,12,True,120.0,None,None,36,4,69,100,15,179,None,[],Aries,{(6, datetime.date(29, 4, 3)): [1, 27.996418133283665, 'prenatal'], (8, datetime.date(74, 3, 25)): [1, 73, 'prenatal']}
+180,0,1,3,25,True,2640.0,None,None,54,88,57,8,95,180,None,[],Aries,{(6, datetime.date(4, 7, 25)): [1, 3.3387835541709094, 'prenatal']}
+181,1,1,1,15,True,2790.0,None,None,73,93,86,54,42,181,None,[],Capricornus,{(0, datetime.date(31, 1, 26)): [1, 30.051410454531226, 'prenatal']}
+182,0,1,8,18,True,480.0,None,None,52,16,47,39,31,182,None,[],Leo,{}
+183,0,1,12,23,True,1920.0,None,None,86,64,81,18,37,183,None,[],Sagittarius,{(6, datetime.date(4, 3, 15)): [1, 2.229358610239643, 'prenatal']}
+184,1,1,8,24,True,840.0,None,None,34,28,2,47,32,184,None,[],Virgo,{(9, datetime.date(67, 9, 29)): [1, 66.14269555856413, 'prenatal']}
+185,0,1,4,27,True,1560.0,None,None,65,52,26,91,27,185,None,[],Taurus,{}
+186,1,1,8,3,True,270.0,None,None,37,9,1,36,11,186,None,[],Leo,{(7, datetime.date(29, 7, 27)): [1, 28, 'prenatal']}
+187,1,1,5,5,True,600.0,None,None,90,20,24,41,10,187,None,[],Taurus,{}
+188,1,1,8,15,True,120.0,None,None,63,4,77,84,87,188,None,[],Leo,{(6, datetime.date(14, 3, 17)): [1, 12.594708600713219, 'prenatal'], (7, datetime.date(20, 8, 10)): [1, 19, 'prenatal'], (0, datetime.date(27, 8, 21)): [1, 26.034040450477377, 'prenatal']}
+189,1,1,7,15,True,2280.0,None,None,53,76,77,64,60,189,None,[],Cancer,{(1, datetime.date(26, 7, 14)): [1, 25.013949474785598, 'prenatal'], (9, datetime.date(40, 2, 29)): [1, 38.65272066242491, 'prenatal']}
+190,0,1,11,23,True,2370.0,None,None,55,79,58,87,26,190,None,[],Sagittarius,{}
+191,0,1,7,7,True,210.0,None,None,97,7,13,87,53,191,None,[],Cancer,{(2, datetime.date(20, 3, 21)): [1, 18.71920207963442, 'prenatal'], (6, datetime.date(23, 3, 9)): [1, 21.685527644342464, 'prenatal'], (9, datetime.date(71, 11, 27)): [1, 70.44090910723216, 'prenatal']}
+192,1,1,10,19,True,2220.0,None,None,50,74,85,63,98,192,None,[],Libra,{(0, datetime.date(34, 8, 12)): [1, 32.836767990377844, 'prenatal']}
+193,0,1,12,29,True,900.0,None,None,79,30,100,63,53,193,None,[],Capricornus,{(8, datetime.date(12, 12, 26)): [1, 11, 'prenatal'], (0, datetime.date(24, 4, 22)): [1, 22.33143330217766, 'prenatal']}
+194,1,1,10,28,True,2460.0,None,None,33,82,37,83,96,194,None,[],Scorpius,{(2, datetime.date(15, 11, 17)): [1, 14.064025351039824, 'prenatal'], (6, datetime.date(38, 6, 13)): [1, 36.65117839300511, 'prenatal']}
+195,0,1,9,21,True,450.0,None,None,85,15,81,98,66,195,None,[],Virgo,{(2, datetime.date(20, 12, 21)): [1, 19.26324673508874, 'prenatal'], (1, datetime.date(32, 12, 9)): [1, 31.238401870468635, 'prenatal']}
+196,0,1,9,21,True,2700.0,None,None,81,90,90,17,92,196,None,[],Virgo,{(0, datetime.date(19, 3, 23)): [1, 17.513229800426966, 'prenatal'], (2, datetime.date(22, 9, 26)): [1, 21.029152304594717, 'prenatal']}
+197,0,1,4,7,True,1950.0,None,None,71,65,34,10,73,197,None,[],Aries,{(1, datetime.date(32, 6, 19)): [1, 31.222093640560146, 'prenatal']}
+198,0,1,10,20,True,1950.0,None,None,21,65,15,67,72,198,None,[],Libra,{(9, datetime.date(20, 8, 1)): [1, 18.795827977289733, 'prenatal'], (1, datetime.date(29, 7, 25)): [1, 27.782471614500082, 'prenatal']}
+199,1,1,7,10,True,900.0,None,None,14,30,47,40,94,199,None,[],Cancer,{(1, datetime.date(22, 6, 2)): [1, 20.91218023236875, 'prenatal'], (0, datetime.date(31, 10, 14)): [1, 30.284573617304094, 'prenatal'], (6, datetime.date(47, 1, 8)): [1, 45.52999228570639, 'prenatal']}

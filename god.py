@@ -1,26 +1,28 @@
 import person
 from person import *
-from proliferation import *
+#from proliferation import *
 
 import random
 
 # path
-path_human_book = "./humanbook"
-path_history_book = "./history_book.csv"
+path_human_book_prefix = current_file_dir + "/profiles/humanbook" # the first generation
+path_death_book = current_file_dir + "/profiles/death_book.csv"
+path_history_book_prefix = current_file_dir + "/profiles/historybook"
+
 
 # global parameters
-num_first_generation = 1000
+num_first_generation = 200
 num_personal_qualities = 5
 magic_ratio = 0.2
 
 # society parameters
 person_container = []
 start_date = datetime.date(1, 1, 1)
-end_date = datetime.date(5, 12, 30)
+end_date = datetime.date(50, 12, 30)
 
 # handle history
 acient_container = []
-max_buffer_acients = 200
+max_buffer_acients = 10
 
 # record holder
 records = {"credit": None, "longevity": None}
@@ -34,7 +36,7 @@ def midwife(person_id, fam_id):
 
 def human_genesis():
     # human_book: generation zero
-    output_file = open(path_human_book + '_generation_0.csv', 'w')
+    output_file = open(path_human_book_prefix + '_generation_0.csv', 'w')
 
     # creat the generation zero
     for i in range(0, num_first_generation):
@@ -66,23 +68,52 @@ def examiner(candidates):
             records["longevity"] = i
 
 
-def history_writer(individual):
+def death_reporter(individual, book_path):
     # add the past to history book
     acient_container.append(individual)
 
-    # release buffer
+    # release buffer and uopdate the records
     if len(acient_container) == max_buffer_acients:
-        # update record
+        # update the records
         examiner(acient_container)
 
         # output
-        history_book = open(path_history_book, "w")
+        history_book = open(book_path, "w")
         for thepast in acient_container:
             history_book.write(thepast.output_with_formats(","))
 
         # refresh container
         acient_container.clear()
         history_book.close()
+
+def history_writer(book_path):
+    # TODO output alive
+
+    # TODO output dead
+
+    # output records
+    history_book = open(book_path, "w")
+    for i in story_teller():
+        history_book.write(i + "\n")
+
+def story_teller():
+    lines = []
+
+    if len(acient_container) != 0:
+        lines.append(",".join(acient_container[0].get_output_header))
+
+        if records["credit"]:
+            lines.append(records["credit"].output_with_formats(","))
+        else:
+            lines.append("None")
+
+        if records["longevity"]:
+            lines.append(records["longevity"].output_with_formats(","))
+        else:
+            lines.append("None")
+        return lines
+    else:
+        return ["Nothing"]
 
 
 def mourner(date):
@@ -91,7 +122,7 @@ def mourner(date):
             individual.alive = False
 
             # output to the history_book
-            history_writer(individual)
+            death_reporter(individual)
 
             # remove the record
             person_container.remove(individual)
@@ -210,12 +241,13 @@ def time_machine():
             if current_date.month == 1 and current_date.day == 1:
                 payer()
 
+                # write history every 3 years
+                if current_date.year % 3 == 0:
+                    history_writer(book_path=path_history_book_prefix + current_date.strftime('_%Y-%m-%d.csv'))
 
-def story_teller():
-    print(records["credit"].output_with_formats(","))
-    print(records["longevity"].output_with_formats(","))
+
 
 
 human_genesis()
 time_machine()
-story_teller()
+print(story_teller())
