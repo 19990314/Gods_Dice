@@ -9,13 +9,13 @@ Why did I name this model "God's Dice"? Albert Einstein once said "God does not 
 ---
 The main implementations about this project is: God, Dice, and Person.
 
-## God: 
+## God
 Govern the community evolution and control the time machine.
 
-## Dice:
+## Dice
 Take care of algorithms and calculations.
 
-## Person: 
+## Person
 Each instance is a digital life.
 
 ---
@@ -74,28 +74,35 @@ Curretly, I am completing the zodiac profiles for digit lives.
 ![alt text](https://www.astrotheme.com/chart/ZF4jZmblAwN1ZwNlZmVmZmpjZQNjZGRjZQNjZQNkBGR2AmZ.png)
 
 ---
-Some factors that I included:
+
+Some factors that I included for zodiac signs:
 
 Emotionally intelligent:
+
 Being emotionally intelligent means you have the ability to recognize, comprehend, and manage your own emotions. You can also recognise and influence the emotions of others. [1]
 
-
 High maintenance:
+
 Being high maintenance is about how much attention one seeks in life to exist or enjoy it to the fullest. For some people, being high maintenance is less of a choice and more of a personality trait. [2]
 
 Confidence:
+
 When someone is confident, they come across as self-assured in multiple situations. People would seem to know what they want and how to get it, at least on the surface. [3]
 
 Evil:
+
 Unveiling the dark side of the stars (The nefarious traits and enigmatic behaviors. )[4]
 
 Artist_celebrities:
+
 The ranking by the numbers of artist celebrities.[5]
 
 Author_celebrities:
+
 The ranking by the numbers of author celebrities. [5]
 
 Dangerous:
+
 While thieves and killers run the gamut and round out the zodiac wheel, there are certain qualities that lend themselves to deviant behavior.[6]
 
 
