@@ -1,20 +1,81 @@
 # Gods_Dice
-This project endeavors to simulate human society within a virtual world, serving as a reference to elucidate real-world questions. From trivial errands to philosophical theories, there are myriad complexities inherent in human existence leading to all the possibilities. Many questions are drawn without solutions such as does luck or diligence contribute more to individual success. Additionally, is there destiny giving predetermined outcomes? 
+This project endeavors to simulate human society within a virtual world, serving as a reference to elucidate real-world questions. From trivial errands to philosophical theories, there are myriad complexities inherent in human existence leading to all the possibilities. Many questions are drawn without solutions such as whether luck or diligence contribute more to individual success. Is there destiny determining predetermined outcomes? 
+
+Or, could the real world principle be uncovered in digital community either? For instance, the famous principle ---- 20/80 principle is telling that the 80% outcomes are contributed by only the 20% factors. In economic models, this principle has explained why the majority (80%) of wealth is owned by the minority (20%) of people. I am expecting my model to find some interesting patterns like that.
 '
 
-"God does not play dice" Albert Einstein once said, expressing his contempt for the notion that the universe is governed by probability. For the unbalanced rules/phenomenons, he ascribed them to the hidden variable. With that said, ideally, the more comprehensive and thorough the information we incorporate, the greater the precision and accuracy the outcomes would be. Therefore, the project emphasizes the collection and integration of comprehensive information to ensure the highest possible degree of precision and accuracy for the model and its findings.
+Why did I name this model "God's Dice"? Albert Einstein once said "God does not play dice", expressing his contempt for the notion that the universe is governed by randomness and probability. For the unbalanced rules/phenomenons, he ascribed them to the hidden variable. With that said, ideally, the more comprehensive and thorough the information we incorporate, the greater the precision and accuracy the outcomes would be. Therefore, the project emphasizes the collection and integration of information, as "complete" as possible, to ensure the highest possible degree of precision and accuracy for the model and its findings.
 
+---
+The main implementations about this project is: God, Dice, and Person.
 
+## God: 
+Govern the community evolution and control the time machine.
+
+## Dice:
+Take care of algorithms and calculations.
+
+## Person: 
+Each instance is a digital life.
 
 ---
 
+## God
 
-Zodiac Signs:
+![](pics/teamwork.png)
+
+The functionality of the "God" module is about connecting and helping the community growth. Here are some roles (or functions) deployed in this module:
+
+#### event_messenger: 
+
+assign events to digit lives (daily)
+
+#### midwife:
+
+proliferate the community
+
+#### mourner:
+
+handle death
+
+#### match_maker:
+send individuals to date and then (based on feedback) create family
+
+#### lecturer:
+gain knowledge (by raising the intelligence value)
+
+#### philanthropist:
+donate money to earn reputation and foutune
+
+#### employer:
+promote/demote a worker
+
+#### payer:
+pay the person (who has a job)
+
+#### examiner:
+report 1. the richest person 2. the person with the longest longevity
+
+#### history_writer: 
+I/O handler
+
+---
+
+The variables which have been designated to the "person" class. (Will add more in the future.)
+![](pics/person_attr_5:31.png)
+---
+
+Curretly, I am completing the zodiac profiles for digit lives.
+
+
+12 Zodiac Signs: Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces
+
+
 ![alt text](https://www.astrotheme.com/chart/ZF4jZmblAwN1ZwNlZmVmZmpjZQNjZGRjZQNjZQNkBGR2AmZ.png)
 
-Aries, Taurus, Gemini, Cancer, Leo, Virgo, Libra, Scorpio, Sagittarius, Capricorn, Aquarius and Pisces
-
 ---
+Some factors that I included:
+
 Emotionally intelligent:
 Being emotionally intelligent means you have the ability to recognize, comprehend, and manage your own emotions. You can also recognise and influence the emotions of others. [1]
 

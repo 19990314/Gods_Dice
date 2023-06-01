@@ -33,7 +33,7 @@ def destiny_dice():
         event = events_df.iloc[event_id]
         age_happening = random_in_normal_distribution(event["age_min"], event["age_max"], event["age_mean"],
                                                       event["age_std"])
-
+        # [id, dest_flag, age]
         des_events.append([event_id, 1, age_happening])
     return des_events
 
@@ -44,7 +44,7 @@ def apply_time_rules(events):
 
     # eliminate everything after death
     for i in events.keys():
-        if events_df.iloc[i[0]]["event"] == "death":
+        if events_df.iloc[i[0]-1]["event"] == "death":
             break
         else:
             new_events[i] = events[i]

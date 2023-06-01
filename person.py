@@ -28,6 +28,7 @@ zodiac_deviation = 0.1
 # special events
 death_id = 5
 marriage_id = 2
+work_id = 10
 
 # basic information about a person instance
 header_person_profile = None
@@ -89,19 +90,22 @@ class Person:
         if age < 0:
             return
 
-        # event = marriage, then go for a date
-        if event_id == marriage_id:
-            singles.append(self)
-            return
-
         happen_flag = 1
 
         # Not happening: the age is out of the range
-        if events_df.iloc[event_id]["control"] == 1:
-            if abs(age - events_df.iloc[event_id]["age_mean"]) > events_df.iloc[event_id]["age_std"]:
+        if events_df.iloc[event_id-1]["control"] == 1:
+            # Rule: age difference > age std
+            if abs(age - events_df.iloc[event_id-1]["age_mean"]) > events_df.iloc[event_id-1]["age_std"]*2:
                 happen_flag = 0
 
         if happen_flag == 1:
+            # event = marriage, then go for a date
+            if event_id == marriage_id:
+                singles.append(self)
+            elif event_id == work_id: # event = work, then get a job
+
+                self.job.get_job()
+
             # add event to lifebook
             event_date = self.get_birthday_daytime() + datetime.timedelta(days=int(age * 365))
             self.events[(event_id, event_date)] = [destiny_flag, age, assigner_imprint]
@@ -168,6 +172,7 @@ class Person:
     def constellationalize(self, family_id):
         return
 
+
     def dating_happily(self, theother, date):
         feedback = 100
 
@@ -187,7 +192,8 @@ class Person:
         partner.partner = self
 
     def should_be_saved(self):
-        eval = self.fortune
+        # depend on: fortune and money: (self.credits - 3000)/3000 * 100
+        eval = self.fortune + (self.credits - 3000)/30
 
         # TODO: more algo
         if eval > 50:

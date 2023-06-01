@@ -23,7 +23,8 @@ acient_container = []
 max_buffer_acients = 200
 
 # record holder
-records = {"credit":None, "longevity": None}
+records = {"credit": None, "longevity": None}
+
 
 def midwife(person_id, fam_id):
     # innate qualities: intelligence boldness specificity generalization
@@ -44,8 +45,9 @@ def human_genesis():
         # output content to the file
         output_file.write(new_born.output_with_formats(","))
 
-    #new_born.get_header()
+    # new_born.get_header()
     output_file.close()
+
 
 def examiner(candidates):
     for i in candidates:
@@ -127,14 +129,14 @@ def event_messenger(current_date):
         decision_maker = person_container[i]
 
         # rolling dice for an event
-        id_ev_happening = random.randint(0, len(events_df) - 1)
+        id_ev_happening = random.randint(1, len(events_df))
 
         # life-saver
         if id_ev_happening == death_id:
             if decision_maker.should_be_saved():
                 continue
 
-        # check age
+        # get age
         age_by_today = decision_maker.get_age(current_date)
 
         # add to life events (sanity check for event will be executed in the following func)
@@ -142,14 +144,48 @@ def event_messenger(current_date):
         decision_maker.events = apply_time_rules(decision_maker.events)
 
 
+def philanthropist():
+    # pick a portion of human to explore intelligence
+    charity_event = random.sample(person_container, int(len(person_container) * magic_ratio))
+    for philanthropist in charity_event:
+        # donate 10% money
+        philanthropist.credits *= 0.9
+
+        # gain 10% fortune (TODO: gain reputation)
+        philanthropist.fortune *= 1.1
+
+
+def employer():
+    # pick a portion of employer to change a job
+    company = random.sample(person_container, int(len(person_container) * magic_ratio))
+    for employer in company:
+        if employer.job.title is not None:
+            # exam by intelligenceL=: (employer.intelligence -70 + 100)/100
+            employer.job.salary *= (employer.intelligence + 30)/100
+
+def payer():
+    # get current worker
+    employers = [person for person in person_container if person.job.title is not None]
+
+    # pay each person who has a job
+    for employer in employers:
+        employer.credits += employer.job.salary
+
+
 def a_normal_day(current_date):
     # TODO
+
+    # work
+    employer()
 
     # match-making
     match_maker(current_date)
 
     # intellectual growth
     lecturer()
+
+    # charity
+    philanthropist()
 
     # check lives
     mourner(current_date)
@@ -160,7 +196,6 @@ def time_machine():
 
     # execute the model day by day
     while current_date <= end_date:
-
         # choose 30% people to take actions
         event_messenger(current_date)
 
@@ -169,6 +204,12 @@ def time_machine():
 
         # next day
         current_date += datetime.timedelta(days=1)
+
+        # pay once a year
+        if current_date.year > 1:
+            if current_date.month == 1 and current_date.day == 1:
+                payer()
+
 
 def story_teller():
     print(records["credit"].output_with_formats(","))
