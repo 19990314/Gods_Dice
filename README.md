@@ -9,14 +9,11 @@ Why did I name this model "God's Dice"? Albert Einstein once said "God does not 
 ---
 The main implementations about this project is: God, Dice, and Person.
 
-## God
-Govern the community evolution and control the time machine.
+> God: Govern the community evolution and control the time machine.
 
-## Dice
-Take care of algorithms and calculations.
+> Dice: Take care of algorithms and calculations.
 
-## Person
-Each instance is a digital life.
+> Person: Each instance is a digital life.
 
 ---
 
@@ -31,8 +28,9 @@ The functionality of the "God" module is about connecting and helping the commun
 assign events to digit lives (daily)
 
 #### midwife:
-
 proliferate the community
+
+
 
 #### mourner:
 
