@@ -27,14 +27,38 @@ The functionality of the "God" module is about connecting and helping the commun
 
 assign events to digit lives (daily)
 
+<details>
+    <summary>Function Details</summary>
+    <p>1. Randomly select 30% population to assign events (30% chance to take actions) </p>
+    <p>2. For each candidate: </p>
+    <p>2.a rolling dice for an event </p>
+    <p>2.b life-saver (if event is death) </p>
+    <p>2.c get age at the day </p>
+    <p>2.d insert_lifebook </p>
+    <p>2.e apply_time_rules </p>
+</details>
+
 #### midwife:
 proliferate the community
-
+<details>
+    <summary>Function Details</summary>
+    <p> 1. return a Person instance </p>
+</details>
 
 
 #### mourner:
 
 handle death
+
+<details>
+    <summary>Function Details</summary>
+    <p>1. For each died person in person_container[]: </p>
+    <p>2.a rolling dice for an event </p>
+    <p>2.b life-saver (if event is death) </p>
+    <p>2.c get age at the day </p>
+    <p>2.d insert_lifebook </p>
+    <p>2.e apply_time_rules </p>
+</details>
 
 #### match_maker:
 send individuals to date and then (based on feedback) create family

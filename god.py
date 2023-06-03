@@ -162,12 +162,12 @@ def event_messenger(current_date):
         # rolling dice for an event
         id_ev_happening = random.randint(1, len(events_df))
 
-        # life-saver
+        # life-saver (if event is death)
         if id_ev_happening == death_id:
             if decision_maker.should_be_saved():
                 continue
 
-        # get age
+        # get age at the day
         age_by_today = decision_maker.get_age(current_date)
 
         # add to life events (sanity check for event will be executed in the following func)
