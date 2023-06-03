@@ -17,13 +17,13 @@ The main implementations about this project is: God, Dice, and Person.
 
 ---
 
-## God
+# God
 
 ![](pics/teamwork.png)
 
 The functionality of the "God" module is about connecting and helping the community growth. Here are some roles (or functions) deployed in this module:
 
-#### event_messenger: 
+## event_messenger: 
 
 assign events to digit lives (daily)
 
