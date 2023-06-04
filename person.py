@@ -1,14 +1,9 @@
 import datetime
 import ephem
-import random
-import pandas as pd
-import os
-from thedice import *
+from dice import *
+from job import *
 
 magic_ratio = 0.2
-
-# table: jobs profile
-jobs_profile = pd.read_csv(current_file_dir + '/hidden_variables/jobs_vs_salaries.csv')
 
 # dictionary: zodiac information
 zodiac_profile = pd.read_csv(current_file_dir + '/hidden_variables/zodiac_profiles.csv')
@@ -16,25 +11,29 @@ zodiac_map = {}
 for index, row in zodiac_profile.iterrows():
     zodiac_map[row['Zodiac_Sign']] = row['Zodiac_ID']
 
-# setup standard global values
-intelligence_standard = 50
-boldness_standard = 50
-
-# jobs
-annual_income_increase_rate = 0.1
-salary_deviation = 0.1
+# zodiac variables
 zodiac_deviation = 0.1
 
 # special events
 death_id = 5
 marriage_id = 2
 work_id = 10
+education_id = 3
 
 # basic information about a person instance
 header_person_profile = None
 
 # marriage wait list
 singles = []
+
+# student list
+classroom = []
+
+# employee
+employee = []
+
+# events from destiny
+todo_events = {}
 
 
 class Person:
@@ -67,23 +66,25 @@ class Person:
         # event records: use (event_id, Date) as key, mapping to two variables:
         # 1: a flag (destiny or not)
         # 2: age (when would it happen)
+        self.events = {}
         self.init_destinies()
 
     def get_zodiac_id(self, constellation):
         return
 
     def init_destinies(self):
-        self.events = {}
-
         # god's dice: 30% destiny
         des_events = destiny_dice()
         for i in des_events:
-            self.insert_lifebook(i[0], i[1], i[2], "prenatal")
-
+            #self.insert_lifebook(i[0], i[1], i[2], "prenatal")
+            # date: [ [who, event], [], ... ]
+            happen_date = self.get_birthday_daytime() + datetime.timedelta(days=int(des_events[1]*365))
+            if happen_date in todo_events.keys():
+                todo_events[happen_date].append([self, des_events[0]])
+            else:
+                todo_events[happen_date] = [[self, des_events[0]]]
         # sanity check the events
-        self.events = apply_time_rules(self.events)
-
-
+        #self.events = apply_time_rules(self.events)
 
     def insert_lifebook(self, event_id, destiny_flag, age, assigner_imprint):
         # prenatal timeline
@@ -93,18 +94,20 @@ class Person:
         happen_flag = 1
 
         # Not happening: the age is out of the range
-        if events_df.iloc[event_id-1]["control"] == 1:
+        if events_df.iloc[event_id - 1]["control"] == 1:
             # Rule: age difference > age std
-            if abs(age - events_df.iloc[event_id-1]["age_mean"]) > events_df.iloc[event_id-1]["age_std"]*2:
+            if abs(age - events_df.iloc[event_id - 1]["age_mean"]) > events_df.iloc[event_id - 1]["age_std"] * 2:
                 happen_flag = 0
 
         if happen_flag == 1:
             # event = marriage, then go for a date
             if event_id == marriage_id:
                 singles.append(self)
-            elif event_id == work_id: # event = work, then get a job
-
-                self.job.get_job()
+            elif event_id == work_id:  # event = work, then get a job
+                if self.job.get_job(age, self.capacity_at_work()) and self not in employee:
+                    employee.append(self)
+            elif event_id == education_id: # education or not
+                classroom.append(self)
 
             # add event to lifebook
             event_date = self.get_birthday_daytime() + datetime.timedelta(days=int(age * 365))
@@ -114,7 +117,6 @@ class Person:
             self.events = dict(sorted(self.events.items(), key=lambda x: x[0][1]))
 
     def generate_birthday(self, year):
-
         # define the start and end date of the year
         start_date = datetime.date(year, 1, 1)
         end_date = datetime.date(year, 12, 31)
@@ -172,7 +174,6 @@ class Person:
     def constellationalize(self, family_id):
         return
 
-
     def dating_happily(self, theother, date):
         feedback = 100
 
@@ -193,7 +194,7 @@ class Person:
 
     def should_be_saved(self):
         # depend on: fortune and money: (self.credits - 3000)/3000 * 100
-        eval = self.fortune + (self.credits - 3000)/30
+        eval = self.fortune + (self.credits - 3000) / 30
 
         # TODO: more algo
         if eval > 50:
@@ -209,6 +210,9 @@ class Person:
                 return age_die
 
         return -1
+
+    def capacity_at_work(self):
+        return 0.5*self.intelligence + 0.3*self.boldness + 0.2*self.fortune
 
     def get_output_header(self):
         for attr in self.__dict__:
@@ -239,20 +243,3 @@ class Person:
         return deliminator.join(profile) + "\n"
 
 
-class Job:
-    def __init__(self):
-        self.title = None
-        self.salary = None
-
-    def get_job(self):
-        # randomly get a job
-        random_job = jobs_profile.sample(n=1).values[0]
-
-        # extract job info
-        self.title = random_job[1]
-        self.salary = random_job[2] * (1 + salary_deviation * random.randint(-3, 3))
-
-    def update_salary(self, work_age, intelligence, boldness):
-        self.salary *= (100 + boldness - intelligence_standard) / 100
-        self.salary *= (100 + intelligence - boldness_standard) / 100
-        self.salary *= 1 + (work_age * annual_income_increase_rate)

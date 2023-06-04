@@ -32,10 +32,11 @@ assign events to digit lives (daily)
     <p>1. Randomly select 30% population to assign events (30% chance to take actions) </p>
     <p>2. For each candidate: </p>
     <p>2.a rolling dice for an event </p>
-    <p>2.b life-saver (if event is death) </p>
-    <p>2.c get age at the day </p>
-    <p>2.d insert_lifebook </p>
-    <p>2.e apply_time_rules </p>
+    <p>2.b handle death: life-saver() OR mourner() </p>
+    <p>2.c handle education: send candidate to class_container[] </p>
+    <p>2.d get age at the day </p>
+    <p>2.e insert_lifebook </p>
+    <p>2.f apply_time_rules </p>
 </details>
 
 #### midwife:
@@ -60,6 +61,16 @@ handle death
     <p>2.e apply_time_rules </p>
 </details>
 
+#### death_reporter:
+
+output death and send instance to "acient_container" (buffer)
+
+<details>
+    <summary>Function Details</summary>
+    <p>1. # add the past to acient_container[]: </p>
+    <p>2. if buffer is full: release and output</p>
+</details>
+
 #### match_maker:
 send individuals to date and then (based on feedback) create family
 
@@ -75,7 +86,7 @@ promote/demote a worker
 #### payer:
 pay the person (who has a job)
 
-#### examiner:
+#### record_breaker:
 report 1. the richest person 2. the person with the longest longevity
 
 #### history_writer: 

@@ -1,14 +1,13 @@
 import person
 from person import *
-#from proliferation import *
-
+# from proliferation import *
+import time
 import random
 
 # path
-path_human_book_prefix = current_file_dir + "/profiles/humanbook" # the first generation
+path_human_book_prefix = current_file_dir + "/profiles/humanbook"  # the first generation
 path_death_book = current_file_dir + "/profiles/death_book.csv"
 path_history_book_prefix = current_file_dir + "/profiles/historybook"
-
 
 # global parameters
 num_first_generation = 200
@@ -18,14 +17,15 @@ magic_ratio = 0.2
 # society parameters
 person_container = []
 start_date = datetime.date(1, 1, 1)
-end_date = datetime.date(50, 12, 30)
+end_date = datetime.date(100, 12, 30)
 
 # handle history
 acient_container = []
-max_buffer_acients = 10
+max_buffer_acients = 50
 
 # record holder
 records = {"credit": None, "longevity": None}
+classroom = []
 
 
 def midwife(person_id, fam_id):
@@ -51,7 +51,7 @@ def human_genesis():
     output_file.close()
 
 
-def examiner(candidates):
+def record_breaker(candidates):
     for i in candidates:
         # check credits
         if records["credit"]:
@@ -68,64 +68,68 @@ def examiner(candidates):
             records["longevity"] = i
 
 
-def death_reporter(individual, book_path):
+def death_reporter(individual):
     # add the past to history book
     acient_container.append(individual)
 
     # release buffer and uopdate the records
     if len(acient_container) == max_buffer_acients:
         # update the records
-        examiner(acient_container)
+        record_breaker(acient_container)
 
-        # output
-        history_book = open(book_path, "w")
+        # output to history_book
+        history_book = open(path_death_book, "w")
         for thepast in acient_container:
             history_book.write(thepast.output_with_formats(","))
 
-        # refresh container
+        # refresh acient_container -> empty
         acient_container.clear()
         history_book.close()
 
-def history_writer(book_path):
+
+def historian(journal_path):
     # TODO output alive
 
     # TODO output dead
 
     # output records
-    history_book = open(book_path, "w")
+    journal = open(journal_path, "w")
+
+    # statistics about the dead people
     for i in story_teller():
-        history_book.write(i + "\n")
+        journal.write(i + "\n")
+
+    # close file
+    journal.close()
+
 
 def story_teller():
+    # lines: header, the richest one, the oldest one
     lines = []
 
-    if len(acient_container) != 0:
+    # TODO
+    if records["credit"]:
+        # header
         lines.append(",".join(acient_container[0].get_output_header))
 
-        if records["credit"]:
-            lines.append(records["credit"].output_with_formats(","))
-        else:
-            lines.append("None")
+        # the richest one
+        lines.append(records["credit"].output_with_formats(","))
 
-        if records["longevity"]:
-            lines.append(records["longevity"].output_with_formats(","))
-        else:
-            lines.append("None")
+        # the oldest one
+        lines.append(records["longevity"].output_with_formats(","))
         return lines
     else:
         return ["Nothing"]
 
 
-def mourner(date):
-    for individual in person_container:
-        if (death_id, date) in individual.events:
-            individual.alive = False
+def mourner(individual):
+    individual.alive = False
 
-            # output to the history_book
-            death_reporter(individual)
+    # output to the history_book
+    death_reporter(individual)
 
-            # remove the record
-            person_container.remove(individual)
+    # remove the record
+    person_container.remove(individual)
 
 
 def match_maker(current_date):
@@ -143,39 +147,52 @@ def match_maker(current_date):
                 partner_one.marry(partner_two)
 
 
-def lecturer():
-    # pick a portion of human to explore intelligence
-    course = random.sample(person_container, int(len(person_container) * magic_ratio))
-    for student in course:
+def lecturer(current_date):
+    for student in classroom:
         # grow 10%
         student.intelligence *= 1 + 0.1
 
-
-def event_messenger(current_date):
-    # 30% chance to take actions
-    person_indices = random.sample(range(len(person_container)), int(magic_ratio * len(person_container)))
-
-    # take actions
-    for i in person_indices:
-        decision_maker = person_container[i]
-
-        # rolling dice for an event
-        id_ev_happening = random.randint(1, len(events_df))
-
-        # life-saver (if event is death)
-        if id_ev_happening == death_id:
-            if decision_maker.should_be_saved():
-                continue
-
         # get age at the day
-        age_by_today = decision_maker.get_age(current_date)
+        age_by_today = student.get_age(current_date)
 
         # add to life events (sanity check for event will be executed in the following func)
-        decision_maker.insert_lifebook(id_ev_happening, 1, age_by_today, "afterbirth_passive")
-        decision_maker.events = apply_time_rules(decision_maker.events)
+        student.insert_lifebook(education_id, 1, age_by_today, "afterbirth_passive")
+        # student.events = apply_time_rules(student.events)
 
 
-def philanthropist():
+def event_messenger(current_date):
+    # finish todos
+    if current_date in todo_events.keys():
+        for destiny_pair in todo_events[current_date]:
+            # apply
+            event_practician(who=destiny_pair[0], what=destiny_pair[1], date=current_date)
+
+    # take actions: a portion of people
+    for decision_maker in random_samples(person_container, magic_ratio):
+        # rolling dice for an event
+        id_ev_happening = random.randint(1, len(events_df))
+        # apply
+        event_practician(who=decision_maker, what=id_ev_happening, date=current_date)
+
+
+def event_practician(who, what, date):
+    # life-saver (if event is death)
+    if what == death_id:
+        # live or not
+        if who.should_be_saved():
+            return
+        else:
+            mourner(who)
+
+    # get age at the day
+    age_by_today = who.get_age(date)
+
+    # add to life events (sanity check for event will be executed in the following func)
+    who.insert_lifebook(what, 1, age_by_today, "afterbirth_passive")
+    # decision_maker.events = apply_time_rules(decision_maker.events)
+
+
+def philanthropist(current_date):
     # pick a portion of human to explore intelligence
     charity_event = random.sample(person_container, int(len(person_container) * magic_ratio))
     for philanthropist in charity_event:
@@ -185,69 +202,65 @@ def philanthropist():
         # gain 10% fortune (TODO: gain reputation)
         philanthropist.fortune *= 1.1
 
+        # get age at the day
+        age_by_today = philanthropist.get_age(current_date)
 
-def employer():
-    # pick a portion of employer to change a job
-    company = random.sample(person_container, int(len(person_container) * magic_ratio))
-    for employer in company:
-        if employer.job.title is not None:
-            # exam by intelligenceL=: (employer.intelligence -70 + 100)/100
-            employer.job.salary *= (employer.intelligence + 30)/100
+        # add to life events (sanity check for event will be executed in the following func)
+        philanthropist.insert_lifebook(education_id, 1, age_by_today, "afterbirth_passive")
+        # philanthropist.events = apply_time_rules(philanthropist.events)
+
+
+def employer(current_date):
+    # pick a portion of person as candidates
+    company = random_samples(employee, magic_ratio)
+
+    # promote or demote -> update salary
+    for candidate in company:
+        # get age at the day
+        age_by_today = candidate.get_age(current_date)
+
+        # exam work "capability"
+        candidate.job.update_salary(age_by_today, candidate.capacity_at_work())
+
 
 def payer():
-    # get current worker
-    employers = [person for person in person_container if person.job.title is not None]
-
     # pay each person who has a job
-    for employer in employers:
+    for employer in employee:
         employer.credits += employer.job.salary
 
 
-def a_normal_day(current_date):
+def a_normal_day(current_date, start_time):
     # TODO
 
-    # work
-    employer()
+    # choose 30% people to take actions
+    event_messenger(current_date)
 
-    # match-making
+    # match-making: data & marry
     match_maker(current_date)
 
     # intellectual growth
-    lecturer()
+    lecturer(current_date)
 
-    # charity
-    philanthropist()
+    # philanthropist: do charity
+    philanthropist(current_date)
 
-    # check lives
-    mourner(current_date)
+    # employee: promote/demote
+    employer(current_date)
 
+    # every Jan.1
+    if current_date.year > 1:
 
-def time_machine():
-    current_date = start_date
+        if current_date.month == 1 and current_date.day == 1:
+            # employer: pay
+            payer()
 
-    # execute the model day by day
-    while current_date <= end_date:
-        # choose 30% people to take actions
-        event_messenger(current_date)
+            # check: to-do list
 
-        # refresh everyone
-        a_normal_day(current_date)
+            # write history every 3 years
+            if current_date.year % 3 == 0:
+                # output record
+                historian(journal_path=path_history_book_prefix + current_date.strftime('_%Y-%m-%d.csv'))
 
-        # next day
-        current_date += datetime.timedelta(days=1)
-
-        # pay once a year
-        if current_date.year > 1:
-            if current_date.month == 1 and current_date.day == 1:
-                payer()
-
-                # write history every 3 years
-                if current_date.year % 3 == 0:
-                    history_writer(book_path=path_history_book_prefix + current_date.strftime('_%Y-%m-%d.csv'))
-
-
-
-
-human_genesis()
-time_machine()
-print(story_teller())
+                # report time used
+                time_uesed = time.time() - start_time
+                print(f"By {current_date.year}: {time_uesed:.2f} seconds.")

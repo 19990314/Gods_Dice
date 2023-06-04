@@ -2,7 +2,7 @@ import random
 import os
 import pandas as pd
 
-# Get the current directory
+# current path
 current_file_dir = os.path.dirname(os.path.abspath(__file__))
 
 # table: life events
@@ -24,17 +24,29 @@ def random_in_normal_distribution(lower, upper, mean, std):
                 return num
 
 
+def random_samples(list, ratio):
+    portion_size = int(len(list) * ratio)  # Select 20% of the list
+    return random.sample(list, portion_size)
+
+
 # return a list of events for destiny (with event id and age of happening)
 def destiny_dice():
     des_events = []
+
+    # random events
     num_destiny_ev = random_in_normal_distribution(min_destinity_events, max_destinity_events, 3, 1)
     indices_destiny_ev = random.sample(range(len(events_df)), int(num_destiny_ev))
+
+    # for each event
     for event_id in indices_destiny_ev:
         event = events_df.iloc[event_id]
         age_happening = random_in_normal_distribution(event["age_min"], event["age_max"], event["age_mean"],
                                                       event["age_std"])
         # [id, dest_flag, age]
-        des_events.append([event_id, 1, age_happening])
+        des_events.append([event_id, int(age_happening)])
+
+    # sort by age
+    des_events = sorted(des_events, key=lambda x: x[1])
     return des_events
 
 

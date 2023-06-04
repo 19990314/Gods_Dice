@@ -8,4 +8,5 @@ event_id,event,control,age_min,age_max,age_mean,age_std
 7,healthcare,1,1,140,35,20
 8,foutunecookie,0,1,140,0,0
 9,badluck,0,1,140,0,0
-10,work,1,5,140,45,20
+10,work,1,16,140,45,20
+11,charity,1,1,140,0,0
