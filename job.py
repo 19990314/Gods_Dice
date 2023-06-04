@@ -18,6 +18,7 @@ class Job:
     def __init__(self):
         self.title = None
         self.salary = None
+        # career history:{title: [[age, salary],[age, salary],...]
         self.career_history = {}
 
     def get_job(self, age, capacity_list):
@@ -31,7 +32,7 @@ class Job:
             self.title = random_job[1]
             self.salary = job_salary
 
-            # save history:{title: [[date, salary],[date, salary],...]
+            # save history:{title: [[age, salary],[age, salary],...]
             if self.title not in self.career_history.keys():
                 self.career_history[self.title] = []
             self.career_history[self.title].append([age, self.salary])
@@ -60,7 +61,7 @@ class Job:
     def work_age(self, title, current_age):
         if title in self.career_history.keys():
             work_years = current_age - self.career_history[self.title][0][0]
-            return work_years.days // 365
+            return work_years
 
     def update_salary(self, current_age, candidate_capacity):
         self.salary *= (100 + candidate_capacity - 50) / 100

@@ -20,7 +20,7 @@ def format_convert(events):
 
 
 # input
-events = {(0, datetime.date(22, 3, 3)): [1, 20.547029036939648, 'prenatal'], (1, datetime.date(25, 8, 21)): [1, 24.017209111134036, 'prenatal'], (9, datetime.date(64, 3, 26)): [1, 62.63923293619273, 'prenatal']}
+events = {(7, datetime.date(1, 1, 13)): [1, 0.019178082191780823, 'afterbirth_passive'], (6, datetime.date(1, 2, 2)): [1, 0.07397260273972603, 'afterbirth_passive'], (8, datetime.date(1, 2, 11)): [1, 0.09863013698630137, 'afterbirth_passive'], (5, datetime.date(1, 3, 1)): [1, 0.14794520547945206, 'afterbirth_passive']}
 items = format_convert(events)
 
 # construct UI

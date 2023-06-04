@@ -21,7 +21,7 @@ work_id = 10
 education_id = 3
 
 # basic information about a person instance
-header_person_profile = None
+header_person_profile = []
 
 # marriage wait list
 singles = []
@@ -67,6 +67,7 @@ class Person:
         # 1: a flag (destiny or not)
         # 2: age (when would it happen)
         self.events = {}
+        self.events[(12, self.get_birthday_daytime())] = [1, 0, "birthday"] # birthday: event_id = 12
         self.init_destinies()
 
     def get_zodiac_id(self, constellation):
@@ -78,11 +79,11 @@ class Person:
         for i in des_events:
             #self.insert_lifebook(i[0], i[1], i[2], "prenatal")
             # date: [ [who, event], [], ... ]
-            happen_date = self.get_birthday_daytime() + datetime.timedelta(days=int(des_events[1]*365))
+            happen_date = self.get_birthday_daytime() + datetime.timedelta(days=int(i[1]*365))
             if happen_date in todo_events.keys():
-                todo_events[happen_date].append([self, des_events[0]])
+                todo_events[happen_date].append([self, i[0]])
             else:
-                todo_events[happen_date] = [[self, des_events[0]]]
+                todo_events[happen_date] = [[self, i[0]]]
         # sanity check the events
         #self.events = apply_time_rules(self.events)
 
@@ -189,6 +190,7 @@ class Person:
             return False
 
     def marry(self, partner):
+        # setup partner
         self.partner = partner
         partner.partner = self
 
@@ -215,14 +217,14 @@ class Person:
         return 0.5*self.intelligence + 0.3*self.boldness + 0.2*self.fortune
 
     def get_output_header(self):
-        for attr in self.__dict__:
-            if not callable(getattr(self, attr)):
-                if attr == 'job':
-                    header_person_profile.append("job.salary")
-                    header_person_profile.append("job.salary")
-                else:
-                    header_person_profile.append(attr)
-
+        if len(header_person_profile) == 0:
+            for attr in self.__dict__:
+                if not callable(getattr(self, attr)):
+                    if attr == 'job':
+                        header_person_profile.append("job.salary")
+                        header_person_profile.append("job.salary")
+                    else:
+                        header_person_profile.append(attr)
         return header_person_profile
 
     def output_with_formats(self, deliminator):

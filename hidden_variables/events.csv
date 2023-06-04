@@ -10,3 +10,4 @@ event_id,event,control,age_min,age_max,age_mean,age_std
 9,badluck,0,1,140,0,0
 10,work,1,16,140,45,20
 11,charity,1,1,140,0,0
+12,birthday,0,0,0,0,0

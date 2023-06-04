@@ -97,7 +97,7 @@ def historian(journal_path):
 
     # statistics about the dead people
     for i in story_teller():
-        journal.write(i + "\n")
+        journal.write(i)
 
     # close file
     journal.close()
@@ -110,7 +110,10 @@ def story_teller():
     # TODO
     if records["credit"]:
         # header
-        lines.append(",".join(acient_container[0].get_output_header))
+        try:
+            lines.append(",".join(acient_container[0].get_output_header()+"\n"))
+        except IndexError:
+            print("header issue")
 
         # the richest one
         lines.append(records["credit"].output_with_formats(","))
@@ -165,17 +168,17 @@ def event_messenger(current_date):
     if current_date in todo_events.keys():
         for destiny_pair in todo_events[current_date]:
             # apply
-            event_practician(who=destiny_pair[0], what=destiny_pair[1], date=current_date)
+            event_practician(who=destiny_pair[0], what=destiny_pair[1], when=current_date, assigner_imprint = "prenatall")
 
     # take actions: a portion of people
     for decision_maker in random_samples(person_container, magic_ratio):
         # rolling dice for an event
         id_ev_happening = random.randint(1, len(events_df))
         # apply
-        event_practician(who=decision_maker, what=id_ev_happening, date=current_date)
+        event_practician(who=decision_maker, what=id_ev_happening, when=current_date, assigner_imprint = "afterbirth_passive")
 
 
-def event_practician(who, what, date):
+def event_practician(who, what, when, assigner_imprint):
     # life-saver (if event is death)
     if what == death_id:
         # live or not
@@ -185,10 +188,10 @@ def event_practician(who, what, date):
             mourner(who)
 
     # get age at the day
-    age_by_today = who.get_age(date)
+    age_by_today = who.get_age(when)
 
     # add to life events (sanity check for event will be executed in the following func)
-    who.insert_lifebook(what, 1, age_by_today, "afterbirth_passive")
+    who.insert_lifebook(what, 1, age_by_today, assigner_imprint = assigner_imprint)
     # decision_maker.events = apply_time_rules(decision_maker.events)
 
 
