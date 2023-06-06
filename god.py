@@ -10,14 +10,12 @@ path_death_book = current_file_dir + "/profiles/death_book.csv"
 path_history_book_prefix = current_file_dir + "/profiles/historybook"
 
 # global parameters
-num_first_generation = 200
+num_first_generation = 1000
 num_personal_qualities = 5
 magic_ratio = 0.2
 
 # society parameters
 person_container = []
-start_date = datetime.date(1, 1, 1)
-end_date = datetime.date(100, 12, 30)
 
 # handle history
 acient_container = []
@@ -83,7 +81,8 @@ def death_reporter(individual):
             history_book.write(thepast.output_with_formats(","))
 
         # refresh acient_container -> empty
-        acient_container.clear()
+        for i in acient_container:
+            acient_container.remove(i)
         history_book.close()
 
 
@@ -111,7 +110,7 @@ def story_teller():
     if records["credit"]:
         # header
         try:
-            lines.append(",".join(acient_container[0].get_output_header()+"\n"))
+            lines.append(",".join(acient_container[0].get_output_header()) + "\n")
         except IndexError:
             print("header issue")
 
@@ -132,7 +131,10 @@ def mourner(individual):
     death_reporter(individual)
 
     # remove the record
-    person_container.remove(individual)
+    try:
+        person_container.remove(individual)
+    except ValueError:
+        print("individual")
 
 
 def match_maker(current_date):
@@ -168,31 +170,36 @@ def event_messenger(current_date):
     if current_date in todo_events.keys():
         for destiny_pair in todo_events[current_date]:
             # apply
-            event_practician(who=destiny_pair[0], what=destiny_pair[1], when=current_date, assigner_imprint = "prenatall")
+            event_practician(who=destiny_pair[0], what=destiny_pair[1], when=current_date, assigner_imprint="prenatal")
 
     # take actions: a portion of people
     for decision_maker in random_samples(person_container, magic_ratio):
         # rolling dice for an event
         id_ev_happening = random.randint(1, len(events_df))
+        while id_ev_happening == 12:  # birthday
+            id_ev_happening = random.randint(1, len(events_df))
         # apply
-        event_practician(who=decision_maker, what=id_ev_happening, when=current_date, assigner_imprint = "afterbirth_passive")
+        event_practician(who=decision_maker, what=id_ev_happening, when=current_date,
+                         assigner_imprint="afterbirth_passive")
 
 
 def event_practician(who, what, when, assigner_imprint):
-    # life-saver (if event is death)
-    if what == death_id:
-        # live or not
-        if who.should_be_saved():
-            return
-        else:
-            mourner(who)
-
     # get age at the day
     age_by_today = who.get_age(when)
 
-    # add to life events (sanity check for event will be executed in the following func)
-    who.insert_lifebook(what, 1, age_by_today, assigner_imprint = assigner_imprint)
-    # decision_maker.events = apply_time_rules(decision_maker.events)
+    if event_is_reasonable(what, age_by_today):
+        # life-saver (if event is death)
+        if what == death_id:
+            # live or not
+            if who.should_be_saved():
+                return
+            else:
+                mourner(who)
+                who.insert_lifebook(what, 1, age_by_today, assigner_imprint=assigner_imprint)
+        else:
+            # add to life events (sanity check for event will be executed in the following func)
+            who.insert_lifebook(what, 1, age_by_today, assigner_imprint=assigner_imprint)
+            # decision_maker.events = apply_time_rules(decision_maker.events)
 
 
 def philanthropist(current_date):

@@ -1,0 +1,3 @@
+person_id,gender,birth_year,birth_month,birth_day,alive,credits,job.salary,job.salary,intelligence,fortune,boldness,generalization,specificity,family_id,partner,child,constellation,events
+589,1,1,2,21,False,6.349538233339219e+209,Web Developer,6.349538233339219e+209,48,34.52271214393103,2,15,37,589,None,[],Pisces,{(12, datetime.date(1, 2, 21)): [1, 0, 'birthday'], (5, datetime.date(32, 2, 14)): [1, 31.0, 'prenatal'], (10, datetime.date(40, 2, 12)): [1, 39.0, 'prenatal']}
+687,1,1,9,3,False,432.0,None,None,28,17.6,69,16,5,687,None,[],Virgo,{(12, datetime.date(1, 9, 3)): [1, 0, 'birthday'], (5, datetime.date(54, 8, 21)): [1, 53.0, 'prenatal']}

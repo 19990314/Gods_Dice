@@ -11,7 +11,7 @@ def format_convert(events):
         converted_element["id"] = id
         id += 1
         # output content
-        converted_element["content"] = events_df.iloc[key1]["event"]
+        converted_element["content"] = events_df.iloc[key1-1]["event"]
         converted_element["content"] += "(age: "+ str(int(events[(key1,key2)][1])) + ")"
         # date
         converted_element["start"] = key2.strftime("%Y-%m-%d")
@@ -20,7 +20,7 @@ def format_convert(events):
 
 
 # input
-events = {(7, datetime.date(1, 1, 13)): [1, 0.019178082191780823, 'afterbirth_passive'], (6, datetime.date(1, 2, 2)): [1, 0.07397260273972603, 'afterbirth_passive'], (8, datetime.date(1, 2, 11)): [1, 0.09863013698630137, 'afterbirth_passive'], (5, datetime.date(1, 3, 1)): [1, 0.14794520547945206, 'afterbirth_passive']}
+events = {(12, datetime.date(1, 3, 7)): [1, 0, 'birthday'], (9, datetime.date(39, 2, 26)): [1, 38.0, 'prenatal'], (5, datetime.date(65, 2, 19)): [1, 64.0, 'prenatal'], (10, datetime.date(77, 2, 16)): [1, 76.0, 'prenatal']}
 items = format_convert(events)
 
 # construct UI

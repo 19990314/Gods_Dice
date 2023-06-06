@@ -16,7 +16,12 @@ The main implementations about this project is: God, Dice, and Person.
 > Person: Each instance is a digital life.
 
 ---
+By 2023-6-5, current progress:
+1. Time: execute the community for 100 years: cost 12755.75 seconds.
+2. some findings 
 
+
+---
 # God
 
 ![](pics/teamwork.png)

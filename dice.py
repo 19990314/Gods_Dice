@@ -62,3 +62,15 @@ def apply_time_rules(events):
             new_events[i] = events[i]
 
     return new_events
+
+
+def event_is_reasonable(event_id, age):
+    happen_flag = True
+
+    # Not happening: the age is out of the range
+    if events_df.iloc[event_id - 1]["control"] == 1:
+        # Rule: age difference > age std
+        if abs(age - events_df.iloc[event_id - 1]["age_mean"]) > events_df.iloc[event_id - 1]["age_std"] * 2:
+            happen_flag = False
+
+    return happen_flag

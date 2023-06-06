@@ -89,25 +89,16 @@ class Person:
 
     def insert_lifebook(self, event_id, destiny_flag, age, assigner_imprint):
         # prenatal timeline
-        if age < 0:
+        if age < 0 or not event_is_reasonable(event_id, age):
             return
-
-        happen_flag = 1
-
-        # Not happening: the age is out of the range
-        if events_df.iloc[event_id - 1]["control"] == 1:
-            # Rule: age difference > age std
-            if abs(age - events_df.iloc[event_id - 1]["age_mean"]) > events_df.iloc[event_id - 1]["age_std"] * 2:
-                happen_flag = 0
-
-        if happen_flag == 1:
+        else:
             # event = marriage, then go for a date
             if event_id == marriage_id:
                 singles.append(self)
             elif event_id == work_id:  # event = work, then get a job
                 if self.job.get_job(age, self.capacity_at_work()) and self not in employee:
                     employee.append(self)
-            elif event_id == education_id: # education or not
+            elif event_id == education_id:  # education or not
                 classroom.append(self)
 
             # add event to lifebook
@@ -116,6 +107,8 @@ class Person:
 
             # sort the lifebook by age
             self.events = dict(sorted(self.events.items(), key=lambda x: x[0][1]))
+
+
 
     def generate_birthday(self, year):
         # define the start and end date of the year
