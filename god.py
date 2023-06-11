@@ -115,17 +115,23 @@ def story_teller():
             print("header issue")
 
         # the richest one
+        lines.append(f"The richest one: #{records['credit'].person_id} holds ${records['credit'].credits}")
         lines.append(records["credit"].output_with_formats(","))
 
         # the oldest one
+        lines.append(f"The richest one: #{records['longevity'].person_id} holds ${records['longevity'].credits}")
         lines.append(records["longevity"].output_with_formats(","))
         return lines
     else:
         return ["Nothing"]
 
 
-def mourner(individual):
-    individual.alive = False
+def mourner(individual, age, assigner_imprint):
+    # alive flag becomes longevity
+    individual.alive = age
+
+    # edit lifebook
+    individual.insert_lifebook(death_id, 1, age, assigner_imprint= assigner_imprint)
 
     # output to the history_book
     death_reporter(individual)
@@ -194,8 +200,8 @@ def event_practician(who, what, when, assigner_imprint):
             if who.should_be_saved():
                 return
             else:
-                mourner(who)
-                who.insert_lifebook(what, 1, age_by_today, assigner_imprint=assigner_imprint)
+                # mark the death
+                mourner(individual=who, age=age_by_today, assigner_imprint = assigner_imprint)
         else:
             # add to life events (sanity check for event will be executed in the following func)
             who.insert_lifebook(what, 1, age_by_today, assigner_imprint=assigner_imprint)
@@ -268,7 +274,7 @@ def a_normal_day(current_date, start_time):
 
             # write history every 3 years
             if current_date.year % 3 == 0:
-                # output record
+                # output records
                 historian(journal_path=path_history_book_prefix + current_date.strftime('_%Y-%m-%d.csv'))
 
                 # report time used

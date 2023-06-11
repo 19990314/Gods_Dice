@@ -28,7 +28,7 @@ By 2023-6-5, current progress:
 
 The functionality of the "God" module is about connecting and helping the community growth. Here are some roles (or functions) deployed in this module:
 
-## event_messenger: 
+#### event_messenger: 
 
 assign events to digit lives (daily)
 
@@ -43,6 +43,10 @@ assign events to digit lives (daily)
     <p>2.e insert_lifebook </p>
     <p>2.f apply_time_rules </p>
 </details>
+
+#### event_practician：
+practice events on individuals
+
 
 #### midwife:
 proliferate the community
@@ -92,10 +96,14 @@ promote/demote a worker
 pay the person (who has a job)
 
 #### record_breaker:
-report 1. the richest person 2. the person with the longest longevity
+update 1. the richest person 2. the person with the longest longevity
 
-#### history_writer: 
-I/O handler
+#### historian: 
+Publish a journal (every 3 years) about: 1. the richest person 2. the person with the longest longevity
+
+#### story_teller:
+handle the I/O info for historian (above)
+
 
 ---
 

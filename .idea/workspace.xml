@@ -5,48 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b65161d-6678-4c53-aa36-1bf7ccb25b25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0033-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0036-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0039-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0042-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0045-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0048-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0051-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0054-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0057-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0060-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0063-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0066-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0069-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0072-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0075-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0078-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0081-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0084-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0087-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0090-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0093-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0096-01-01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profiles/historybook_0099-01-01.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/dice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/god.py" beforeDir="false" afterPath="$PROJECT_DIR$/god.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifespan_visual.py" beforeDir="false" afterPath="$PROJECT_DIR$/lifespan_visual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/death_book.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/death_book.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0003-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0003-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0006-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0006-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0009-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0009-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0012-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0012-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0015-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0015-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0018-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0018-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0021-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0021-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0024-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0024-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0027-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0027-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/historybook_0030-01-01.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/historybook_0030-01-01.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles/humanbook_generation_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/profiles/humanbook_generation_0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/time_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/time_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profiles/history_book.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,6 +241,7 @@
       <workItem from="1685757339325" duration="1733000" />
       <workItem from="1685806114464" duration="20032000" />
       <workItem from="1685887766709" duration="14405000" />
+      <workItem from="1686442951856" duration="1668000" />
     </task>
     <servers />
   </component>
@@ -302,11 +265,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/god.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/lifespan_visual.py</url>
           <line>13</line>
